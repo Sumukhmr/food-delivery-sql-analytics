@@ -1,0 +1,4317 @@
+menu_item_id,restaurant_id,item_name,cuisine,veg_nonveg,price,is_available
+1,1,Dal Makhani,North Indian,Veg,100,Yes
+2,1,Paratha,North Indian,Veg,150,No
+3,1,Butter Chicken,North Indian,Non-Veg,80,Yes
+4,1,Rasmalai,Desserts,Veg,280,Yes
+5,1,Litti Chokha,North Indian,Veg,220,Yes
+6,1,Fish Moilee,Kerala,Non-Veg,200,Yes
+7,2,Paneer Tikka,North Indian,Veg,300,Yes
+8,2,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+9,2,Chicken Biryani,Biryani,Non-Veg,250,No
+10,2,Chicken Burger,Fast Food,Non-Veg,120,Yes
+11,2,Idli Sambar,South Indian,Veg,180,Yes
+12,2,Dal Makhani,North Indian,Veg,100,Yes
+13,2,Litti Chokha,North Indian,Veg,80,No
+14,3,Veg Biryani,Biryani,Veg,100,Yes
+15,3,Gulab Jamun,Desserts,Veg,300,No
+16,3,Chole Bhature,North Indian,Veg,400,Yes
+17,3,Idli Sambar,South Indian,Veg,100,Yes
+18,3,Chicken Tikka,Mughlai,Non-Veg,120,Yes
+19,3,Pav Bhaji,Street Food,Veg,280,No
+20,3,Dal Makhani,North Indian,Veg,80,No
+21,3,Prawn Masala,Seafood,Non-Veg,120,No
+22,3,Chicken Burger,Fast Food,Non-Veg,180,No
+23,4,Idli Sambar,South Indian,Veg,180,Yes
+24,4,Pani Puri,Street Food,Veg,180,Yes
+25,4,Pav Bhaji,Street Food,Veg,120,No
+26,4,Chicken Biryani,Biryani,Non-Veg,100,Yes
+27,4,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+28,4,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+29,4,Masala Dosa,South Indian,Veg,180,No
+30,4,Thali,South Indian,Veg,280,No
+31,5,Paratha,North Indian,Veg,120,No
+32,5,Margherita Pizza,Italian,Veg,250,Yes
+33,5,Chole Bhature,North Indian,Veg,80,Yes
+34,5,Paneer Tikka,North Indian,Veg,450,Yes
+35,5,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+36,5,Butter Chicken,North Indian,Non-Veg,450,Yes
+37,6,Thali,South Indian,Veg,300,Yes
+38,6,Appam Stew,Kerala,Veg,80,Yes
+39,6,Chicken Pizza,Italian,Non-Veg,250,No
+40,6,Rajma Rice,North Indian,Veg,300,Yes
+41,6,Masala Dosa,South Indian,Veg,80,Yes
+42,6,Chicken Biryani,Biryani,Non-Veg,100,No
+43,6,Gulab Jamun,Desserts,Veg,150,Yes
+44,6,Pav Bhaji,Street Food,Veg,200,Yes
+45,6,Chole Bhature,North Indian,Veg,80,No
+46,6,Litti Chokha,North Indian,Veg,150,No
+47,6,Prawn Masala,Seafood,Non-Veg,100,Yes
+48,7,Chicken Burger,Fast Food,Non-Veg,150,No
+49,7,Hakka Noodles,Chinese,Veg,300,Yes
+50,7,Idli Sambar,South Indian,Veg,400,No
+51,7,Chicken Biryani,Biryani,Non-Veg,100,No
+52,7,Veg Biryani,Biryani,Veg,250,Yes
+53,8,Veg Biryani,Biryani,Veg,450,Yes
+54,8,Butter Chicken,North Indian,Non-Veg,400,No
+55,8,Appam Stew,Kerala,Veg,450,Yes
+56,8,Fish Moilee,Kerala,Non-Veg,250,Yes
+57,8,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+58,8,Vada Pav,Street Food,Veg,280,Yes
+59,8,Paratha,North Indian,Veg,250,Yes
+60,9,Chicken Tikka,Mughlai,Non-Veg,120,Yes
+61,9,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+62,9,Dal Makhani,North Indian,Veg,80,Yes
+63,9,Chicken Pizza,Italian,Non-Veg,200,Yes
+64,9,Paneer Tikka,North Indian,Veg,150,Yes
+65,9,Masala Dosa,South Indian,Veg,450,Yes
+66,9,Litti Chokha,North Indian,Veg,120,Yes
+67,9,Thali,South Indian,Veg,300,Yes
+68,9,Paratha,North Indian,Veg,180,No
+69,9,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,No
+70,9,Idli Sambar,South Indian,Veg,120,No
+71,9,Pav Bhaji,Street Food,Veg,300,Yes
+72,10,Veg Burger,Fast Food,Veg,150,Yes
+73,10,Idli Sambar,South Indian,Veg,250,No
+74,10,Chicken Pizza,Italian,Non-Veg,100,No
+75,10,Chicken Burger,Fast Food,Non-Veg,300,Yes
+76,10,Fish Moilee,Kerala,Non-Veg,400,Yes
+77,10,Pav Bhaji,Street Food,Veg,350,Yes
+78,10,Vada Pav,Street Food,Veg,180,Yes
+79,10,Veg Biryani,Biryani,Veg,500,Yes
+80,11,Veg Biryani,Biryani,Veg,280,Yes
+81,11,Margherita Pizza,Italian,Veg,120,No
+82,11,Paneer Tikka,North Indian,Veg,280,No
+83,11,Masala Dosa,South Indian,Veg,450,Yes
+84,11,Pani Puri,Street Food,Veg,400,No
+85,11,Appam Stew,Kerala,Veg,180,No
+86,11,Gulab Jamun,Desserts,Veg,280,No
+87,11,Veg Burger,Fast Food,Veg,450,No
+88,11,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+89,11,Vada Pav,Street Food,Veg,250,No
+90,12,Pani Puri,Street Food,Veg,250,Yes
+91,12,Butter Chicken,North Indian,Non-Veg,80,Yes
+92,12,Fish Curry,Seafood,Non-Veg,250,Yes
+93,12,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+94,12,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+95,13,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+96,13,Rasmalai,Desserts,Veg,220,Yes
+97,13,Litti Chokha,North Indian,Veg,500,Yes
+98,13,Gulab Jamun,Desserts,Veg,450,Yes
+99,13,Masala Dosa,South Indian,Veg,150,Yes
+100,13,Chicken Biryani,Biryani,Non-Veg,280,Yes
+101,13,Chicken Pizza,Italian,Non-Veg,280,No
+102,13,Pani Puri,Street Food,Veg,180,No
+103,13,Paneer Tikka,North Indian,Veg,80,Yes
+104,13,Veg Burger,Fast Food,Veg,100,Yes
+105,13,Margherita Pizza,Italian,Veg,300,No
+106,13,Fish Moilee,Kerala,Non-Veg,200,Yes
+107,14,Idli Sambar,South Indian,Veg,200,Yes
+108,14,Masala Dosa,South Indian,Veg,80,Yes
+109,14,Paratha,North Indian,Veg,450,Yes
+110,14,Butter Chicken,North Indian,Non-Veg,80,Yes
+111,14,Pani Puri,Street Food,Veg,80,Yes
+112,14,Chicken Biryani,Biryani,Non-Veg,280,No
+113,14,Appam Stew,Kerala,Veg,150,Yes
+114,14,Chole Bhature,North Indian,Veg,400,No
+115,14,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+116,14,Thali,South Indian,Veg,300,Yes
+117,14,Fish Moilee,Kerala,Non-Veg,300,Yes
+118,15,Fish Curry,Seafood,Non-Veg,180,Yes
+119,15,Gulab Jamun,Desserts,Veg,220,Yes
+120,15,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+121,15,Chicken Biryani,Biryani,Non-Veg,220,Yes
+122,15,Veg Biryani,Biryani,Veg,500,Yes
+123,16,Veg Burger,Fast Food,Veg,280,No
+124,16,Chicken Manchurian,Chinese,Non-Veg,400,Yes
+125,16,Chole Bhature,North Indian,Veg,220,Yes
+126,16,Hakka Noodles,Chinese,Veg,280,Yes
+127,16,Rajma Rice,North Indian,Veg,180,Yes
+128,16,Gulab Jamun,Desserts,Veg,500,No
+129,16,Pani Puri,Street Food,Veg,250,Yes
+130,17,Dal Makhani,North Indian,Veg,220,Yes
+131,17,Paneer Tikka,North Indian,Veg,100,Yes
+132,17,Thali,South Indian,Veg,250,Yes
+133,17,Butter Chicken,North Indian,Non-Veg,100,Yes
+134,17,Rasmalai,Desserts,Veg,200,Yes
+135,17,Gulab Jamun,Desserts,Veg,350,Yes
+136,17,Fish Curry,Seafood,Non-Veg,400,Yes
+137,17,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+138,17,Veg Burger,Fast Food,Veg,450,Yes
+139,17,Pani Puri,Street Food,Veg,120,Yes
+140,17,Chicken Burger,Fast Food,Non-Veg,150,Yes
+141,18,Chicken Biryani,Biryani,Non-Veg,150,Yes
+142,18,Pav Bhaji,Street Food,Veg,220,No
+143,18,Chole Bhature,North Indian,Veg,80,No
+144,18,Vada Pav,Street Food,Veg,200,No
+145,18,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+146,19,Gulab Jamun,Desserts,Veg,100,Yes
+147,19,Thali,South Indian,Veg,280,Yes
+148,19,Paratha,North Indian,Veg,180,Yes
+149,19,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+150,19,Margherita Pizza,Italian,Veg,400,Yes
+151,19,Chicken Pizza,Italian,Non-Veg,400,Yes
+152,19,Hakka Noodles,Chinese,Veg,120,Yes
+153,19,Masala Dosa,South Indian,Veg,280,No
+154,19,Paneer Tikka,North Indian,Veg,300,Yes
+155,20,Masala Dosa,South Indian,Veg,200,Yes
+156,20,Thali,South Indian,Veg,250,Yes
+157,20,Margherita Pizza,Italian,Veg,400,Yes
+158,20,Paneer Tikka,North Indian,Veg,120,No
+159,20,Fish Curry,Seafood,Non-Veg,150,Yes
+160,21,Chicken Pizza,Italian,Non-Veg,180,Yes
+161,21,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+162,21,Idli Sambar,South Indian,Veg,450,Yes
+163,21,Dal Makhani,North Indian,Veg,280,Yes
+164,21,Pav Bhaji,Street Food,Veg,100,Yes
+165,21,Hakka Noodles,Chinese,Veg,350,No
+166,21,Butter Chicken,North Indian,Non-Veg,100,Yes
+167,21,Rajma Rice,North Indian,Veg,450,Yes
+168,22,Gulab Jamun,Desserts,Veg,120,Yes
+169,22,Butter Chicken,North Indian,Non-Veg,80,Yes
+170,22,Mutton Rogan Josh,Mughlai,Non-Veg,220,No
+171,22,Veg Burger,Fast Food,Veg,80,Yes
+172,22,Margherita Pizza,Italian,Veg,100,Yes
+173,22,Veg Biryani,Biryani,Veg,280,Yes
+174,22,Paneer Tikka,North Indian,Veg,280,Yes
+175,22,Rajma Rice,North Indian,Veg,250,Yes
+176,22,Hakka Noodles,Chinese,Veg,80,Yes
+177,22,Rasmalai,Desserts,Veg,400,Yes
+178,23,Thali,South Indian,Veg,100,Yes
+179,23,Masala Dosa,South Indian,Veg,80,Yes
+180,23,Gulab Jamun,Desserts,Veg,280,Yes
+181,23,Rajma Rice,North Indian,Veg,80,No
+182,23,Chicken Burger,Fast Food,Non-Veg,400,No
+183,23,Chicken Pizza,Italian,Non-Veg,220,Yes
+184,23,Chicken Biryani,Biryani,Non-Veg,150,Yes
+185,23,Pav Bhaji,Street Food,Veg,180,No
+186,24,Thali,South Indian,Veg,250,No
+187,24,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+188,24,Chicken Burger,Fast Food,Non-Veg,220,Yes
+189,24,Idli Sambar,South Indian,Veg,100,Yes
+190,24,Masala Dosa,South Indian,Veg,200,Yes
+191,25,Pav Bhaji,Street Food,Veg,150,Yes
+192,25,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+193,25,Rajma Rice,North Indian,Veg,180,Yes
+194,25,Appam Stew,Kerala,Veg,200,No
+195,25,Chicken Burger,Fast Food,Non-Veg,100,No
+196,26,Prawn Masala,Seafood,Non-Veg,220,No
+197,26,Idli Sambar,South Indian,Veg,80,No
+198,26,Thali,South Indian,Veg,500,No
+199,26,Vada Pav,Street Food,Veg,400,No
+200,26,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,No
+201,26,Veg Biryani,Biryani,Veg,120,Yes
+202,26,Rajma Rice,North Indian,Veg,180,Yes
+203,26,Veg Burger,Fast Food,Veg,300,No
+204,26,Masala Dosa,South Indian,Veg,220,No
+205,26,Hakka Noodles,Chinese,Veg,280,Yes
+206,26,Litti Chokha,North Indian,Veg,450,Yes
+207,27,Hakka Noodles,Chinese,Veg,220,Yes
+208,27,Fish Moilee,Kerala,Non-Veg,450,Yes
+209,27,Chicken Biryani,Biryani,Non-Veg,280,No
+210,27,Veg Burger,Fast Food,Veg,180,Yes
+211,27,Idli Sambar,South Indian,Veg,120,Yes
+212,27,Gulab Jamun,Desserts,Veg,200,Yes
+213,27,Paneer Tikka,North Indian,Veg,450,Yes
+214,27,Chicken Burger,Fast Food,Non-Veg,180,Yes
+215,27,Chole Bhature,North Indian,Veg,180,No
+216,27,Pav Bhaji,Street Food,Veg,400,No
+217,27,Butter Chicken,North Indian,Non-Veg,280,Yes
+218,27,Rajma Rice,North Indian,Veg,100,Yes
+219,28,Vada Pav,Street Food,Veg,400,Yes
+220,28,Appam Stew,Kerala,Veg,120,Yes
+221,28,Chicken Burger,Fast Food,Non-Veg,180,Yes
+222,28,Chicken Pizza,Italian,Non-Veg,80,No
+223,28,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+224,28,Rasmalai,Desserts,Veg,450,Yes
+225,29,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,Yes
+226,29,Veg Biryani,Biryani,Veg,280,Yes
+227,29,Thali,South Indian,Veg,280,Yes
+228,29,Veg Burger,Fast Food,Veg,250,Yes
+229,29,Paratha,North Indian,Veg,80,No
+230,29,Rasmalai,Desserts,Veg,150,Yes
+231,30,Vada Pav,Street Food,Veg,400,Yes
+232,30,Veg Burger,Fast Food,Veg,280,Yes
+233,30,Gulab Jamun,Desserts,Veg,300,No
+234,30,Appam Stew,Kerala,Veg,280,Yes
+235,30,Mutton Rogan Josh,Mughlai,Non-Veg,220,No
+236,30,Fish Curry,Seafood,Non-Veg,180,Yes
+237,30,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+238,30,Idli Sambar,South Indian,Veg,500,Yes
+239,31,Idli Sambar,South Indian,Veg,180,Yes
+240,31,Chicken Biryani,Biryani,Non-Veg,350,Yes
+241,31,Fish Moilee,Kerala,Non-Veg,100,Yes
+242,31,Thali,South Indian,Veg,150,Yes
+243,31,Pav Bhaji,Street Food,Veg,100,No
+244,32,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+245,32,Rasmalai,Desserts,Veg,250,Yes
+246,32,Rajma Rice,North Indian,Veg,100,No
+247,32,Fish Curry,Seafood,Non-Veg,80,Yes
+248,32,Chicken Pizza,Italian,Non-Veg,150,Yes
+249,33,Paratha,North Indian,Veg,280,Yes
+250,33,Chole Bhature,North Indian,Veg,100,Yes
+251,33,Veg Biryani,Biryani,Veg,450,Yes
+252,33,Rasmalai,Desserts,Veg,80,Yes
+253,33,Hakka Noodles,Chinese,Veg,150,Yes
+254,34,Fish Moilee,Kerala,Non-Veg,80,Yes
+255,34,Veg Biryani,Biryani,Veg,350,No
+256,34,Dal Makhani,North Indian,Veg,120,Yes
+257,34,Thali,South Indian,Veg,350,Yes
+258,34,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+259,34,Paratha,North Indian,Veg,100,Yes
+260,34,Chicken Manchurian,Chinese,Non-Veg,500,No
+261,34,Pani Puri,Street Food,Veg,500,Yes
+262,34,Gulab Jamun,Desserts,Veg,500,Yes
+263,34,Hakka Noodles,Chinese,Veg,80,Yes
+264,34,Prawn Masala,Seafood,Non-Veg,100,Yes
+265,34,Chicken Pizza,Italian,Non-Veg,250,Yes
+266,35,Vada Pav,Street Food,Veg,280,No
+267,35,Fish Curry,Seafood,Non-Veg,280,Yes
+268,35,Idli Sambar,South Indian,Veg,250,Yes
+269,35,Paratha,North Indian,Veg,450,No
+270,35,Veg Biryani,Biryani,Veg,300,Yes
+271,35,Butter Chicken,North Indian,Non-Veg,400,Yes
+272,35,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+273,35,Litti Chokha,North Indian,Veg,220,Yes
+274,36,Butter Chicken,North Indian,Non-Veg,350,No
+275,36,Prawn Masala,Seafood,Non-Veg,180,No
+276,36,Paratha,North Indian,Veg,250,Yes
+277,36,Fish Curry,Seafood,Non-Veg,280,Yes
+278,36,Veg Biryani,Biryani,Veg,250,Yes
+279,36,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,Yes
+280,36,Rasmalai,Desserts,Veg,80,No
+281,36,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+282,36,Masala Dosa,South Indian,Veg,80,Yes
+283,36,Veg Burger,Fast Food,Veg,450,Yes
+284,36,Chole Bhature,North Indian,Veg,280,Yes
+285,37,Appam Stew,Kerala,Veg,150,Yes
+286,37,Pav Bhaji,Street Food,Veg,150,No
+287,37,Hakka Noodles,Chinese,Veg,120,Yes
+288,37,Fish Curry,Seafood,Non-Veg,500,Yes
+289,37,Paneer Tikka,North Indian,Veg,220,Yes
+290,37,Butter Chicken,North Indian,Non-Veg,450,No
+291,37,Idli Sambar,South Indian,Veg,300,No
+292,37,Chicken Burger,Fast Food,Non-Veg,280,Yes
+293,37,Chicken Tikka,Mughlai,Non-Veg,500,No
+294,37,Mutton Rogan Josh,Mughlai,Non-Veg,180,No
+295,38,Butter Chicken,North Indian,Non-Veg,300,Yes
+296,38,Margherita Pizza,Italian,Veg,400,Yes
+297,38,Appam Stew,Kerala,Veg,100,Yes
+298,38,Hakka Noodles,Chinese,Veg,80,Yes
+299,38,Veg Burger,Fast Food,Veg,500,No
+300,38,Litti Chokha,North Indian,Veg,180,Yes
+301,38,Pav Bhaji,Street Food,Veg,220,Yes
+302,38,Chicken Biryani,Biryani,Non-Veg,80,No
+303,38,Chicken Pizza,Italian,Non-Veg,80,Yes
+304,38,Rasmalai,Desserts,Veg,150,Yes
+305,38,Veg Biryani,Biryani,Veg,80,Yes
+306,38,Dal Makhani,North Indian,Veg,450,Yes
+307,39,Litti Chokha,North Indian,Veg,300,Yes
+308,39,Chole Bhature,North Indian,Veg,180,Yes
+309,39,Paratha,North Indian,Veg,280,Yes
+310,39,Rajma Rice,North Indian,Veg,150,Yes
+311,39,Pani Puri,Street Food,Veg,80,Yes
+312,39,Veg Biryani,Biryani,Veg,100,No
+313,39,Rasmalai,Desserts,Veg,300,Yes
+314,39,Prawn Masala,Seafood,Non-Veg,500,Yes
+315,39,Dal Makhani,North Indian,Veg,200,Yes
+316,40,Masala Dosa,South Indian,Veg,220,No
+317,40,Veg Biryani,Biryani,Veg,400,Yes
+318,40,Pav Bhaji,Street Food,Veg,450,No
+319,40,Pani Puri,Street Food,Veg,400,Yes
+320,40,Chicken Biryani,Biryani,Non-Veg,220,Yes
+321,41,Veg Burger,Fast Food,Veg,100,Yes
+322,41,Litti Chokha,North Indian,Veg,200,Yes
+323,41,Rasmalai,Desserts,Veg,500,Yes
+324,41,Vada Pav,Street Food,Veg,450,Yes
+325,41,Dal Makhani,North Indian,Veg,250,No
+326,41,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+327,41,Prawn Masala,Seafood,Non-Veg,250,No
+328,41,Chicken Biryani,Biryani,Non-Veg,500,Yes
+329,42,Chicken Manchurian,Chinese,Non-Veg,250,No
+330,42,Dal Makhani,North Indian,Veg,200,Yes
+331,42,Prawn Masala,Seafood,Non-Veg,120,Yes
+332,42,Vada Pav,Street Food,Veg,300,Yes
+333,42,Fish Moilee,Kerala,Non-Veg,450,No
+334,42,Rajma Rice,North Indian,Veg,280,Yes
+335,42,Veg Biryani,Biryani,Veg,200,Yes
+336,42,Masala Dosa,South Indian,Veg,180,Yes
+337,42,Litti Chokha,North Indian,Veg,220,Yes
+338,42,Chicken Biryani,Biryani,Non-Veg,450,No
+339,43,Dal Makhani,North Indian,Veg,220,Yes
+340,43,Rajma Rice,North Indian,Veg,450,Yes
+341,43,Margherita Pizza,Italian,Veg,220,No
+342,43,Butter Chicken,North Indian,Non-Veg,250,Yes
+343,43,Masala Dosa,South Indian,Veg,80,Yes
+344,43,Mutton Rogan Josh,Mughlai,Non-Veg,100,No
+345,43,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+346,44,Chole Bhature,North Indian,Veg,350,Yes
+347,44,Paneer Tikka,North Indian,Veg,250,Yes
+348,44,Fish Moilee,Kerala,Non-Veg,150,Yes
+349,44,Fish Curry,Seafood,Non-Veg,250,Yes
+350,44,Hakka Noodles,Chinese,Veg,180,Yes
+351,44,Veg Biryani,Biryani,Veg,280,Yes
+352,44,Pav Bhaji,Street Food,Veg,450,Yes
+353,44,Margherita Pizza,Italian,Veg,250,Yes
+354,44,Chicken Tikka,Mughlai,Non-Veg,500,Yes
+355,44,Chicken Burger,Fast Food,Non-Veg,500,Yes
+356,44,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+357,44,Prawn Masala,Seafood,Non-Veg,400,No
+358,45,Margherita Pizza,Italian,Veg,450,No
+359,45,Paneer Tikka,North Indian,Veg,350,No
+360,45,Idli Sambar,South Indian,Veg,120,No
+361,45,Gulab Jamun,Desserts,Veg,120,Yes
+362,45,Litti Chokha,North Indian,Veg,80,No
+363,45,Vada Pav,Street Food,Veg,220,No
+364,45,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+365,46,Hakka Noodles,Chinese,Veg,150,Yes
+366,46,Chicken Burger,Fast Food,Non-Veg,250,Yes
+367,46,Thali,South Indian,Veg,500,Yes
+368,46,Margherita Pizza,Italian,Veg,200,Yes
+369,46,Veg Burger,Fast Food,Veg,400,No
+370,47,Chicken Pizza,Italian,Non-Veg,220,Yes
+371,47,Paratha,North Indian,Veg,450,Yes
+372,47,Masala Dosa,South Indian,Veg,280,No
+373,47,Pav Bhaji,Street Food,Veg,300,Yes
+374,47,Rasmalai,Desserts,Veg,120,Yes
+375,47,Litti Chokha,North Indian,Veg,400,Yes
+376,47,Chole Bhature,North Indian,Veg,450,Yes
+377,47,Fish Curry,Seafood,Non-Veg,450,Yes
+378,47,Pani Puri,Street Food,Veg,180,Yes
+379,47,Thali,South Indian,Veg,200,Yes
+380,47,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+381,47,Paneer Tikka,North Indian,Veg,250,Yes
+382,48,Rajma Rice,North Indian,Veg,220,No
+383,48,Chicken Biryani,Biryani,Non-Veg,80,No
+384,48,Vada Pav,Street Food,Veg,280,No
+385,48,Rasmalai,Desserts,Veg,250,Yes
+386,48,Hakka Noodles,Chinese,Veg,200,Yes
+387,48,Chicken Pizza,Italian,Non-Veg,120,No
+388,48,Chicken Tikka,Mughlai,Non-Veg,500,Yes
+389,48,Butter Chicken,North Indian,Non-Veg,300,Yes
+390,48,Litti Chokha,North Indian,Veg,150,Yes
+391,48,Chole Bhature,North Indian,Veg,120,Yes
+392,48,Veg Burger,Fast Food,Veg,250,Yes
+393,49,Rajma Rice,North Indian,Veg,250,Yes
+394,49,Fish Moilee,Kerala,Non-Veg,100,Yes
+395,49,Masala Dosa,South Indian,Veg,500,No
+396,49,Hakka Noodles,Chinese,Veg,500,Yes
+397,49,Pani Puri,Street Food,Veg,350,No
+398,49,Chole Bhature,North Indian,Veg,220,Yes
+399,49,Idli Sambar,South Indian,Veg,250,Yes
+400,49,Paneer Tikka,North Indian,Veg,220,Yes
+401,49,Appam Stew,Kerala,Veg,80,Yes
+402,49,Veg Burger,Fast Food,Veg,120,Yes
+403,49,Litti Chokha,North Indian,Veg,100,Yes
+404,50,Fish Moilee,Kerala,Non-Veg,100,No
+405,50,Prawn Masala,Seafood,Non-Veg,300,Yes
+406,50,Margherita Pizza,Italian,Veg,150,Yes
+407,50,Gulab Jamun,Desserts,Veg,120,Yes
+408,50,Thali,South Indian,Veg,120,No
+409,50,Dal Makhani,North Indian,Veg,300,Yes
+410,50,Paneer Tikka,North Indian,Veg,100,Yes
+411,50,Pav Bhaji,Street Food,Veg,120,No
+412,50,Idli Sambar,South Indian,Veg,180,No
+413,51,Paneer Tikka,North Indian,Veg,250,Yes
+414,51,Chicken Pizza,Italian,Non-Veg,150,Yes
+415,51,Prawn Masala,Seafood,Non-Veg,220,Yes
+416,51,Butter Chicken,North Indian,Non-Veg,250,Yes
+417,51,Chicken Biryani,Biryani,Non-Veg,200,Yes
+418,51,Hakka Noodles,Chinese,Veg,80,Yes
+419,52,Chole Bhature,North Indian,Veg,220,Yes
+420,52,Idli Sambar,South Indian,Veg,500,Yes
+421,52,Chicken Pizza,Italian,Non-Veg,500,No
+422,52,Fish Moilee,Kerala,Non-Veg,120,Yes
+423,52,Hakka Noodles,Chinese,Veg,450,No
+424,52,Thali,South Indian,Veg,220,Yes
+425,52,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+426,52,Rajma Rice,North Indian,Veg,280,Yes
+427,53,Rajma Rice,North Indian,Veg,180,Yes
+428,53,Margherita Pizza,Italian,Veg,120,Yes
+429,53,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+430,53,Pani Puri,Street Food,Veg,100,Yes
+431,53,Vada Pav,Street Food,Veg,400,Yes
+432,54,Hakka Noodles,Chinese,Veg,500,Yes
+433,54,Paratha,North Indian,Veg,120,Yes
+434,54,Idli Sambar,South Indian,Veg,500,No
+435,54,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+436,54,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+437,54,Litti Chokha,North Indian,Veg,180,No
+438,54,Prawn Masala,Seafood,Non-Veg,80,Yes
+439,55,Paratha,North Indian,Veg,200,Yes
+440,55,Chicken Pizza,Italian,Non-Veg,300,No
+441,55,Hakka Noodles,Chinese,Veg,180,Yes
+442,55,Margherita Pizza,Italian,Veg,80,No
+443,55,Chicken Burger,Fast Food,Non-Veg,400,Yes
+444,55,Vada Pav,Street Food,Veg,280,No
+445,55,Idli Sambar,South Indian,Veg,180,Yes
+446,55,Litti Chokha,North Indian,Veg,220,No
+447,55,Rajma Rice,North Indian,Veg,200,No
+448,55,Prawn Masala,Seafood,Non-Veg,500,Yes
+449,55,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+450,56,Veg Burger,Fast Food,Veg,500,Yes
+451,56,Paratha,North Indian,Veg,300,Yes
+452,56,Pani Puri,Street Food,Veg,120,Yes
+453,56,Veg Biryani,Biryani,Veg,450,Yes
+454,56,Gulab Jamun,Desserts,Veg,200,Yes
+455,57,Rasmalai,Desserts,Veg,150,Yes
+456,57,Paneer Tikka,North Indian,Veg,120,Yes
+457,57,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+458,57,Litti Chokha,North Indian,Veg,150,Yes
+459,57,Prawn Masala,Seafood,Non-Veg,80,Yes
+460,57,Gulab Jamun,Desserts,Veg,150,Yes
+461,57,Thali,South Indian,Veg,100,Yes
+462,57,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+463,58,Pav Bhaji,Street Food,Veg,450,Yes
+464,58,Litti Chokha,North Indian,Veg,150,No
+465,58,Paneer Tikka,North Indian,Veg,300,Yes
+466,58,Veg Biryani,Biryani,Veg,400,Yes
+467,58,Rasmalai,Desserts,Veg,300,Yes
+468,58,Rajma Rice,North Indian,Veg,450,Yes
+469,58,Dal Makhani,North Indian,Veg,150,Yes
+470,58,Vada Pav,Street Food,Veg,180,Yes
+471,58,Mutton Rogan Josh,Mughlai,Non-Veg,220,Yes
+472,58,Paratha,North Indian,Veg,300,No
+473,59,Butter Chicken,North Indian,Non-Veg,400,Yes
+474,59,Appam Stew,Kerala,Veg,100,Yes
+475,59,Prawn Masala,Seafood,Non-Veg,500,Yes
+476,59,Pani Puri,Street Food,Veg,450,Yes
+477,59,Pav Bhaji,Street Food,Veg,100,Yes
+478,59,Gulab Jamun,Desserts,Veg,300,Yes
+479,59,Rajma Rice,North Indian,Veg,250,Yes
+480,60,Vada Pav,Street Food,Veg,220,Yes
+481,60,Litti Chokha,North Indian,Veg,100,No
+482,60,Rasmalai,Desserts,Veg,250,Yes
+483,60,Thali,South Indian,Veg,300,Yes
+484,60,Fish Moilee,Kerala,Non-Veg,180,Yes
+485,60,Masala Dosa,South Indian,Veg,100,Yes
+486,60,Paneer Tikka,North Indian,Veg,220,Yes
+487,60,Veg Biryani,Biryani,Veg,300,Yes
+488,60,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+489,60,Dal Makhani,North Indian,Veg,300,Yes
+490,60,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+491,61,Gulab Jamun,Desserts,Veg,400,Yes
+492,61,Masala Dosa,South Indian,Veg,100,No
+493,61,Idli Sambar,South Indian,Veg,200,Yes
+494,61,Margherita Pizza,Italian,Veg,400,No
+495,61,Hakka Noodles,Chinese,Veg,120,No
+496,61,Chicken Biryani,Biryani,Non-Veg,500,Yes
+497,62,Vada Pav,Street Food,Veg,100,No
+498,62,Masala Dosa,South Indian,Veg,450,Yes
+499,62,Veg Burger,Fast Food,Veg,80,Yes
+500,62,Fish Curry,Seafood,Non-Veg,300,Yes
+501,62,Chicken Burger,Fast Food,Non-Veg,350,Yes
+502,62,Margherita Pizza,Italian,Veg,200,Yes
+503,62,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+504,62,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+505,62,Veg Biryani,Biryani,Veg,400,Yes
+506,62,Thali,South Indian,Veg,100,Yes
+507,62,Butter Chicken,North Indian,Non-Veg,400,Yes
+508,62,Chicken Pizza,Italian,Non-Veg,500,Yes
+509,63,Butter Chicken,North Indian,Non-Veg,100,Yes
+510,63,Vada Pav,Street Food,Veg,150,Yes
+511,63,Veg Biryani,Biryani,Veg,280,No
+512,63,Chicken Tikka,Mughlai,Non-Veg,250,No
+513,63,Chole Bhature,North Indian,Veg,350,Yes
+514,63,Rajma Rice,North Indian,Veg,180,No
+515,63,Masala Dosa,South Indian,Veg,300,Yes
+516,63,Litti Chokha,North Indian,Veg,200,Yes
+517,63,Gulab Jamun,Desserts,Veg,500,Yes
+518,63,Chicken Burger,Fast Food,Non-Veg,120,Yes
+519,64,Paratha,North Indian,Veg,280,Yes
+520,64,Fish Moilee,Kerala,Non-Veg,300,Yes
+521,64,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+522,64,Chicken Burger,Fast Food,Non-Veg,180,No
+523,64,Appam Stew,Kerala,Veg,250,Yes
+524,64,Veg Burger,Fast Food,Veg,220,No
+525,64,Vada Pav,Street Food,Veg,350,No
+526,64,Pani Puri,Street Food,Veg,500,Yes
+527,65,Thali,South Indian,Veg,200,Yes
+528,65,Dal Makhani,North Indian,Veg,200,Yes
+529,65,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+530,65,Idli Sambar,South Indian,Veg,250,Yes
+531,65,Gulab Jamun,Desserts,Veg,220,Yes
+532,65,Appam Stew,Kerala,Veg,80,Yes
+533,65,Prawn Masala,Seafood,Non-Veg,350,Yes
+534,65,Chicken Pizza,Italian,Non-Veg,400,Yes
+535,66,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+536,66,Vada Pav,Street Food,Veg,80,Yes
+537,66,Paratha,North Indian,Veg,220,No
+538,66,Chicken Pizza,Italian,Non-Veg,120,Yes
+539,66,Litti Chokha,North Indian,Veg,200,Yes
+540,66,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+541,66,Masala Dosa,South Indian,Veg,400,Yes
+542,67,Appam Stew,Kerala,Veg,120,Yes
+543,67,Gulab Jamun,Desserts,Veg,500,Yes
+544,67,Margherita Pizza,Italian,Veg,80,Yes
+545,67,Idli Sambar,South Indian,Veg,280,Yes
+546,67,Prawn Masala,Seafood,Non-Veg,200,No
+547,67,Fish Moilee,Kerala,Non-Veg,120,Yes
+548,68,Idli Sambar,South Indian,Veg,450,Yes
+549,68,Prawn Masala,Seafood,Non-Veg,150,Yes
+550,68,Chicken Pizza,Italian,Non-Veg,100,Yes
+551,68,Chole Bhature,North Indian,Veg,300,Yes
+552,68,Gulab Jamun,Desserts,Veg,300,Yes
+553,68,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+554,68,Chicken Tikka,Mughlai,Non-Veg,300,No
+555,68,Pani Puri,Street Food,Veg,220,Yes
+556,68,Chicken Burger,Fast Food,Non-Veg,500,No
+557,68,Butter Chicken,North Indian,Non-Veg,80,Yes
+558,68,Chicken Biryani,Biryani,Non-Veg,220,No
+559,68,Paratha,North Indian,Veg,80,Yes
+560,69,Fish Moilee,Kerala,Non-Veg,500,Yes
+561,69,Pani Puri,Street Food,Veg,350,Yes
+562,69,Paneer Tikka,North Indian,Veg,80,Yes
+563,69,Gulab Jamun,Desserts,Veg,300,Yes
+564,69,Pav Bhaji,Street Food,Veg,80,Yes
+565,69,Chicken Pizza,Italian,Non-Veg,300,Yes
+566,69,Chole Bhature,North Indian,Veg,150,Yes
+567,69,Idli Sambar,South Indian,Veg,450,Yes
+568,69,Chicken Biryani,Biryani,Non-Veg,280,Yes
+569,69,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+570,70,Fish Moilee,Kerala,Non-Veg,220,Yes
+571,70,Hakka Noodles,Chinese,Veg,280,Yes
+572,70,Chicken Biryani,Biryani,Non-Veg,250,No
+573,70,Litti Chokha,North Indian,Veg,350,Yes
+574,70,Gulab Jamun,Desserts,Veg,200,No
+575,70,Dal Makhani,North Indian,Veg,180,No
+576,70,Margherita Pizza,Italian,Veg,100,No
+577,70,Butter Chicken,North Indian,Non-Veg,500,Yes
+578,70,Paneer Tikka,North Indian,Veg,250,No
+579,71,Margherita Pizza,Italian,Veg,80,Yes
+580,71,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+581,71,Chole Bhature,North Indian,Veg,150,No
+582,71,Paratha,North Indian,Veg,120,Yes
+583,71,Fish Curry,Seafood,Non-Veg,180,No
+584,71,Fish Moilee,Kerala,Non-Veg,100,No
+585,71,Pav Bhaji,Street Food,Veg,500,No
+586,72,Litti Chokha,North Indian,Veg,100,Yes
+587,72,Dal Makhani,North Indian,Veg,350,Yes
+588,72,Veg Burger,Fast Food,Veg,180,Yes
+589,72,Veg Biryani,Biryani,Veg,220,Yes
+590,72,Chole Bhature,North Indian,Veg,120,Yes
+591,72,Appam Stew,Kerala,Veg,400,Yes
+592,72,Chicken Pizza,Italian,Non-Veg,220,Yes
+593,73,Thali,South Indian,Veg,250,No
+594,73,Fish Moilee,Kerala,Non-Veg,280,Yes
+595,73,Mutton Rogan Josh,Mughlai,Non-Veg,250,No
+596,73,Veg Biryani,Biryani,Veg,450,Yes
+597,73,Rajma Rice,North Indian,Veg,220,Yes
+598,73,Chole Bhature,North Indian,Veg,450,Yes
+599,73,Hakka Noodles,Chinese,Veg,300,Yes
+600,73,Idli Sambar,South Indian,Veg,120,Yes
+601,73,Appam Stew,Kerala,Veg,500,Yes
+602,74,Appam Stew,Kerala,Veg,500,No
+603,74,Chicken Biryani,Biryani,Non-Veg,300,Yes
+604,74,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+605,74,Vada Pav,Street Food,Veg,400,Yes
+606,74,Fish Moilee,Kerala,Non-Veg,80,Yes
+607,74,Veg Biryani,Biryani,Veg,180,Yes
+608,74,Fish Curry,Seafood,Non-Veg,250,Yes
+609,74,Prawn Masala,Seafood,Non-Veg,180,Yes
+610,74,Hakka Noodles,Chinese,Veg,100,No
+611,74,Butter Chicken,North Indian,Non-Veg,120,Yes
+612,74,Thali,South Indian,Veg,180,Yes
+613,75,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+614,75,Vada Pav,Street Food,Veg,500,Yes
+615,75,Appam Stew,Kerala,Veg,450,Yes
+616,75,Chole Bhature,North Indian,Veg,400,Yes
+617,75,Fish Curry,Seafood,Non-Veg,220,Yes
+618,75,Margherita Pizza,Italian,Veg,220,Yes
+619,75,Gulab Jamun,Desserts,Veg,180,No
+620,75,Chicken Tikka,Mughlai,Non-Veg,120,Yes
+621,75,Hakka Noodles,Chinese,Veg,280,No
+622,75,Rajma Rice,North Indian,Veg,400,Yes
+623,75,Butter Chicken,North Indian,Non-Veg,100,Yes
+624,76,Rasmalai,Desserts,Veg,200,Yes
+625,76,Vada Pav,Street Food,Veg,250,Yes
+626,76,Dal Makhani,North Indian,Veg,120,Yes
+627,76,Fish Curry,Seafood,Non-Veg,220,Yes
+628,76,Litti Chokha,North Indian,Veg,150,Yes
+629,77,Fish Moilee,Kerala,Non-Veg,150,No
+630,77,Appam Stew,Kerala,Veg,280,Yes
+631,77,Paneer Tikka,North Indian,Veg,180,No
+632,77,Gulab Jamun,Desserts,Veg,80,Yes
+633,77,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+634,78,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+635,78,Dal Makhani,North Indian,Veg,250,Yes
+636,78,Hakka Noodles,Chinese,Veg,220,No
+637,78,Fish Curry,Seafood,Non-Veg,100,No
+638,78,Fish Moilee,Kerala,Non-Veg,500,Yes
+639,78,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+640,79,Litti Chokha,North Indian,Veg,350,Yes
+641,79,Hakka Noodles,Chinese,Veg,400,Yes
+642,79,Masala Dosa,South Indian,Veg,280,Yes
+643,79,Veg Burger,Fast Food,Veg,500,Yes
+644,79,Margherita Pizza,Italian,Veg,80,Yes
+645,79,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+646,79,Dal Makhani,North Indian,Veg,400,Yes
+647,79,Appam Stew,Kerala,Veg,300,Yes
+648,79,Prawn Masala,Seafood,Non-Veg,80,Yes
+649,79,Chicken Biryani,Biryani,Non-Veg,200,Yes
+650,79,Pav Bhaji,Street Food,Veg,400,No
+651,80,Butter Chicken,North Indian,Non-Veg,400,Yes
+652,80,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+653,80,Dal Makhani,North Indian,Veg,220,Yes
+654,80,Pav Bhaji,Street Food,Veg,150,Yes
+655,80,Chicken Pizza,Italian,Non-Veg,220,No
+656,80,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,No
+657,80,Appam Stew,Kerala,Veg,350,Yes
+658,80,Paneer Tikka,North Indian,Veg,80,No
+659,80,Vada Pav,Street Food,Veg,250,Yes
+660,80,Paratha,North Indian,Veg,280,Yes
+661,80,Litti Chokha,North Indian,Veg,120,Yes
+662,81,Chicken Pizza,Italian,Non-Veg,250,No
+663,81,Thali,South Indian,Veg,200,Yes
+664,81,Litti Chokha,North Indian,Veg,280,Yes
+665,81,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+666,81,Gulab Jamun,Desserts,Veg,220,No
+667,81,Chicken Burger,Fast Food,Non-Veg,450,Yes
+668,81,Chicken Tikka,Mughlai,Non-Veg,300,No
+669,81,Chicken Biryani,Biryani,Non-Veg,150,Yes
+670,81,Rasmalai,Desserts,Veg,350,Yes
+671,81,Butter Chicken,North Indian,Non-Veg,400,No
+672,81,Fish Curry,Seafood,Non-Veg,220,Yes
+673,82,Appam Stew,Kerala,Veg,500,Yes
+674,82,Chicken Burger,Fast Food,Non-Veg,400,No
+675,82,Vada Pav,Street Food,Veg,80,Yes
+676,82,Butter Chicken,North Indian,Non-Veg,350,No
+677,82,Veg Burger,Fast Food,Veg,450,Yes
+678,82,Thali,South Indian,Veg,280,No
+679,82,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+680,82,Gulab Jamun,Desserts,Veg,80,No
+681,82,Masala Dosa,South Indian,Veg,220,Yes
+682,82,Pani Puri,Street Food,Veg,120,Yes
+683,83,Margherita Pizza,Italian,Veg,250,Yes
+684,83,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+685,83,Idli Sambar,South Indian,Veg,450,Yes
+686,83,Gulab Jamun,Desserts,Veg,350,Yes
+687,83,Veg Burger,Fast Food,Veg,250,Yes
+688,83,Butter Chicken,North Indian,Non-Veg,280,Yes
+689,84,Paratha,North Indian,Veg,220,Yes
+690,84,Vada Pav,Street Food,Veg,300,Yes
+691,84,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,No
+692,84,Chole Bhature,North Indian,Veg,300,Yes
+693,84,Litti Chokha,North Indian,Veg,120,Yes
+694,84,Dal Makhani,North Indian,Veg,150,Yes
+695,84,Hakka Noodles,Chinese,Veg,100,Yes
+696,84,Chicken Biryani,Biryani,Non-Veg,200,Yes
+697,84,Rajma Rice,North Indian,Veg,350,Yes
+698,84,Butter Chicken,North Indian,Non-Veg,100,Yes
+699,84,Prawn Masala,Seafood,Non-Veg,200,No
+700,85,Butter Chicken,North Indian,Non-Veg,180,Yes
+701,85,Margherita Pizza,Italian,Veg,180,Yes
+702,85,Rasmalai,Desserts,Veg,280,Yes
+703,85,Idli Sambar,South Indian,Veg,350,Yes
+704,85,Chicken Biryani,Biryani,Non-Veg,450,Yes
+705,85,Litti Chokha,North Indian,Veg,400,Yes
+706,85,Vada Pav,Street Food,Veg,450,Yes
+707,85,Prawn Masala,Seafood,Non-Veg,250,Yes
+708,85,Hakka Noodles,Chinese,Veg,220,No
+709,85,Chole Bhature,North Indian,Veg,280,Yes
+710,85,Pani Puri,Street Food,Veg,220,No
+711,85,Pav Bhaji,Street Food,Veg,350,Yes
+712,86,Veg Burger,Fast Food,Veg,220,Yes
+713,86,Veg Biryani,Biryani,Veg,450,Yes
+714,86,Vada Pav,Street Food,Veg,500,Yes
+715,86,Chicken Burger,Fast Food,Non-Veg,200,Yes
+716,86,Fish Curry,Seafood,Non-Veg,150,No
+717,86,Gulab Jamun,Desserts,Veg,450,Yes
+718,86,Paneer Tikka,North Indian,Veg,100,No
+719,86,Thali,South Indian,Veg,80,Yes
+720,87,Chicken Burger,Fast Food,Non-Veg,280,Yes
+721,87,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+722,87,Paneer Tikka,North Indian,Veg,220,Yes
+723,87,Hakka Noodles,Chinese,Veg,280,Yes
+724,87,Litti Chokha,North Indian,Veg,300,No
+725,87,Chole Bhature,North Indian,Veg,280,Yes
+726,87,Butter Chicken,North Indian,Non-Veg,350,Yes
+727,87,Fish Curry,Seafood,Non-Veg,500,Yes
+728,87,Pani Puri,Street Food,Veg,500,Yes
+729,87,Prawn Masala,Seafood,Non-Veg,450,Yes
+730,87,Appam Stew,Kerala,Veg,350,Yes
+731,88,Masala Dosa,South Indian,Veg,100,Yes
+732,88,Fish Curry,Seafood,Non-Veg,220,Yes
+733,88,Thali,South Indian,Veg,220,Yes
+734,88,Veg Burger,Fast Food,Veg,400,No
+735,88,Gulab Jamun,Desserts,Veg,500,Yes
+736,88,Vada Pav,Street Food,Veg,120,No
+737,88,Appam Stew,Kerala,Veg,220,No
+738,88,Idli Sambar,South Indian,Veg,120,Yes
+739,88,Chicken Burger,Fast Food,Non-Veg,280,Yes
+740,88,Fish Moilee,Kerala,Non-Veg,280,Yes
+741,88,Hakka Noodles,Chinese,Veg,500,Yes
+742,88,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+743,89,Paneer Tikka,North Indian,Veg,200,No
+744,89,Chicken Burger,Fast Food,Non-Veg,350,Yes
+745,89,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+746,89,Appam Stew,Kerala,Veg,200,No
+747,89,Idli Sambar,South Indian,Veg,80,Yes
+748,89,Chicken Pizza,Italian,Non-Veg,120,Yes
+749,89,Chole Bhature,North Indian,Veg,400,Yes
+750,89,Veg Burger,Fast Food,Veg,450,Yes
+751,89,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+752,89,Paratha,North Indian,Veg,350,Yes
+753,89,Thali,South Indian,Veg,150,No
+754,89,Rajma Rice,North Indian,Veg,300,Yes
+755,90,Pani Puri,Street Food,Veg,80,Yes
+756,90,Masala Dosa,South Indian,Veg,280,Yes
+757,90,Dal Makhani,North Indian,Veg,300,No
+758,90,Hakka Noodles,Chinese,Veg,220,Yes
+759,90,Pav Bhaji,Street Food,Veg,150,No
+760,90,Litti Chokha,North Indian,Veg,350,No
+761,91,Masala Dosa,South Indian,Veg,220,Yes
+762,91,Pani Puri,Street Food,Veg,120,Yes
+763,91,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+764,91,Mutton Rogan Josh,Mughlai,Non-Veg,200,Yes
+765,91,Dal Makhani,North Indian,Veg,400,No
+766,92,Fish Curry,Seafood,Non-Veg,80,Yes
+767,92,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,No
+768,92,Chicken Biryani,Biryani,Non-Veg,500,Yes
+769,92,Paratha,North Indian,Veg,500,Yes
+770,92,Prawn Masala,Seafood,Non-Veg,100,Yes
+771,92,Hakka Noodles,Chinese,Veg,500,No
+772,92,Pav Bhaji,Street Food,Veg,250,Yes
+773,92,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+774,92,Veg Burger,Fast Food,Veg,180,No
+775,93,Masala Dosa,South Indian,Veg,280,No
+776,93,Chole Bhature,North Indian,Veg,180,Yes
+777,93,Pani Puri,Street Food,Veg,120,Yes
+778,93,Dal Makhani,North Indian,Veg,300,Yes
+779,93,Chicken Pizza,Italian,Non-Veg,300,No
+780,93,Paneer Tikka,North Indian,Veg,500,Yes
+781,93,Margherita Pizza,Italian,Veg,120,Yes
+782,93,Rajma Rice,North Indian,Veg,180,Yes
+783,93,Hakka Noodles,Chinese,Veg,300,No
+784,93,Rasmalai,Desserts,Veg,120,Yes
+785,93,Chicken Burger,Fast Food,Non-Veg,220,Yes
+786,94,Margherita Pizza,Italian,Veg,300,No
+787,94,Chicken Pizza,Italian,Non-Veg,120,Yes
+788,94,Chicken Biryani,Biryani,Non-Veg,200,No
+789,94,Hakka Noodles,Chinese,Veg,300,Yes
+790,94,Pani Puri,Street Food,Veg,300,Yes
+791,95,Vada Pav,Street Food,Veg,250,No
+792,95,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,Yes
+793,95,Prawn Masala,Seafood,Non-Veg,200,No
+794,95,Rajma Rice,North Indian,Veg,80,Yes
+795,95,Chicken Manchurian,Chinese,Non-Veg,100,Yes
+796,95,Margherita Pizza,Italian,Veg,180,Yes
+797,95,Litti Chokha,North Indian,Veg,80,Yes
+798,95,Fish Curry,Seafood,Non-Veg,300,Yes
+799,96,Vada Pav,Street Food,Veg,450,Yes
+800,96,Chole Bhature,North Indian,Veg,120,Yes
+801,96,Rasmalai,Desserts,Veg,220,Yes
+802,96,Fish Curry,Seafood,Non-Veg,80,Yes
+803,96,Rajma Rice,North Indian,Veg,100,Yes
+804,96,Thali,South Indian,Veg,180,Yes
+805,97,Pani Puri,Street Food,Veg,500,Yes
+806,97,Margherita Pizza,Italian,Veg,400,Yes
+807,97,Masala Dosa,South Indian,Veg,150,Yes
+808,97,Fish Moilee,Kerala,Non-Veg,100,Yes
+809,97,Rasmalai,Desserts,Veg,150,No
+810,97,Rajma Rice,North Indian,Veg,200,Yes
+811,97,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,No
+812,97,Chicken Biryani,Biryani,Non-Veg,120,Yes
+813,97,Mutton Rogan Josh,Mughlai,Non-Veg,300,No
+814,97,Chicken Burger,Fast Food,Non-Veg,350,Yes
+815,97,Dal Makhani,North Indian,Veg,500,No
+816,97,Paneer Tikka,North Indian,Veg,180,Yes
+817,98,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+818,98,Butter Chicken,North Indian,Non-Veg,150,Yes
+819,98,Vada Pav,Street Food,Veg,500,Yes
+820,98,Rasmalai,Desserts,Veg,80,No
+821,98,Paratha,North Indian,Veg,220,No
+822,98,Chicken Burger,Fast Food,Non-Veg,300,Yes
+823,98,Masala Dosa,South Indian,Veg,300,Yes
+824,99,Masala Dosa,South Indian,Veg,80,Yes
+825,99,Gulab Jamun,Desserts,Veg,250,Yes
+826,99,Fish Moilee,Kerala,Non-Veg,150,Yes
+827,99,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+828,99,Prawn Masala,Seafood,Non-Veg,220,Yes
+829,99,Paneer Tikka,North Indian,Veg,280,No
+830,99,Chicken Burger,Fast Food,Non-Veg,300,Yes
+831,99,Pav Bhaji,Street Food,Veg,250,Yes
+832,99,Margherita Pizza,Italian,Veg,450,Yes
+833,99,Appam Stew,Kerala,Veg,500,Yes
+834,99,Pani Puri,Street Food,Veg,180,Yes
+835,100,Chicken Manchurian,Chinese,Non-Veg,150,No
+836,100,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+837,100,Veg Biryani,Biryani,Veg,500,No
+838,100,Paratha,North Indian,Veg,100,Yes
+839,100,Idli Sambar,South Indian,Veg,80,No
+840,100,Vada Pav,Street Food,Veg,250,No
+841,100,Dal Makhani,North Indian,Veg,150,Yes
+842,100,Chicken Biryani,Biryani,Non-Veg,100,No
+843,100,Veg Burger,Fast Food,Veg,200,Yes
+844,101,Chicken Pizza,Italian,Non-Veg,120,Yes
+845,101,Chicken Biryani,Biryani,Non-Veg,500,Yes
+846,101,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+847,101,Gulab Jamun,Desserts,Veg,280,No
+848,101,Litti Chokha,North Indian,Veg,150,Yes
+849,101,Veg Burger,Fast Food,Veg,250,Yes
+850,101,Idli Sambar,South Indian,Veg,150,Yes
+851,101,Paneer Tikka,North Indian,Veg,400,Yes
+852,102,Litti Chokha,North Indian,Veg,250,No
+853,102,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+854,102,Chicken Tikka,Mughlai,Non-Veg,400,No
+855,102,Hakka Noodles,Chinese,Veg,500,Yes
+856,102,Thali,South Indian,Veg,450,Yes
+857,102,Prawn Masala,Seafood,Non-Veg,200,Yes
+858,102,Rasmalai,Desserts,Veg,80,No
+859,102,Butter Chicken,North Indian,Non-Veg,220,Yes
+860,102,Pani Puri,Street Food,Veg,100,Yes
+861,103,Chicken Burger,Fast Food,Non-Veg,200,Yes
+862,103,Paneer Tikka,North Indian,Veg,180,Yes
+863,103,Paratha,North Indian,Veg,220,Yes
+864,103,Prawn Masala,Seafood,Non-Veg,180,Yes
+865,103,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+866,103,Pav Bhaji,Street Food,Veg,280,Yes
+867,103,Chicken Biryani,Biryani,Non-Veg,280,Yes
+868,103,Chicken Manchurian,Chinese,Non-Veg,200,Yes
+869,103,Dal Makhani,North Indian,Veg,280,Yes
+870,103,Idli Sambar,South Indian,Veg,400,Yes
+871,103,Fish Moilee,Kerala,Non-Veg,200,No
+872,103,Gulab Jamun,Desserts,Veg,180,Yes
+873,104,Veg Burger,Fast Food,Veg,80,Yes
+874,104,Pav Bhaji,Street Food,Veg,180,Yes
+875,104,Dal Makhani,North Indian,Veg,300,Yes
+876,104,Rasmalai,Desserts,Veg,500,Yes
+877,104,Pani Puri,Street Food,Veg,400,Yes
+878,104,Veg Biryani,Biryani,Veg,200,Yes
+879,104,Margherita Pizza,Italian,Veg,100,Yes
+880,104,Paneer Tikka,North Indian,Veg,80,Yes
+881,104,Chicken Burger,Fast Food,Non-Veg,300,Yes
+882,104,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+883,104,Appam Stew,Kerala,Veg,450,Yes
+884,105,Gulab Jamun,Desserts,Veg,150,Yes
+885,105,Margherita Pizza,Italian,Veg,500,No
+886,105,Thali,South Indian,Veg,350,Yes
+887,105,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+888,105,Idli Sambar,South Indian,Veg,350,No
+889,105,Fish Moilee,Kerala,Non-Veg,280,Yes
+890,105,Rajma Rice,North Indian,Veg,120,No
+891,105,Paneer Tikka,North Indian,Veg,200,Yes
+892,106,Chicken Biryani,Biryani,Non-Veg,400,Yes
+893,106,Thali,South Indian,Veg,200,No
+894,106,Margherita Pizza,Italian,Veg,120,Yes
+895,106,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+896,106,Paratha,North Indian,Veg,300,No
+897,106,Chicken Pizza,Italian,Non-Veg,180,Yes
+898,106,Appam Stew,Kerala,Veg,500,Yes
+899,106,Rasmalai,Desserts,Veg,280,Yes
+900,106,Chole Bhature,North Indian,Veg,450,No
+901,106,Veg Burger,Fast Food,Veg,250,Yes
+902,107,Paneer Tikka,North Indian,Veg,500,Yes
+903,107,Rasmalai,Desserts,Veg,100,Yes
+904,107,Idli Sambar,South Indian,Veg,150,Yes
+905,107,Pani Puri,Street Food,Veg,450,No
+906,107,Veg Burger,Fast Food,Veg,220,Yes
+907,107,Paratha,North Indian,Veg,100,Yes
+908,107,Veg Biryani,Biryani,Veg,280,Yes
+909,107,Thali,South Indian,Veg,280,Yes
+910,107,Hyderabadi Biryani,Hyderabadi,Non-Veg,280,Yes
+911,107,Chicken Biryani,Biryani,Non-Veg,200,Yes
+912,107,Prawn Masala,Seafood,Non-Veg,450,No
+913,107,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+914,108,Veg Biryani,Biryani,Veg,250,Yes
+915,108,Rasmalai,Desserts,Veg,120,Yes
+916,108,Chicken Burger,Fast Food,Non-Veg,200,Yes
+917,108,Margherita Pizza,Italian,Veg,300,No
+918,108,Paneer Tikka,North Indian,Veg,350,Yes
+919,108,Mutton Rogan Josh,Mughlai,Non-Veg,250,No
+920,109,Pav Bhaji,Street Food,Veg,350,Yes
+921,109,Paratha,North Indian,Veg,350,Yes
+922,109,Chicken Tikka,Mughlai,Non-Veg,100,No
+923,109,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+924,109,Chicken Manchurian,Chinese,Non-Veg,180,No
+925,109,Rajma Rice,North Indian,Veg,400,Yes
+926,109,Thali,South Indian,Veg,500,Yes
+927,109,Paneer Tikka,North Indian,Veg,400,Yes
+928,109,Prawn Masala,Seafood,Non-Veg,300,Yes
+929,110,Thali,South Indian,Veg,400,No
+930,110,Appam Stew,Kerala,Veg,80,Yes
+931,110,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+932,110,Pani Puri,Street Food,Veg,120,No
+933,110,Margherita Pizza,Italian,Veg,100,Yes
+934,110,Chicken Pizza,Italian,Non-Veg,80,Yes
+935,110,Masala Dosa,South Indian,Veg,200,No
+936,110,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,No
+937,110,Idli Sambar,South Indian,Veg,80,Yes
+938,110,Dal Makhani,North Indian,Veg,220,No
+939,110,Vada Pav,Street Food,Veg,80,Yes
+940,111,Margherita Pizza,Italian,Veg,80,Yes
+941,111,Dal Makhani,North Indian,Veg,80,Yes
+942,111,Paneer Tikka,North Indian,Veg,400,Yes
+943,111,Chicken Pizza,Italian,Non-Veg,350,No
+944,111,Fish Moilee,Kerala,Non-Veg,180,Yes
+945,112,Butter Chicken,North Indian,Non-Veg,100,Yes
+946,112,Litti Chokha,North Indian,Veg,80,Yes
+947,112,Chole Bhature,North Indian,Veg,350,Yes
+948,112,Gulab Jamun,Desserts,Veg,120,Yes
+949,112,Paneer Tikka,North Indian,Veg,120,Yes
+950,112,Fish Moilee,Kerala,Non-Veg,300,Yes
+951,113,Idli Sambar,South Indian,Veg,200,Yes
+952,113,Paratha,North Indian,Veg,500,Yes
+953,113,Chole Bhature,North Indian,Veg,300,Yes
+954,113,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+955,113,Hakka Noodles,Chinese,Veg,80,No
+956,113,Fish Moilee,Kerala,Non-Veg,80,Yes
+957,113,Pav Bhaji,Street Food,Veg,500,No
+958,113,Gulab Jamun,Desserts,Veg,200,No
+959,113,Appam Stew,Kerala,Veg,180,Yes
+960,113,Rasmalai,Desserts,Veg,180,Yes
+961,114,Paneer Tikka,North Indian,Veg,400,Yes
+962,114,Vada Pav,Street Food,Veg,200,Yes
+963,114,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+964,114,Rajma Rice,North Indian,Veg,100,Yes
+965,114,Prawn Masala,Seafood,Non-Veg,350,Yes
+966,114,Rasmalai,Desserts,Veg,400,No
+967,114,Litti Chokha,North Indian,Veg,200,Yes
+968,115,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+969,115,Thali,South Indian,Veg,300,Yes
+970,115,Fish Moilee,Kerala,Non-Veg,120,Yes
+971,115,Pani Puri,Street Food,Veg,250,No
+972,115,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+973,115,Vada Pav,Street Food,Veg,400,No
+974,115,Margherita Pizza,Italian,Veg,220,Yes
+975,115,Rajma Rice,North Indian,Veg,150,No
+976,116,Appam Stew,Kerala,Veg,220,Yes
+977,116,Chicken Pizza,Italian,Non-Veg,250,Yes
+978,116,Fish Moilee,Kerala,Non-Veg,180,No
+979,116,Masala Dosa,South Indian,Veg,500,Yes
+980,116,Mutton Rogan Josh,Mughlai,Non-Veg,450,No
+981,116,Prawn Masala,Seafood,Non-Veg,220,Yes
+982,117,Chole Bhature,North Indian,Veg,80,Yes
+983,117,Pav Bhaji,Street Food,Veg,200,Yes
+984,117,Appam Stew,Kerala,Veg,350,Yes
+985,117,Chicken Biryani,Biryani,Non-Veg,100,No
+986,117,Thali,South Indian,Veg,150,Yes
+987,117,Fish Curry,Seafood,Non-Veg,220,No
+988,117,Litti Chokha,North Indian,Veg,450,Yes
+989,118,Chicken Pizza,Italian,Non-Veg,180,Yes
+990,118,Paneer Tikka,North Indian,Veg,100,Yes
+991,118,Pav Bhaji,Street Food,Veg,150,Yes
+992,118,Fish Curry,Seafood,Non-Veg,180,No
+993,118,Hakka Noodles,Chinese,Veg,300,Yes
+994,118,Gulab Jamun,Desserts,Veg,80,No
+995,118,Thali,South Indian,Veg,180,Yes
+996,118,Litti Chokha,North Indian,Veg,150,Yes
+997,118,Masala Dosa,South Indian,Veg,350,Yes
+998,118,Idli Sambar,South Indian,Veg,400,No
+999,119,Vada Pav,Street Food,Veg,400,Yes
+1000,119,Rajma Rice,North Indian,Veg,450,No
+1001,119,Hakka Noodles,Chinese,Veg,220,Yes
+1002,119,Veg Biryani,Biryani,Veg,500,No
+1003,119,Gulab Jamun,Desserts,Veg,300,Yes
+1004,120,Vada Pav,Street Food,Veg,350,No
+1005,120,Margherita Pizza,Italian,Veg,220,Yes
+1006,120,Veg Biryani,Biryani,Veg,200,No
+1007,120,Prawn Masala,Seafood,Non-Veg,80,Yes
+1008,120,Dal Makhani,North Indian,Veg,150,No
+1009,120,Chole Bhature,North Indian,Veg,500,No
+1010,120,Pani Puri,Street Food,Veg,450,Yes
+1011,120,Paratha,North Indian,Veg,280,Yes
+1012,120,Rasmalai,Desserts,Veg,150,Yes
+1013,120,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+1014,120,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+1015,121,Butter Chicken,North Indian,Non-Veg,150,Yes
+1016,121,Rasmalai,Desserts,Veg,400,No
+1017,121,Pav Bhaji,Street Food,Veg,150,Yes
+1018,121,Chicken Pizza,Italian,Non-Veg,150,No
+1019,121,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+1020,121,Dal Makhani,North Indian,Veg,80,Yes
+1021,121,Chole Bhature,North Indian,Veg,500,Yes
+1022,122,Dal Makhani,North Indian,Veg,120,Yes
+1023,122,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,No
+1024,122,Idli Sambar,South Indian,Veg,250,Yes
+1025,122,Fish Moilee,Kerala,Non-Veg,300,Yes
+1026,122,Margherita Pizza,Italian,Veg,150,Yes
+1027,122,Hakka Noodles,Chinese,Veg,350,Yes
+1028,122,Appam Stew,Kerala,Veg,80,Yes
+1029,122,Rasmalai,Desserts,Veg,150,Yes
+1030,122,Gulab Jamun,Desserts,Veg,80,Yes
+1031,122,Chicken Burger,Fast Food,Non-Veg,180,Yes
+1032,123,Chicken Pizza,Italian,Non-Veg,280,Yes
+1033,123,Rasmalai,Desserts,Veg,180,Yes
+1034,123,Chole Bhature,North Indian,Veg,150,Yes
+1035,123,Dal Makhani,North Indian,Veg,250,Yes
+1036,123,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+1037,123,Idli Sambar,South Indian,Veg,300,Yes
+1038,124,Vada Pav,Street Food,Veg,200,No
+1039,124,Fish Moilee,Kerala,Non-Veg,300,Yes
+1040,124,Pani Puri,Street Food,Veg,150,Yes
+1041,124,Chicken Biryani,Biryani,Non-Veg,100,Yes
+1042,124,Litti Chokha,North Indian,Veg,80,No
+1043,124,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+1044,124,Paratha,North Indian,Veg,150,Yes
+1045,124,Appam Stew,Kerala,Veg,350,Yes
+1046,124,Masala Dosa,South Indian,Veg,120,No
+1047,124,Margherita Pizza,Italian,Veg,350,Yes
+1048,124,Paneer Tikka,North Indian,Veg,120,No
+1049,124,Hakka Noodles,Chinese,Veg,250,No
+1050,125,Chole Bhature,North Indian,Veg,80,No
+1051,125,Pani Puri,Street Food,Veg,80,Yes
+1052,125,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1053,125,Chicken Pizza,Italian,Non-Veg,80,Yes
+1054,125,Rajma Rice,North Indian,Veg,220,Yes
+1055,125,Fish Curry,Seafood,Non-Veg,200,Yes
+1056,125,Paratha,North Indian,Veg,120,Yes
+1057,125,Paneer Tikka,North Indian,Veg,120,Yes
+1058,125,Margherita Pizza,Italian,Veg,100,Yes
+1059,125,Veg Burger,Fast Food,Veg,350,No
+1060,125,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+1061,125,Chicken Manchurian,Chinese,Non-Veg,400,Yes
+1062,126,Thali,South Indian,Veg,250,Yes
+1063,126,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+1064,126,Chicken Tikka,Mughlai,Non-Veg,220,No
+1065,126,Butter Chicken,North Indian,Non-Veg,220,Yes
+1066,126,Veg Burger,Fast Food,Veg,200,Yes
+1067,126,Chicken Burger,Fast Food,Non-Veg,500,No
+1068,126,Chicken Pizza,Italian,Non-Veg,500,Yes
+1069,127,Fish Moilee,Kerala,Non-Veg,150,Yes
+1070,127,Paneer Tikka,North Indian,Veg,350,No
+1071,127,Dal Makhani,North Indian,Veg,450,Yes
+1072,127,Paratha,North Indian,Veg,220,Yes
+1073,127,Margherita Pizza,Italian,Veg,180,No
+1074,128,Vada Pav,Street Food,Veg,300,No
+1075,128,Rasmalai,Desserts,Veg,400,Yes
+1076,128,Chicken Manchurian,Chinese,Non-Veg,500,Yes
+1077,128,Chicken Burger,Fast Food,Non-Veg,180,No
+1078,128,Gulab Jamun,Desserts,Veg,80,Yes
+1079,128,Chole Bhature,North Indian,Veg,500,Yes
+1080,128,Veg Biryani,Biryani,Veg,80,Yes
+1081,128,Fish Curry,Seafood,Non-Veg,300,Yes
+1082,128,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,No
+1083,129,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+1084,129,Chole Bhature,North Indian,Veg,400,Yes
+1085,129,Masala Dosa,South Indian,Veg,350,Yes
+1086,129,Litti Chokha,North Indian,Veg,200,Yes
+1087,129,Rajma Rice,North Indian,Veg,280,Yes
+1088,129,Dal Makhani,North Indian,Veg,150,Yes
+1089,129,Gulab Jamun,Desserts,Veg,80,Yes
+1090,129,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+1091,129,Margherita Pizza,Italian,Veg,120,No
+1092,129,Veg Biryani,Biryani,Veg,220,Yes
+1093,129,Fish Moilee,Kerala,Non-Veg,120,Yes
+1094,130,Chicken Manchurian,Chinese,Non-Veg,400,No
+1095,130,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+1096,130,Idli Sambar,South Indian,Veg,120,Yes
+1097,130,Fish Moilee,Kerala,Non-Veg,250,No
+1098,130,Chicken Burger,Fast Food,Non-Veg,80,Yes
+1099,130,Litti Chokha,North Indian,Veg,350,Yes
+1100,130,Vada Pav,Street Food,Veg,100,No
+1101,130,Margherita Pizza,Italian,Veg,280,Yes
+1102,130,Hakka Noodles,Chinese,Veg,220,Yes
+1103,131,Paratha,North Indian,Veg,250,Yes
+1104,131,Rajma Rice,North Indian,Veg,220,Yes
+1105,131,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+1106,131,Gulab Jamun,Desserts,Veg,280,No
+1107,131,Chicken Burger,Fast Food,Non-Veg,350,No
+1108,131,Pav Bhaji,Street Food,Veg,300,Yes
+1109,131,Margherita Pizza,Italian,Veg,300,No
+1110,131,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+1111,132,Litti Chokha,North Indian,Veg,150,No
+1112,132,Rasmalai,Desserts,Veg,450,Yes
+1113,132,Pani Puri,Street Food,Veg,80,Yes
+1114,132,Hakka Noodles,Chinese,Veg,300,Yes
+1115,132,Masala Dosa,South Indian,Veg,220,Yes
+1116,133,Margherita Pizza,Italian,Veg,180,Yes
+1117,133,Masala Dosa,South Indian,Veg,250,No
+1118,133,Butter Chicken,North Indian,Non-Veg,200,Yes
+1119,133,Veg Biryani,Biryani,Veg,450,Yes
+1120,133,Chicken Pizza,Italian,Non-Veg,250,Yes
+1121,133,Vada Pav,Street Food,Veg,100,Yes
+1122,133,Pav Bhaji,Street Food,Veg,180,No
+1123,133,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+1124,133,Hakka Noodles,Chinese,Veg,80,Yes
+1125,133,Fish Curry,Seafood,Non-Veg,80,No
+1126,133,Appam Stew,Kerala,Veg,280,No
+1127,134,Fish Curry,Seafood,Non-Veg,200,Yes
+1128,134,Appam Stew,Kerala,Veg,220,No
+1129,134,Thali,South Indian,Veg,200,Yes
+1130,134,Chicken Pizza,Italian,Non-Veg,200,Yes
+1131,134,Litti Chokha,North Indian,Veg,120,Yes
+1132,134,Pani Puri,Street Food,Veg,180,Yes
+1133,134,Masala Dosa,South Indian,Veg,180,Yes
+1134,134,Mutton Rogan Josh,Mughlai,Non-Veg,450,No
+1135,134,Veg Burger,Fast Food,Veg,180,Yes
+1136,134,Paneer Tikka,North Indian,Veg,120,Yes
+1137,135,Fish Curry,Seafood,Non-Veg,500,No
+1138,135,Chicken Pizza,Italian,Non-Veg,500,Yes
+1139,135,Prawn Masala,Seafood,Non-Veg,400,Yes
+1140,135,Thali,South Indian,Veg,250,Yes
+1141,135,Butter Chicken,North Indian,Non-Veg,150,No
+1142,135,Pani Puri,Street Food,Veg,150,Yes
+1143,135,Dal Makhani,North Indian,Veg,300,Yes
+1144,135,Vada Pav,Street Food,Veg,450,Yes
+1145,136,Pani Puri,Street Food,Veg,80,Yes
+1146,136,Chole Bhature,North Indian,Veg,400,Yes
+1147,136,Fish Curry,Seafood,Non-Veg,280,Yes
+1148,136,Chicken Burger,Fast Food,Non-Veg,80,Yes
+1149,136,Chicken Pizza,Italian,Non-Veg,400,Yes
+1150,136,Paneer Tikka,North Indian,Veg,150,Yes
+1151,136,Idli Sambar,South Indian,Veg,350,Yes
+1152,137,Chicken Burger,Fast Food,Non-Veg,200,Yes
+1153,137,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1154,137,Fish Moilee,Kerala,Non-Veg,100,Yes
+1155,137,Rasmalai,Desserts,Veg,200,No
+1156,137,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+1157,137,Litti Chokha,North Indian,Veg,280,Yes
+1158,137,Appam Stew,Kerala,Veg,180,Yes
+1159,137,Gulab Jamun,Desserts,Veg,80,No
+1160,137,Rajma Rice,North Indian,Veg,150,Yes
+1161,137,Masala Dosa,South Indian,Veg,450,No
+1162,137,Chicken Tikka,Mughlai,Non-Veg,450,No
+1163,138,Fish Curry,Seafood,Non-Veg,180,Yes
+1164,138,Butter Chicken,North Indian,Non-Veg,200,Yes
+1165,138,Gulab Jamun,Desserts,Veg,120,No
+1166,138,Vada Pav,Street Food,Veg,80,Yes
+1167,138,Chicken Manchurian,Chinese,Non-Veg,400,Yes
+1168,138,Chicken Burger,Fast Food,Non-Veg,180,Yes
+1169,138,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+1170,138,Dal Makhani,North Indian,Veg,450,Yes
+1171,138,Litti Chokha,North Indian,Veg,100,Yes
+1172,139,Vada Pav,Street Food,Veg,500,Yes
+1173,139,Fish Curry,Seafood,Non-Veg,120,Yes
+1174,139,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+1175,139,Rasmalai,Desserts,Veg,300,No
+1176,139,Butter Chicken,North Indian,Non-Veg,350,No
+1177,139,Hakka Noodles,Chinese,Veg,250,Yes
+1178,139,Chole Bhature,North Indian,Veg,280,No
+1179,140,Pav Bhaji,Street Food,Veg,150,Yes
+1180,140,Rasmalai,Desserts,Veg,280,Yes
+1181,140,Pani Puri,Street Food,Veg,500,Yes
+1182,140,Veg Biryani,Biryani,Veg,450,No
+1183,140,Veg Burger,Fast Food,Veg,400,Yes
+1184,140,Mutton Rogan Josh,Mughlai,Non-Veg,100,No
+1185,140,Chicken Biryani,Biryani,Non-Veg,120,Yes
+1186,140,Fish Curry,Seafood,Non-Veg,350,Yes
+1187,140,Chicken Pizza,Italian,Non-Veg,120,No
+1188,140,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+1189,140,Paratha,North Indian,Veg,400,No
+1190,140,Idli Sambar,South Indian,Veg,400,Yes
+1191,141,Hakka Noodles,Chinese,Veg,100,No
+1192,141,Chicken Pizza,Italian,Non-Veg,150,Yes
+1193,141,Fish Moilee,Kerala,Non-Veg,220,No
+1194,141,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+1195,141,Mutton Rogan Josh,Mughlai,Non-Veg,350,Yes
+1196,141,Fish Curry,Seafood,Non-Veg,200,Yes
+1197,141,Chole Bhature,North Indian,Veg,450,Yes
+1198,142,Prawn Masala,Seafood,Non-Veg,300,Yes
+1199,142,Fish Curry,Seafood,Non-Veg,220,Yes
+1200,142,Masala Dosa,South Indian,Veg,150,Yes
+1201,142,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+1202,142,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,No
+1203,142,Litti Chokha,North Indian,Veg,100,No
+1204,142,Margherita Pizza,Italian,Veg,300,Yes
+1205,142,Pav Bhaji,Street Food,Veg,120,Yes
+1206,142,Vada Pav,Street Food,Veg,150,No
+1207,142,Gulab Jamun,Desserts,Veg,350,Yes
+1208,142,Fish Moilee,Kerala,Non-Veg,80,No
+1209,142,Chicken Pizza,Italian,Non-Veg,200,Yes
+1210,143,Paneer Tikka,North Indian,Veg,220,No
+1211,143,Veg Burger,Fast Food,Veg,200,Yes
+1212,143,Prawn Masala,Seafood,Non-Veg,150,Yes
+1213,143,Chicken Tikka,Mughlai,Non-Veg,500,Yes
+1214,143,Appam Stew,Kerala,Veg,500,No
+1215,143,Hakka Noodles,Chinese,Veg,400,Yes
+1216,143,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,Yes
+1217,143,Gulab Jamun,Desserts,Veg,200,Yes
+1218,143,Vada Pav,Street Food,Veg,200,No
+1219,143,Fish Moilee,Kerala,Non-Veg,300,Yes
+1220,143,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1221,143,Rajma Rice,North Indian,Veg,200,No
+1222,144,Margherita Pizza,Italian,Veg,280,No
+1223,144,Fish Moilee,Kerala,Non-Veg,220,Yes
+1224,144,Prawn Masala,Seafood,Non-Veg,280,Yes
+1225,144,Chole Bhature,North Indian,Veg,500,Yes
+1226,144,Fish Curry,Seafood,Non-Veg,80,No
+1227,144,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+1228,144,Litti Chokha,North Indian,Veg,120,Yes
+1229,145,Veg Burger,Fast Food,Veg,280,Yes
+1230,145,Veg Biryani,Biryani,Veg,120,No
+1231,145,Idli Sambar,South Indian,Veg,500,Yes
+1232,145,Thali,South Indian,Veg,280,Yes
+1233,145,Chicken Burger,Fast Food,Non-Veg,500,Yes
+1234,145,Pani Puri,Street Food,Veg,350,No
+1235,145,Rasmalai,Desserts,Veg,80,No
+1236,145,Butter Chicken,North Indian,Non-Veg,220,Yes
+1237,145,Appam Stew,Kerala,Veg,500,Yes
+1238,145,Vada Pav,Street Food,Veg,80,No
+1239,145,Chicken Biryani,Biryani,Non-Veg,300,Yes
+1240,146,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+1241,146,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+1242,146,Masala Dosa,South Indian,Veg,400,No
+1243,146,Gulab Jamun,Desserts,Veg,350,Yes
+1244,146,Prawn Masala,Seafood,Non-Veg,300,No
+1245,146,Litti Chokha,North Indian,Veg,80,Yes
+1246,146,Margherita Pizza,Italian,Veg,400,Yes
+1247,146,Appam Stew,Kerala,Veg,80,No
+1248,147,Vada Pav,Street Food,Veg,80,No
+1249,147,Hakka Noodles,Chinese,Veg,250,Yes
+1250,147,Fish Curry,Seafood,Non-Veg,400,Yes
+1251,147,Rasmalai,Desserts,Veg,450,Yes
+1252,147,Chicken Pizza,Italian,Non-Veg,500,Yes
+1253,147,Litti Chokha,North Indian,Veg,100,Yes
+1254,147,Rajma Rice,North Indian,Veg,200,Yes
+1255,147,Dal Makhani,North Indian,Veg,350,Yes
+1256,147,Chole Bhature,North Indian,Veg,350,Yes
+1257,147,Pani Puri,Street Food,Veg,250,Yes
+1258,147,Pav Bhaji,Street Food,Veg,200,Yes
+1259,147,Thali,South Indian,Veg,350,Yes
+1260,148,Rasmalai,Desserts,Veg,200,Yes
+1261,148,Pani Puri,Street Food,Veg,100,Yes
+1262,148,Veg Burger,Fast Food,Veg,180,Yes
+1263,148,Rajma Rice,North Indian,Veg,180,No
+1264,148,Dal Makhani,North Indian,Veg,80,Yes
+1265,148,Fish Curry,Seafood,Non-Veg,450,Yes
+1266,148,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+1267,148,Paratha,North Indian,Veg,500,Yes
+1268,148,Fish Moilee,Kerala,Non-Veg,150,No
+1269,148,Litti Chokha,North Indian,Veg,280,No
+1270,148,Paneer Tikka,North Indian,Veg,100,Yes
+1271,148,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+1272,149,Rajma Rice,North Indian,Veg,300,No
+1273,149,Paneer Tikka,North Indian,Veg,280,Yes
+1274,149,Gulab Jamun,Desserts,Veg,500,Yes
+1275,149,Chicken Burger,Fast Food,Non-Veg,150,Yes
+1276,149,Hakka Noodles,Chinese,Veg,450,Yes
+1277,149,Appam Stew,Kerala,Veg,200,No
+1278,150,Chicken Tikka,Mughlai,Non-Veg,400,No
+1279,150,Chicken Pizza,Italian,Non-Veg,180,Yes
+1280,150,Chicken Manchurian,Chinese,Non-Veg,100,No
+1281,150,Gulab Jamun,Desserts,Veg,150,Yes
+1282,150,Appam Stew,Kerala,Veg,300,Yes
+1283,150,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+1284,150,Butter Chicken,North Indian,Non-Veg,450,No
+1285,150,Dal Makhani,North Indian,Veg,280,Yes
+1286,150,Thali,South Indian,Veg,500,Yes
+1287,151,Gulab Jamun,Desserts,Veg,350,No
+1288,151,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+1289,151,Pav Bhaji,Street Food,Veg,280,No
+1290,151,Hakka Noodles,Chinese,Veg,280,Yes
+1291,151,Paratha,North Indian,Veg,400,Yes
+1292,151,Idli Sambar,South Indian,Veg,120,Yes
+1293,151,Rasmalai,Desserts,Veg,200,Yes
+1294,151,Appam Stew,Kerala,Veg,400,Yes
+1295,151,Veg Burger,Fast Food,Veg,350,Yes
+1296,151,Masala Dosa,South Indian,Veg,500,Yes
+1297,152,Idli Sambar,South Indian,Veg,200,Yes
+1298,152,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+1299,152,Chicken Biryani,Biryani,Non-Veg,300,No
+1300,152,Margherita Pizza,Italian,Veg,450,No
+1301,152,Rajma Rice,North Indian,Veg,80,No
+1302,152,Pav Bhaji,Street Food,Veg,150,Yes
+1303,152,Litti Chokha,North Indian,Veg,180,No
+1304,152,Prawn Masala,Seafood,Non-Veg,500,No
+1305,153,Margherita Pizza,Italian,Veg,280,Yes
+1306,153,Idli Sambar,South Indian,Veg,350,Yes
+1307,153,Rajma Rice,North Indian,Veg,350,No
+1308,153,Veg Biryani,Biryani,Veg,180,Yes
+1309,153,Pav Bhaji,Street Food,Veg,220,Yes
+1310,153,Litti Chokha,North Indian,Veg,250,Yes
+1311,153,Chicken Burger,Fast Food,Non-Veg,200,Yes
+1312,153,Gulab Jamun,Desserts,Veg,120,Yes
+1313,153,Appam Stew,Kerala,Veg,100,Yes
+1314,154,Gulab Jamun,Desserts,Veg,400,Yes
+1315,154,Prawn Masala,Seafood,Non-Veg,400,Yes
+1316,154,Chicken Biryani,Biryani,Non-Veg,500,Yes
+1317,154,Chicken Burger,Fast Food,Non-Veg,400,No
+1318,154,Mutton Rogan Josh,Mughlai,Non-Veg,450,No
+1319,154,Veg Biryani,Biryani,Veg,180,Yes
+1320,154,Dal Makhani,North Indian,Veg,400,Yes
+1321,154,Appam Stew,Kerala,Veg,300,Yes
+1322,154,Chicken Tikka,Mughlai,Non-Veg,280,No
+1323,154,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+1324,154,Margherita Pizza,Italian,Veg,150,Yes
+1325,155,Chicken Pizza,Italian,Non-Veg,400,No
+1326,155,Litti Chokha,North Indian,Veg,400,Yes
+1327,155,Chicken Burger,Fast Food,Non-Veg,100,Yes
+1328,155,Pav Bhaji,Street Food,Veg,220,No
+1329,155,Rajma Rice,North Indian,Veg,250,No
+1330,155,Butter Chicken,North Indian,Non-Veg,100,No
+1331,155,Gulab Jamun,Desserts,Veg,220,No
+1332,156,Chicken Biryani,Biryani,Non-Veg,450,Yes
+1333,156,Butter Chicken,North Indian,Non-Veg,120,Yes
+1334,156,Masala Dosa,South Indian,Veg,180,Yes
+1335,156,Vada Pav,Street Food,Veg,100,Yes
+1336,156,Rajma Rice,North Indian,Veg,400,No
+1337,156,Margherita Pizza,Italian,Veg,220,Yes
+1338,156,Dal Makhani,North Indian,Veg,220,No
+1339,156,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+1340,156,Idli Sambar,South Indian,Veg,100,No
+1341,156,Paneer Tikka,North Indian,Veg,500,No
+1342,156,Litti Chokha,North Indian,Veg,300,Yes
+1343,157,Masala Dosa,South Indian,Veg,120,Yes
+1344,157,Chicken Burger,Fast Food,Non-Veg,150,Yes
+1345,157,Mutton Rogan Josh,Mughlai,Non-Veg,100,No
+1346,157,Chicken Tikka,Mughlai,Non-Veg,180,No
+1347,157,Margherita Pizza,Italian,Veg,200,No
+1348,157,Veg Biryani,Biryani,Veg,180,Yes
+1349,157,Fish Moilee,Kerala,Non-Veg,500,No
+1350,157,Litti Chokha,North Indian,Veg,500,Yes
+1351,157,Butter Chicken,North Indian,Non-Veg,100,No
+1352,157,Rasmalai,Desserts,Veg,150,No
+1353,158,Margherita Pizza,Italian,Veg,400,No
+1354,158,Chole Bhature,North Indian,Veg,300,Yes
+1355,158,Chicken Biryani,Biryani,Non-Veg,200,Yes
+1356,158,Gulab Jamun,Desserts,Veg,350,Yes
+1357,158,Fish Moilee,Kerala,Non-Veg,250,No
+1358,158,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+1359,158,Pav Bhaji,Street Food,Veg,450,Yes
+1360,159,Rasmalai,Desserts,Veg,400,Yes
+1361,159,Paneer Tikka,North Indian,Veg,200,Yes
+1362,159,Butter Chicken,North Indian,Non-Veg,400,Yes
+1363,159,Chole Bhature,North Indian,Veg,500,Yes
+1364,159,Appam Stew,Kerala,Veg,450,Yes
+1365,159,Prawn Masala,Seafood,Non-Veg,350,Yes
+1366,159,Vada Pav,Street Food,Veg,280,No
+1367,159,Litti Chokha,North Indian,Veg,250,Yes
+1368,159,Idli Sambar,South Indian,Veg,120,Yes
+1369,160,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+1370,160,Chicken Manchurian,Chinese,Non-Veg,180,No
+1371,160,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+1372,160,Dal Makhani,North Indian,Veg,200,No
+1373,160,Chicken Biryani,Biryani,Non-Veg,180,Yes
+1374,161,Pav Bhaji,Street Food,Veg,280,No
+1375,161,Chicken Biryani,Biryani,Non-Veg,300,Yes
+1376,161,Veg Biryani,Biryani,Veg,150,Yes
+1377,161,Chicken Tikka,Mughlai,Non-Veg,120,Yes
+1378,161,Paratha,North Indian,Veg,180,Yes
+1379,161,Gulab Jamun,Desserts,Veg,300,Yes
+1380,161,Hakka Noodles,Chinese,Veg,180,Yes
+1381,162,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+1382,162,Chicken Burger,Fast Food,Non-Veg,400,No
+1383,162,Chicken Pizza,Italian,Non-Veg,150,Yes
+1384,162,Litti Chokha,North Indian,Veg,180,Yes
+1385,162,Veg Biryani,Biryani,Veg,300,Yes
+1386,162,Fish Curry,Seafood,Non-Veg,200,Yes
+1387,162,Chole Bhature,North Indian,Veg,100,Yes
+1388,162,Paneer Tikka,North Indian,Veg,150,No
+1389,162,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+1390,162,Pav Bhaji,Street Food,Veg,120,Yes
+1391,162,Veg Burger,Fast Food,Veg,450,Yes
+1392,162,Paratha,North Indian,Veg,250,Yes
+1393,163,Veg Biryani,Biryani,Veg,450,No
+1394,163,Paneer Tikka,North Indian,Veg,500,Yes
+1395,163,Rasmalai,Desserts,Veg,220,Yes
+1396,163,Veg Burger,Fast Food,Veg,120,No
+1397,163,Margherita Pizza,Italian,Veg,500,Yes
+1398,163,Chicken Burger,Fast Food,Non-Veg,150,Yes
+1399,163,Fish Curry,Seafood,Non-Veg,200,Yes
+1400,163,Vada Pav,Street Food,Veg,120,Yes
+1401,163,Chicken Pizza,Italian,Non-Veg,80,No
+1402,163,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+1403,163,Masala Dosa,South Indian,Veg,120,Yes
+1404,163,Paratha,North Indian,Veg,80,Yes
+1405,164,Litti Chokha,North Indian,Veg,180,Yes
+1406,164,Vada Pav,Street Food,Veg,100,Yes
+1407,164,Chicken Burger,Fast Food,Non-Veg,450,Yes
+1408,164,Paratha,North Indian,Veg,80,No
+1409,164,Thali,South Indian,Veg,220,No
+1410,164,Fish Moilee,Kerala,Non-Veg,80,Yes
+1411,164,Butter Chicken,North Indian,Non-Veg,200,Yes
+1412,164,Veg Burger,Fast Food,Veg,180,Yes
+1413,164,Appam Stew,Kerala,Veg,400,Yes
+1414,164,Masala Dosa,South Indian,Veg,80,Yes
+1415,164,Idli Sambar,South Indian,Veg,500,No
+1416,165,Thali,South Indian,Veg,80,Yes
+1417,165,Dal Makhani,North Indian,Veg,150,Yes
+1418,165,Chole Bhature,North Indian,Veg,120,Yes
+1419,165,Rajma Rice,North Indian,Veg,80,Yes
+1420,165,Fish Curry,Seafood,Non-Veg,220,Yes
+1421,165,Masala Dosa,South Indian,Veg,350,Yes
+1422,165,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+1423,165,Fish Moilee,Kerala,Non-Veg,500,Yes
+1424,165,Paratha,North Indian,Veg,100,Yes
+1425,165,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+1426,165,Paneer Tikka,North Indian,Veg,150,Yes
+1427,166,Chole Bhature,North Indian,Veg,280,No
+1428,166,Dal Makhani,North Indian,Veg,100,Yes
+1429,166,Chicken Burger,Fast Food,Non-Veg,120,Yes
+1430,166,Idli Sambar,South Indian,Veg,400,Yes
+1431,166,Pav Bhaji,Street Food,Veg,200,No
+1432,166,Fish Moilee,Kerala,Non-Veg,350,Yes
+1433,167,Masala Dosa,South Indian,Veg,220,Yes
+1434,167,Chole Bhature,North Indian,Veg,120,Yes
+1435,167,Mutton Rogan Josh,Mughlai,Non-Veg,300,No
+1436,167,Idli Sambar,South Indian,Veg,220,Yes
+1437,167,Fish Curry,Seafood,Non-Veg,180,Yes
+1438,167,Margherita Pizza,Italian,Veg,400,Yes
+1439,167,Litti Chokha,North Indian,Veg,400,Yes
+1440,167,Rajma Rice,North Indian,Veg,150,No
+1441,167,Rasmalai,Desserts,Veg,450,No
+1442,167,Hakka Noodles,Chinese,Veg,350,No
+1443,168,Chicken Tikka,Mughlai,Non-Veg,300,No
+1444,168,Veg Burger,Fast Food,Veg,500,Yes
+1445,168,Gulab Jamun,Desserts,Veg,200,No
+1446,168,Prawn Masala,Seafood,Non-Veg,500,Yes
+1447,168,Chicken Burger,Fast Food,Non-Veg,200,Yes
+1448,168,Appam Stew,Kerala,Veg,220,No
+1449,168,Pav Bhaji,Street Food,Veg,200,Yes
+1450,168,Idli Sambar,South Indian,Veg,300,Yes
+1451,169,Chicken Manchurian,Chinese,Non-Veg,300,No
+1452,169,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+1453,169,Margherita Pizza,Italian,Veg,100,Yes
+1454,169,Idli Sambar,South Indian,Veg,250,Yes
+1455,169,Pav Bhaji,Street Food,Veg,150,Yes
+1456,169,Dal Makhani,North Indian,Veg,220,Yes
+1457,169,Chicken Burger,Fast Food,Non-Veg,120,Yes
+1458,169,Fish Curry,Seafood,Non-Veg,250,Yes
+1459,169,Paneer Tikka,North Indian,Veg,450,No
+1460,170,Rajma Rice,North Indian,Veg,280,Yes
+1461,170,Vada Pav,Street Food,Veg,400,Yes
+1462,170,Veg Burger,Fast Food,Veg,120,Yes
+1463,170,Dal Makhani,North Indian,Veg,150,No
+1464,170,Thali,South Indian,Veg,250,Yes
+1465,170,Chole Bhature,North Indian,Veg,180,Yes
+1466,170,Prawn Masala,Seafood,Non-Veg,200,No
+1467,170,Gulab Jamun,Desserts,Veg,100,Yes
+1468,170,Chicken Pizza,Italian,Non-Veg,350,No
+1469,170,Masala Dosa,South Indian,Veg,500,No
+1470,170,Paratha,North Indian,Veg,150,Yes
+1471,171,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+1472,171,Chole Bhature,North Indian,Veg,220,Yes
+1473,171,Veg Burger,Fast Food,Veg,220,Yes
+1474,171,Mutton Rogan Josh,Mughlai,Non-Veg,180,No
+1475,171,Chicken Pizza,Italian,Non-Veg,300,Yes
+1476,171,Prawn Masala,Seafood,Non-Veg,300,Yes
+1477,171,Vada Pav,Street Food,Veg,220,Yes
+1478,171,Fish Curry,Seafood,Non-Veg,200,Yes
+1479,171,Appam Stew,Kerala,Veg,350,Yes
+1480,171,Dal Makhani,North Indian,Veg,100,No
+1481,172,Paratha,North Indian,Veg,250,Yes
+1482,172,Hakka Noodles,Chinese,Veg,220,Yes
+1483,172,Chicken Biryani,Biryani,Non-Veg,250,Yes
+1484,172,Butter Chicken,North Indian,Non-Veg,450,Yes
+1485,172,Dal Makhani,North Indian,Veg,100,Yes
+1486,172,Fish Moilee,Kerala,Non-Veg,280,No
+1487,172,Chicken Manchurian,Chinese,Non-Veg,500,No
+1488,172,Chole Bhature,North Indian,Veg,280,Yes
+1489,173,Margherita Pizza,Italian,Veg,100,Yes
+1490,173,Rajma Rice,North Indian,Veg,220,Yes
+1491,173,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+1492,173,Gulab Jamun,Desserts,Veg,450,No
+1493,173,Chole Bhature,North Indian,Veg,220,Yes
+1494,173,Veg Biryani,Biryani,Veg,200,Yes
+1495,173,Masala Dosa,South Indian,Veg,500,Yes
+1496,174,Margherita Pizza,Italian,Veg,150,Yes
+1497,174,Fish Moilee,Kerala,Non-Veg,300,Yes
+1498,174,Paratha,North Indian,Veg,250,Yes
+1499,174,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+1500,174,Pav Bhaji,Street Food,Veg,80,Yes
+1501,174,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+1502,174,Pani Puri,Street Food,Veg,280,Yes
+1503,175,Idli Sambar,South Indian,Veg,180,No
+1504,175,Chicken Burger,Fast Food,Non-Veg,100,No
+1505,175,Chicken Pizza,Italian,Non-Veg,250,Yes
+1506,175,Paratha,North Indian,Veg,220,Yes
+1507,175,Margherita Pizza,Italian,Veg,150,Yes
+1508,175,Fish Moilee,Kerala,Non-Veg,150,Yes
+1509,176,Veg Biryani,Biryani,Veg,450,Yes
+1510,176,Margherita Pizza,Italian,Veg,100,No
+1511,176,Idli Sambar,South Indian,Veg,450,Yes
+1512,176,Pav Bhaji,Street Food,Veg,300,Yes
+1513,176,Appam Stew,Kerala,Veg,400,Yes
+1514,177,Chole Bhature,North Indian,Veg,250,No
+1515,177,Dal Makhani,North Indian,Veg,500,No
+1516,177,Thali,South Indian,Veg,350,Yes
+1517,177,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+1518,177,Fish Moilee,Kerala,Non-Veg,280,Yes
+1519,177,Pani Puri,Street Food,Veg,180,Yes
+1520,178,Chicken Biryani,Biryani,Non-Veg,100,Yes
+1521,178,Rajma Rice,North Indian,Veg,280,Yes
+1522,178,Paneer Tikka,North Indian,Veg,100,No
+1523,178,Pani Puri,Street Food,Veg,80,Yes
+1524,178,Chicken Pizza,Italian,Non-Veg,300,Yes
+1525,178,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+1526,178,Rasmalai,Desserts,Veg,80,Yes
+1527,178,Chole Bhature,North Indian,Veg,350,Yes
+1528,178,Litti Chokha,North Indian,Veg,80,Yes
+1529,179,Litti Chokha,North Indian,Veg,150,Yes
+1530,179,Chicken Pizza,Italian,Non-Veg,120,Yes
+1531,179,Veg Biryani,Biryani,Veg,500,Yes
+1532,179,Margherita Pizza,Italian,Veg,180,Yes
+1533,179,Prawn Masala,Seafood,Non-Veg,180,Yes
+1534,179,Paneer Tikka,North Indian,Veg,120,Yes
+1535,179,Rajma Rice,North Indian,Veg,150,Yes
+1536,179,Chicken Biryani,Biryani,Non-Veg,150,Yes
+1537,179,Rasmalai,Desserts,Veg,220,Yes
+1538,179,Veg Burger,Fast Food,Veg,400,No
+1539,179,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+1540,180,Fish Moilee,Kerala,Non-Veg,450,No
+1541,180,Gulab Jamun,Desserts,Veg,100,Yes
+1542,180,Veg Biryani,Biryani,Veg,120,Yes
+1543,180,Chole Bhature,North Indian,Veg,300,Yes
+1544,180,Prawn Masala,Seafood,Non-Veg,500,Yes
+1545,180,Margherita Pizza,Italian,Veg,120,Yes
+1546,180,Paneer Tikka,North Indian,Veg,250,Yes
+1547,180,Chicken Biryani,Biryani,Non-Veg,120,Yes
+1548,180,Vada Pav,Street Food,Veg,180,Yes
+1549,180,Chicken Manchurian,Chinese,Non-Veg,100,Yes
+1550,180,Litti Chokha,North Indian,Veg,500,No
+1551,180,Paratha,North Indian,Veg,500,Yes
+1552,181,Masala Dosa,South Indian,Veg,200,No
+1553,181,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+1554,181,Paratha,North Indian,Veg,500,No
+1555,181,Chicken Biryani,Biryani,Non-Veg,150,Yes
+1556,181,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+1557,181,Rasmalai,Desserts,Veg,80,No
+1558,181,Chole Bhature,North Indian,Veg,180,Yes
+1559,181,Chicken Pizza,Italian,Non-Veg,350,No
+1560,181,Thali,South Indian,Veg,100,Yes
+1561,181,Fish Curry,Seafood,Non-Veg,120,Yes
+1562,182,Veg Biryani,Biryani,Veg,100,Yes
+1563,182,Pav Bhaji,Street Food,Veg,150,Yes
+1564,182,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+1565,182,Paneer Tikka,North Indian,Veg,300,No
+1566,182,Chicken Biryani,Biryani,Non-Veg,350,Yes
+1567,182,Paratha,North Indian,Veg,220,Yes
+1568,182,Dal Makhani,North Indian,Veg,220,Yes
+1569,183,Vada Pav,Street Food,Veg,120,Yes
+1570,183,Idli Sambar,South Indian,Veg,180,No
+1571,183,Pani Puri,Street Food,Veg,400,Yes
+1572,183,Thali,South Indian,Veg,400,No
+1573,183,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+1574,183,Chicken Burger,Fast Food,Non-Veg,280,Yes
+1575,183,Chicken Manchurian,Chinese,Non-Veg,220,No
+1576,183,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+1577,183,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1578,183,Butter Chicken,North Indian,Non-Veg,80,Yes
+1579,184,Veg Biryani,Biryani,Veg,150,Yes
+1580,184,Gulab Jamun,Desserts,Veg,200,Yes
+1581,184,Chicken Burger,Fast Food,Non-Veg,120,Yes
+1582,184,Paratha,North Indian,Veg,250,Yes
+1583,184,Rajma Rice,North Indian,Veg,250,Yes
+1584,184,Vada Pav,Street Food,Veg,220,No
+1585,184,Chicken Pizza,Italian,Non-Veg,120,Yes
+1586,184,Hakka Noodles,Chinese,Veg,220,Yes
+1587,184,Pav Bhaji,Street Food,Veg,80,Yes
+1588,184,Margherita Pizza,Italian,Veg,220,Yes
+1589,185,Butter Chicken,North Indian,Non-Veg,350,No
+1590,185,Veg Burger,Fast Food,Veg,500,Yes
+1591,185,Paneer Tikka,North Indian,Veg,180,Yes
+1592,185,Chicken Biryani,Biryani,Non-Veg,450,No
+1593,185,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+1594,185,Chicken Burger,Fast Food,Non-Veg,80,Yes
+1595,185,Chicken Tikka,Mughlai,Non-Veg,350,No
+1596,185,Veg Biryani,Biryani,Veg,220,Yes
+1597,185,Dal Makhani,North Indian,Veg,350,Yes
+1598,185,Pani Puri,Street Food,Veg,450,Yes
+1599,185,Margherita Pizza,Italian,Veg,250,Yes
+1600,185,Fish Curry,Seafood,Non-Veg,280,Yes
+1601,186,Chicken Manchurian,Chinese,Non-Veg,400,Yes
+1602,186,Chicken Pizza,Italian,Non-Veg,100,Yes
+1603,186,Idli Sambar,South Indian,Veg,500,Yes
+1604,186,Chole Bhature,North Indian,Veg,120,Yes
+1605,186,Fish Curry,Seafood,Non-Veg,120,Yes
+1606,187,Idli Sambar,South Indian,Veg,250,Yes
+1607,187,Prawn Masala,Seafood,Non-Veg,500,Yes
+1608,187,Masala Dosa,South Indian,Veg,280,Yes
+1609,187,Mutton Rogan Josh,Mughlai,Non-Veg,200,Yes
+1610,187,Butter Chicken,North Indian,Non-Veg,80,Yes
+1611,187,Thali,South Indian,Veg,180,Yes
+1612,187,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+1613,188,Rasmalai,Desserts,Veg,150,Yes
+1614,188,Appam Stew,Kerala,Veg,450,No
+1615,188,Veg Biryani,Biryani,Veg,120,Yes
+1616,188,Dal Makhani,North Indian,Veg,450,Yes
+1617,188,Pav Bhaji,Street Food,Veg,500,Yes
+1618,188,Litti Chokha,North Indian,Veg,450,No
+1619,188,Paratha,North Indian,Veg,180,Yes
+1620,188,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+1621,188,Fish Moilee,Kerala,Non-Veg,250,Yes
+1622,188,Thali,South Indian,Veg,300,No
+1623,188,Butter Chicken,North Indian,Non-Veg,280,Yes
+1624,188,Vada Pav,Street Food,Veg,80,Yes
+1625,189,Litti Chokha,North Indian,Veg,100,Yes
+1626,189,Chicken Biryani,Biryani,Non-Veg,500,Yes
+1627,189,Butter Chicken,North Indian,Non-Veg,150,Yes
+1628,189,Thali,South Indian,Veg,100,Yes
+1629,189,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+1630,190,Pani Puri,Street Food,Veg,220,No
+1631,190,Chicken Burger,Fast Food,Non-Veg,180,Yes
+1632,190,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+1633,190,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+1634,190,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+1635,190,Prawn Masala,Seafood,Non-Veg,80,No
+1636,191,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,No
+1637,191,Pav Bhaji,Street Food,Veg,280,Yes
+1638,191,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+1639,191,Prawn Masala,Seafood,Non-Veg,100,Yes
+1640,191,Chicken Burger,Fast Food,Non-Veg,500,No
+1641,191,Paratha,North Indian,Veg,180,Yes
+1642,191,Butter Chicken,North Indian,Non-Veg,500,No
+1643,191,Veg Burger,Fast Food,Veg,300,Yes
+1644,192,Fish Moilee,Kerala,Non-Veg,400,Yes
+1645,192,Vada Pav,Street Food,Veg,280,Yes
+1646,192,Prawn Masala,Seafood,Non-Veg,120,Yes
+1647,192,Thali,South Indian,Veg,500,No
+1648,192,Pav Bhaji,Street Food,Veg,300,No
+1649,192,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+1650,192,Appam Stew,Kerala,Veg,400,Yes
+1651,192,Gulab Jamun,Desserts,Veg,200,Yes
+1652,192,Paratha,North Indian,Veg,280,No
+1653,192,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+1654,193,Rajma Rice,North Indian,Veg,150,Yes
+1655,193,Paneer Tikka,North Indian,Veg,250,Yes
+1656,193,Margherita Pizza,Italian,Veg,200,No
+1657,193,Vada Pav,Street Food,Veg,80,Yes
+1658,193,Chicken Pizza,Italian,Non-Veg,220,Yes
+1659,193,Hakka Noodles,Chinese,Veg,120,No
+1660,194,Chicken Biryani,Biryani,Non-Veg,200,Yes
+1661,194,Dal Makhani,North Indian,Veg,350,Yes
+1662,194,Chicken Pizza,Italian,Non-Veg,280,Yes
+1663,194,Veg Burger,Fast Food,Veg,150,No
+1664,194,Prawn Masala,Seafood,Non-Veg,400,No
+1665,194,Pani Puri,Street Food,Veg,300,Yes
+1666,194,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+1667,194,Gulab Jamun,Desserts,Veg,180,Yes
+1668,194,Appam Stew,Kerala,Veg,180,No
+1669,194,Paneer Tikka,North Indian,Veg,450,No
+1670,194,Masala Dosa,South Indian,Veg,500,Yes
+1671,195,Appam Stew,Kerala,Veg,180,Yes
+1672,195,Thali,South Indian,Veg,150,Yes
+1673,195,Pani Puri,Street Food,Veg,280,Yes
+1674,195,Butter Chicken,North Indian,Non-Veg,450,Yes
+1675,195,Prawn Masala,Seafood,Non-Veg,180,Yes
+1676,195,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+1677,195,Veg Burger,Fast Food,Veg,180,Yes
+1678,195,Idli Sambar,South Indian,Veg,400,Yes
+1679,195,Dal Makhani,North Indian,Veg,200,Yes
+1680,195,Masala Dosa,South Indian,Veg,500,No
+1681,196,Vada Pav,Street Food,Veg,500,Yes
+1682,196,Prawn Masala,Seafood,Non-Veg,220,Yes
+1683,196,Pani Puri,Street Food,Veg,500,No
+1684,196,Litti Chokha,North Indian,Veg,300,No
+1685,196,Hakka Noodles,Chinese,Veg,80,Yes
+1686,196,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+1687,197,Hakka Noodles,Chinese,Veg,350,Yes
+1688,197,Paneer Tikka,North Indian,Veg,200,Yes
+1689,197,Dal Makhani,North Indian,Veg,150,Yes
+1690,197,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+1691,197,Chole Bhature,North Indian,Veg,280,No
+1692,197,Litti Chokha,North Indian,Veg,150,Yes
+1693,197,Veg Burger,Fast Food,Veg,180,Yes
+1694,197,Masala Dosa,South Indian,Veg,500,Yes
+1695,197,Rasmalai,Desserts,Veg,300,No
+1696,197,Vada Pav,Street Food,Veg,220,Yes
+1697,198,Hakka Noodles,Chinese,Veg,300,Yes
+1698,198,Idli Sambar,South Indian,Veg,500,Yes
+1699,198,Veg Biryani,Biryani,Veg,80,Yes
+1700,198,Chicken Manchurian,Chinese,Non-Veg,100,No
+1701,198,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+1702,198,Thali,South Indian,Veg,100,Yes
+1703,199,Gulab Jamun,Desserts,Veg,220,Yes
+1704,199,Idli Sambar,South Indian,Veg,120,Yes
+1705,199,Margherita Pizza,Italian,Veg,450,Yes
+1706,199,Litti Chokha,North Indian,Veg,150,Yes
+1707,199,Rasmalai,Desserts,Veg,500,Yes
+1708,199,Chole Bhature,North Indian,Veg,300,Yes
+1709,199,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+1710,199,Butter Chicken,North Indian,Non-Veg,180,Yes
+1711,200,Idli Sambar,South Indian,Veg,350,Yes
+1712,200,Masala Dosa,South Indian,Veg,100,Yes
+1713,200,Paneer Tikka,North Indian,Veg,350,Yes
+1714,200,Chicken Pizza,Italian,Non-Veg,150,Yes
+1715,200,Veg Biryani,Biryani,Veg,300,Yes
+1716,201,Rasmalai,Desserts,Veg,220,Yes
+1717,201,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+1718,201,Chicken Biryani,Biryani,Non-Veg,120,Yes
+1719,201,Pani Puri,Street Food,Veg,220,Yes
+1720,201,Paneer Tikka,North Indian,Veg,400,No
+1721,201,Butter Chicken,North Indian,Non-Veg,100,Yes
+1722,201,Appam Stew,Kerala,Veg,200,Yes
+1723,201,Chicken Burger,Fast Food,Non-Veg,80,No
+1724,201,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+1725,201,Idli Sambar,South Indian,Veg,150,Yes
+1726,201,Gulab Jamun,Desserts,Veg,180,Yes
+1727,201,Vada Pav,Street Food,Veg,400,Yes
+1728,202,Rajma Rice,North Indian,Veg,250,Yes
+1729,202,Dal Makhani,North Indian,Veg,180,Yes
+1730,202,Chicken Biryani,Biryani,Non-Veg,220,Yes
+1731,202,Margherita Pizza,Italian,Veg,250,Yes
+1732,202,Chicken Burger,Fast Food,Non-Veg,500,Yes
+1733,202,Appam Stew,Kerala,Veg,250,Yes
+1734,202,Hakka Noodles,Chinese,Veg,450,Yes
+1735,203,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+1736,203,Pav Bhaji,Street Food,Veg,220,No
+1737,203,Chole Bhature,North Indian,Veg,400,No
+1738,203,Veg Burger,Fast Food,Veg,200,Yes
+1739,203,Rasmalai,Desserts,Veg,200,Yes
+1740,203,Paratha,North Indian,Veg,350,No
+1741,203,Veg Biryani,Biryani,Veg,350,No
+1742,203,Chicken Biryani,Biryani,Non-Veg,100,Yes
+1743,203,Fish Moilee,Kerala,Non-Veg,80,Yes
+1744,204,Fish Moilee,Kerala,Non-Veg,80,No
+1745,204,Paratha,North Indian,Veg,350,Yes
+1746,204,Chicken Burger,Fast Food,Non-Veg,450,Yes
+1747,204,Vada Pav,Street Food,Veg,120,Yes
+1748,204,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+1749,204,Prawn Masala,Seafood,Non-Veg,350,Yes
+1750,205,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+1751,205,Chicken Burger,Fast Food,Non-Veg,150,Yes
+1752,205,Prawn Masala,Seafood,Non-Veg,120,Yes
+1753,205,Veg Burger,Fast Food,Veg,350,No
+1754,205,Hakka Noodles,Chinese,Veg,100,Yes
+1755,205,Butter Chicken,North Indian,Non-Veg,300,Yes
+1756,205,Margherita Pizza,Italian,Veg,100,Yes
+1757,205,Thali,South Indian,Veg,220,Yes
+1758,205,Pani Puri,Street Food,Veg,350,Yes
+1759,205,Paratha,North Indian,Veg,220,Yes
+1760,205,Chicken Pizza,Italian,Non-Veg,250,Yes
+1761,206,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+1762,206,Litti Chokha,North Indian,Veg,80,Yes
+1763,206,Masala Dosa,South Indian,Veg,250,Yes
+1764,206,Rasmalai,Desserts,Veg,450,Yes
+1765,206,Pani Puri,Street Food,Veg,300,Yes
+1766,206,Chole Bhature,North Indian,Veg,500,Yes
+1767,207,Chole Bhature,North Indian,Veg,350,No
+1768,207,Masala Dosa,South Indian,Veg,220,Yes
+1769,207,Chicken Tikka,Mughlai,Non-Veg,120,No
+1770,207,Chicken Pizza,Italian,Non-Veg,450,Yes
+1771,207,Pav Bhaji,Street Food,Veg,100,No
+1772,207,Rasmalai,Desserts,Veg,350,Yes
+1773,208,Chicken Pizza,Italian,Non-Veg,350,Yes
+1774,208,Vada Pav,Street Food,Veg,500,No
+1775,208,Gulab Jamun,Desserts,Veg,450,Yes
+1776,208,Chicken Biryani,Biryani,Non-Veg,120,No
+1777,208,Thali,South Indian,Veg,220,Yes
+1778,208,Chole Bhature,North Indian,Veg,120,No
+1779,208,Fish Curry,Seafood,Non-Veg,250,Yes
+1780,208,Masala Dosa,South Indian,Veg,500,Yes
+1781,208,Paneer Tikka,North Indian,Veg,100,Yes
+1782,208,Veg Biryani,Biryani,Veg,250,Yes
+1783,208,Chicken Burger,Fast Food,Non-Veg,180,Yes
+1784,208,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+1785,209,Chicken Manchurian,Chinese,Non-Veg,250,No
+1786,209,Fish Moilee,Kerala,Non-Veg,180,No
+1787,209,Pav Bhaji,Street Food,Veg,280,Yes
+1788,209,Veg Burger,Fast Food,Veg,300,No
+1789,209,Margherita Pizza,Italian,Veg,120,Yes
+1790,209,Vada Pav,Street Food,Veg,180,Yes
+1791,209,Appam Stew,Kerala,Veg,400,Yes
+1792,209,Rasmalai,Desserts,Veg,500,Yes
+1793,210,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+1794,210,Chicken Pizza,Italian,Non-Veg,300,Yes
+1795,210,Chicken Burger,Fast Food,Non-Veg,300,No
+1796,210,Masala Dosa,South Indian,Veg,200,No
+1797,210,Vada Pav,Street Food,Veg,280,Yes
+1798,211,Masala Dosa,South Indian,Veg,120,No
+1799,211,Fish Moilee,Kerala,Non-Veg,220,No
+1800,211,Veg Burger,Fast Food,Veg,120,Yes
+1801,211,Paneer Tikka,North Indian,Veg,400,Yes
+1802,211,Chicken Pizza,Italian,Non-Veg,400,Yes
+1803,211,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,No
+1804,212,Chicken Tikka,Mughlai,Non-Veg,180,No
+1805,212,Veg Burger,Fast Food,Veg,500,Yes
+1806,212,Pani Puri,Street Food,Veg,80,Yes
+1807,212,Masala Dosa,South Indian,Veg,120,Yes
+1808,212,Chicken Biryani,Biryani,Non-Veg,180,No
+1809,212,Fish Moilee,Kerala,Non-Veg,250,Yes
+1810,212,Gulab Jamun,Desserts,Veg,180,Yes
+1811,212,Veg Biryani,Biryani,Veg,250,No
+1812,213,Pav Bhaji,Street Food,Veg,80,No
+1813,213,Veg Biryani,Biryani,Veg,80,Yes
+1814,213,Litti Chokha,North Indian,Veg,150,Yes
+1815,213,Fish Curry,Seafood,Non-Veg,100,Yes
+1816,213,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+1817,213,Paratha,North Indian,Veg,450,Yes
+1818,213,Chicken Burger,Fast Food,Non-Veg,150,No
+1819,214,Paratha,North Indian,Veg,100,No
+1820,214,Paneer Tikka,North Indian,Veg,250,No
+1821,214,Gulab Jamun,Desserts,Veg,450,No
+1822,214,Pani Puri,Street Food,Veg,80,No
+1823,214,Fish Moilee,Kerala,Non-Veg,150,No
+1824,214,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+1825,214,Vada Pav,Street Food,Veg,350,Yes
+1826,215,Chole Bhature,North Indian,Veg,280,Yes
+1827,215,Butter Chicken,North Indian,Non-Veg,120,No
+1828,215,Veg Biryani,Biryani,Veg,500,Yes
+1829,215,Chicken Biryani,Biryani,Non-Veg,450,Yes
+1830,215,Masala Dosa,South Indian,Veg,150,Yes
+1831,215,Appam Stew,Kerala,Veg,220,No
+1832,215,Thali,South Indian,Veg,350,No
+1833,215,Paneer Tikka,North Indian,Veg,80,Yes
+1834,215,Veg Burger,Fast Food,Veg,400,No
+1835,215,Fish Curry,Seafood,Non-Veg,250,Yes
+1836,215,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+1837,216,Butter Chicken,North Indian,Non-Veg,80,Yes
+1838,216,Litti Chokha,North Indian,Veg,220,Yes
+1839,216,Vada Pav,Street Food,Veg,300,Yes
+1840,216,Chicken Burger,Fast Food,Non-Veg,100,Yes
+1841,216,Veg Burger,Fast Food,Veg,120,Yes
+1842,216,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+1843,216,Rasmalai,Desserts,Veg,450,Yes
+1844,216,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+1845,216,Chicken Pizza,Italian,Non-Veg,200,Yes
+1846,216,Rajma Rice,North Indian,Veg,500,Yes
+1847,216,Masala Dosa,South Indian,Veg,100,Yes
+1848,217,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+1849,217,Margherita Pizza,Italian,Veg,150,Yes
+1850,217,Veg Biryani,Biryani,Veg,180,Yes
+1851,217,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+1852,217,Pav Bhaji,Street Food,Veg,80,Yes
+1853,217,Fish Curry,Seafood,Non-Veg,80,Yes
+1854,217,Paratha,North Indian,Veg,150,Yes
+1855,217,Rajma Rice,North Indian,Veg,200,No
+1856,217,Chicken Burger,Fast Food,Non-Veg,220,Yes
+1857,217,Paneer Tikka,North Indian,Veg,100,Yes
+1858,218,Chole Bhature,North Indian,Veg,180,No
+1859,218,Fish Curry,Seafood,Non-Veg,200,Yes
+1860,218,Chicken Burger,Fast Food,Non-Veg,280,Yes
+1861,218,Litti Chokha,North Indian,Veg,150,Yes
+1862,218,Veg Biryani,Biryani,Veg,300,Yes
+1863,218,Chicken Tikka,Mughlai,Non-Veg,100,No
+1864,218,Thali,South Indian,Veg,280,Yes
+1865,218,Fish Moilee,Kerala,Non-Veg,220,Yes
+1866,218,Pani Puri,Street Food,Veg,250,Yes
+1867,218,Chicken Manchurian,Chinese,Non-Veg,250,No
+1868,219,Paneer Tikka,North Indian,Veg,300,Yes
+1869,219,Chicken Biryani,Biryani,Non-Veg,250,Yes
+1870,219,Rasmalai,Desserts,Veg,220,Yes
+1871,219,Pani Puri,Street Food,Veg,100,Yes
+1872,219,Masala Dosa,South Indian,Veg,280,No
+1873,219,Hakka Noodles,Chinese,Veg,220,No
+1874,219,Veg Burger,Fast Food,Veg,100,Yes
+1875,219,Veg Biryani,Biryani,Veg,300,No
+1876,219,Margherita Pizza,Italian,Veg,500,No
+1877,220,Pav Bhaji,Street Food,Veg,500,Yes
+1878,220,Gulab Jamun,Desserts,Veg,400,Yes
+1879,220,Rajma Rice,North Indian,Veg,500,Yes
+1880,220,Paratha,North Indian,Veg,200,Yes
+1881,220,Fish Curry,Seafood,Non-Veg,200,Yes
+1882,220,Chole Bhature,North Indian,Veg,180,Yes
+1883,220,Veg Burger,Fast Food,Veg,350,Yes
+1884,220,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+1885,220,Idli Sambar,South Indian,Veg,220,Yes
+1886,220,Chicken Pizza,Italian,Non-Veg,250,Yes
+1887,220,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1888,220,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+1889,221,Dal Makhani,North Indian,Veg,180,Yes
+1890,221,Gulab Jamun,Desserts,Veg,220,No
+1891,221,Chicken Burger,Fast Food,Non-Veg,350,Yes
+1892,221,Thali,South Indian,Veg,100,No
+1893,221,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,No
+1894,221,Appam Stew,Kerala,Veg,200,Yes
+1895,221,Fish Curry,Seafood,Non-Veg,100,Yes
+1896,221,Idli Sambar,South Indian,Veg,280,Yes
+1897,222,Chicken Pizza,Italian,Non-Veg,150,Yes
+1898,222,Prawn Masala,Seafood,Non-Veg,500,No
+1899,222,Chicken Manchurian,Chinese,Non-Veg,120,No
+1900,222,Rasmalai,Desserts,Veg,450,No
+1901,222,Chole Bhature,North Indian,Veg,220,Yes
+1902,222,Butter Chicken,North Indian,Non-Veg,180,Yes
+1903,222,Appam Stew,Kerala,Veg,100,Yes
+1904,222,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+1905,222,Masala Dosa,South Indian,Veg,120,Yes
+1906,222,Fish Curry,Seafood,Non-Veg,120,Yes
+1907,222,Vada Pav,Street Food,Veg,180,No
+1908,223,Dal Makhani,North Indian,Veg,80,No
+1909,223,Butter Chicken,North Indian,Non-Veg,120,Yes
+1910,223,Appam Stew,Kerala,Veg,350,No
+1911,223,Prawn Masala,Seafood,Non-Veg,450,Yes
+1912,223,Hakka Noodles,Chinese,Veg,280,Yes
+1913,223,Chole Bhature,North Indian,Veg,250,No
+1914,224,Hakka Noodles,Chinese,Veg,350,No
+1915,224,Rajma Rice,North Indian,Veg,150,Yes
+1916,224,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+1917,224,Veg Biryani,Biryani,Veg,80,No
+1918,224,Fish Moilee,Kerala,Non-Veg,100,Yes
+1919,224,Litti Chokha,North Indian,Veg,100,Yes
+1920,224,Fish Curry,Seafood,Non-Veg,500,Yes
+1921,224,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+1922,224,Masala Dosa,South Indian,Veg,120,Yes
+1923,224,Vada Pav,Street Food,Veg,180,Yes
+1924,224,Veg Burger,Fast Food,Veg,250,Yes
+1925,224,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+1926,225,Rajma Rice,North Indian,Veg,500,No
+1927,225,Veg Burger,Fast Food,Veg,100,No
+1928,225,Chicken Manchurian,Chinese,Non-Veg,100,No
+1929,225,Fish Moilee,Kerala,Non-Veg,200,No
+1930,225,Paratha,North Indian,Veg,200,No
+1931,225,Thali,South Indian,Veg,220,No
+1932,225,Hakka Noodles,Chinese,Veg,220,Yes
+1933,225,Litti Chokha,North Indian,Veg,80,No
+1934,225,Veg Biryani,Biryani,Veg,280,Yes
+1935,225,Rasmalai,Desserts,Veg,150,Yes
+1936,226,Butter Chicken,North Indian,Non-Veg,350,No
+1937,226,Pani Puri,Street Food,Veg,350,Yes
+1938,226,Rasmalai,Desserts,Veg,150,No
+1939,226,Paratha,North Indian,Veg,300,Yes
+1940,226,Pav Bhaji,Street Food,Veg,400,Yes
+1941,226,Masala Dosa,South Indian,Veg,120,Yes
+1942,226,Idli Sambar,South Indian,Veg,300,Yes
+1943,226,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+1944,226,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+1945,227,Butter Chicken,North Indian,Non-Veg,450,Yes
+1946,227,Pav Bhaji,Street Food,Veg,100,Yes
+1947,227,Paratha,North Indian,Veg,80,Yes
+1948,227,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+1949,227,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+1950,227,Veg Burger,Fast Food,Veg,220,Yes
+1951,227,Dal Makhani,North Indian,Veg,80,Yes
+1952,227,Chicken Pizza,Italian,Non-Veg,120,No
+1953,227,Paneer Tikka,North Indian,Veg,200,Yes
+1954,227,Veg Biryani,Biryani,Veg,350,Yes
+1955,227,Vada Pav,Street Food,Veg,500,No
+1956,227,Appam Stew,Kerala,Veg,200,No
+1957,228,Dal Makhani,North Indian,Veg,250,Yes
+1958,228,Vada Pav,Street Food,Veg,300,Yes
+1959,228,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+1960,228,Fish Curry,Seafood,Non-Veg,300,No
+1961,228,Fish Moilee,Kerala,Non-Veg,250,Yes
+1962,228,Paratha,North Indian,Veg,500,Yes
+1963,228,Chole Bhature,North Indian,Veg,220,Yes
+1964,228,Pav Bhaji,Street Food,Veg,400,No
+1965,229,Litti Chokha,North Indian,Veg,500,No
+1966,229,Mutton Rogan Josh,Mughlai,Non-Veg,220,Yes
+1967,229,Veg Burger,Fast Food,Veg,120,Yes
+1968,229,Fish Moilee,Kerala,Non-Veg,180,No
+1969,229,Dal Makhani,North Indian,Veg,280,Yes
+1970,229,Masala Dosa,South Indian,Veg,180,Yes
+1971,229,Butter Chicken,North Indian,Non-Veg,400,No
+1972,229,Chole Bhature,North Indian,Veg,350,Yes
+1973,229,Chicken Biryani,Biryani,Non-Veg,180,Yes
+1974,229,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+1975,229,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+1976,230,Prawn Masala,Seafood,Non-Veg,180,No
+1977,230,Margherita Pizza,Italian,Veg,450,Yes
+1978,230,Veg Burger,Fast Food,Veg,200,Yes
+1979,230,Paneer Tikka,North Indian,Veg,300,Yes
+1980,230,Chicken Biryani,Biryani,Non-Veg,280,Yes
+1981,231,Chole Bhature,North Indian,Veg,350,Yes
+1982,231,Fish Moilee,Kerala,Non-Veg,150,Yes
+1983,231,Masala Dosa,South Indian,Veg,220,Yes
+1984,231,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+1985,231,Veg Biryani,Biryani,Veg,450,Yes
+1986,231,Margherita Pizza,Italian,Veg,100,Yes
+1987,231,Chicken Burger,Fast Food,Non-Veg,80,Yes
+1988,231,Pani Puri,Street Food,Veg,300,Yes
+1989,231,Paneer Tikka,North Indian,Veg,280,Yes
+1990,232,Prawn Masala,Seafood,Non-Veg,450,Yes
+1991,232,Hakka Noodles,Chinese,Veg,500,Yes
+1992,232,Fish Curry,Seafood,Non-Veg,120,Yes
+1993,232,Veg Biryani,Biryani,Veg,200,Yes
+1994,232,Rajma Rice,North Indian,Veg,100,Yes
+1995,232,Butter Chicken,North Indian,Non-Veg,280,Yes
+1996,233,Rasmalai,Desserts,Veg,180,Yes
+1997,233,Rajma Rice,North Indian,Veg,350,No
+1998,233,Dal Makhani,North Indian,Veg,220,No
+1999,233,Paneer Tikka,North Indian,Veg,100,Yes
+2000,233,Pani Puri,Street Food,Veg,450,No
+2001,234,Idli Sambar,South Indian,Veg,280,Yes
+2002,234,Prawn Masala,Seafood,Non-Veg,200,Yes
+2003,234,Chicken Burger,Fast Food,Non-Veg,450,No
+2004,234,Butter Chicken,North Indian,Non-Veg,400,Yes
+2005,234,Fish Curry,Seafood,Non-Veg,450,No
+2006,234,Chicken Biryani,Biryani,Non-Veg,500,Yes
+2007,234,Masala Dosa,South Indian,Veg,500,Yes
+2008,234,Rajma Rice,North Indian,Veg,400,Yes
+2009,234,Veg Burger,Fast Food,Veg,100,Yes
+2010,234,Litti Chokha,North Indian,Veg,80,Yes
+2011,234,Chicken Pizza,Italian,Non-Veg,350,Yes
+2012,235,Butter Chicken,North Indian,Non-Veg,300,Yes
+2013,235,Litti Chokha,North Indian,Veg,120,Yes
+2014,235,Rasmalai,Desserts,Veg,280,Yes
+2015,235,Chicken Pizza,Italian,Non-Veg,400,Yes
+2016,235,Chicken Manchurian,Chinese,Non-Veg,120,No
+2017,235,Chole Bhature,North Indian,Veg,300,Yes
+2018,235,Thali,South Indian,Veg,250,No
+2019,235,Hakka Noodles,Chinese,Veg,400,Yes
+2020,236,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+2021,236,Rajma Rice,North Indian,Veg,250,Yes
+2022,236,Veg Biryani,Biryani,Veg,280,No
+2023,236,Margherita Pizza,Italian,Veg,250,No
+2024,236,Appam Stew,Kerala,Veg,500,Yes
+2025,237,Chicken Pizza,Italian,Non-Veg,80,Yes
+2026,237,Dal Makhani,North Indian,Veg,400,No
+2027,237,Pani Puri,Street Food,Veg,450,Yes
+2028,237,Prawn Masala,Seafood,Non-Veg,250,No
+2029,237,Fish Curry,Seafood,Non-Veg,120,Yes
+2030,237,Veg Burger,Fast Food,Veg,120,No
+2031,237,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,No
+2032,237,Pav Bhaji,Street Food,Veg,250,Yes
+2033,238,Hakka Noodles,Chinese,Veg,280,Yes
+2034,238,Chicken Burger,Fast Food,Non-Veg,250,Yes
+2035,238,Margherita Pizza,Italian,Veg,300,Yes
+2036,238,Chicken Biryani,Biryani,Non-Veg,450,Yes
+2037,238,Litti Chokha,North Indian,Veg,300,Yes
+2038,238,Vada Pav,Street Food,Veg,120,Yes
+2039,238,Idli Sambar,South Indian,Veg,200,No
+2040,238,Rajma Rice,North Indian,Veg,250,No
+2041,239,Chicken Pizza,Italian,Non-Veg,80,Yes
+2042,239,Vada Pav,Street Food,Veg,280,Yes
+2043,239,Rasmalai,Desserts,Veg,400,Yes
+2044,239,Fish Moilee,Kerala,Non-Veg,200,Yes
+2045,239,Chicken Manchurian,Chinese,Non-Veg,100,Yes
+2046,239,Margherita Pizza,Italian,Veg,100,No
+2047,239,Mutton Rogan Josh,Mughlai,Non-Veg,100,No
+2048,240,Chicken Manchurian,Chinese,Non-Veg,200,Yes
+2049,240,Prawn Masala,Seafood,Non-Veg,280,No
+2050,240,Gulab Jamun,Desserts,Veg,100,Yes
+2051,240,Chole Bhature,North Indian,Veg,500,Yes
+2052,240,Litti Chokha,North Indian,Veg,280,No
+2053,240,Chicken Biryani,Biryani,Non-Veg,80,Yes
+2054,240,Masala Dosa,South Indian,Veg,500,Yes
+2055,240,Appam Stew,Kerala,Veg,450,Yes
+2056,240,Pav Bhaji,Street Food,Veg,80,Yes
+2057,240,Margherita Pizza,Italian,Veg,180,Yes
+2058,241,Fish Curry,Seafood,Non-Veg,250,Yes
+2059,241,Hakka Noodles,Chinese,Veg,350,Yes
+2060,241,Prawn Masala,Seafood,Non-Veg,350,Yes
+2061,241,Fish Moilee,Kerala,Non-Veg,450,Yes
+2062,241,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+2063,241,Pav Bhaji,Street Food,Veg,80,Yes
+2064,241,Chicken Burger,Fast Food,Non-Veg,100,Yes
+2065,242,Chicken Burger,Fast Food,Non-Veg,120,Yes
+2066,242,Butter Chicken,North Indian,Non-Veg,220,Yes
+2067,242,Chicken Biryani,Biryani,Non-Veg,120,Yes
+2068,242,Pani Puri,Street Food,Veg,120,Yes
+2069,242,Fish Curry,Seafood,Non-Veg,500,Yes
+2070,242,Margherita Pizza,Italian,Veg,220,Yes
+2071,242,Fish Moilee,Kerala,Non-Veg,500,Yes
+2072,242,Paneer Tikka,North Indian,Veg,350,Yes
+2073,242,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+2074,242,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+2075,243,Chicken Burger,Fast Food,Non-Veg,400,No
+2076,243,Chole Bhature,North Indian,Veg,200,Yes
+2077,243,Butter Chicken,North Indian,Non-Veg,250,Yes
+2078,243,Masala Dosa,South Indian,Veg,80,Yes
+2079,243,Appam Stew,Kerala,Veg,250,Yes
+2080,243,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+2081,243,Idli Sambar,South Indian,Veg,180,No
+2082,243,Margherita Pizza,Italian,Veg,350,Yes
+2083,243,Pani Puri,Street Food,Veg,220,No
+2084,243,Chicken Pizza,Italian,Non-Veg,180,Yes
+2085,243,Fish Moilee,Kerala,Non-Veg,400,No
+2086,243,Hyderabadi Biryani,Hyderabadi,Non-Veg,280,No
+2087,244,Pav Bhaji,Street Food,Veg,400,Yes
+2088,244,Chicken Burger,Fast Food,Non-Veg,180,No
+2089,244,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+2090,244,Chicken Tikka,Mughlai,Non-Veg,280,No
+2091,244,Pani Puri,Street Food,Veg,200,Yes
+2092,244,Dal Makhani,North Indian,Veg,350,Yes
+2093,244,Fish Moilee,Kerala,Non-Veg,280,Yes
+2094,244,Vada Pav,Street Food,Veg,450,Yes
+2095,245,Veg Burger,Fast Food,Veg,500,No
+2096,245,Pav Bhaji,Street Food,Veg,150,No
+2097,245,Chicken Burger,Fast Food,Non-Veg,220,Yes
+2098,245,Prawn Masala,Seafood,Non-Veg,280,Yes
+2099,245,Chicken Pizza,Italian,Non-Veg,150,Yes
+2100,245,Litti Chokha,North Indian,Veg,80,No
+2101,245,Idli Sambar,South Indian,Veg,250,Yes
+2102,245,Appam Stew,Kerala,Veg,280,No
+2103,246,Pani Puri,Street Food,Veg,150,Yes
+2104,246,Fish Curry,Seafood,Non-Veg,450,No
+2105,246,Thali,South Indian,Veg,450,Yes
+2106,246,Rasmalai,Desserts,Veg,350,Yes
+2107,246,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+2108,247,Rasmalai,Desserts,Veg,400,Yes
+2109,247,Paratha,North Indian,Veg,300,Yes
+2110,247,Vada Pav,Street Food,Veg,280,Yes
+2111,247,Prawn Masala,Seafood,Non-Veg,220,No
+2112,247,Paneer Tikka,North Indian,Veg,120,Yes
+2113,247,Pav Bhaji,Street Food,Veg,80,No
+2114,247,Butter Chicken,North Indian,Non-Veg,150,Yes
+2115,247,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2116,247,Litti Chokha,North Indian,Veg,300,Yes
+2117,247,Appam Stew,Kerala,Veg,400,No
+2118,247,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,Yes
+2119,248,Pani Puri,Street Food,Veg,280,Yes
+2120,248,Masala Dosa,South Indian,Veg,100,No
+2121,248,Litti Chokha,North Indian,Veg,120,Yes
+2122,248,Gulab Jamun,Desserts,Veg,280,Yes
+2123,248,Vada Pav,Street Food,Veg,100,Yes
+2124,248,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+2125,248,Chicken Burger,Fast Food,Non-Veg,400,Yes
+2126,248,Pav Bhaji,Street Food,Veg,180,Yes
+2127,248,Veg Burger,Fast Food,Veg,80,Yes
+2128,248,Rajma Rice,North Indian,Veg,280,Yes
+2129,248,Butter Chicken,North Indian,Non-Veg,180,Yes
+2130,248,Dal Makhani,North Indian,Veg,200,Yes
+2131,249,Masala Dosa,South Indian,Veg,350,Yes
+2132,249,Hakka Noodles,Chinese,Veg,500,Yes
+2133,249,Rasmalai,Desserts,Veg,450,No
+2134,249,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+2135,249,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+2136,249,Veg Burger,Fast Food,Veg,450,Yes
+2137,250,Masala Dosa,South Indian,Veg,180,Yes
+2138,250,Dal Makhani,North Indian,Veg,220,Yes
+2139,250,Veg Burger,Fast Food,Veg,120,No
+2140,250,Pav Bhaji,Street Food,Veg,500,Yes
+2141,250,Gulab Jamun,Desserts,Veg,120,No
+2142,250,Butter Chicken,North Indian,Non-Veg,500,No
+2143,251,Appam Stew,Kerala,Veg,200,No
+2144,251,Veg Burger,Fast Food,Veg,150,Yes
+2145,251,Pav Bhaji,Street Food,Veg,280,Yes
+2146,251,Veg Biryani,Biryani,Veg,200,Yes
+2147,251,Paratha,North Indian,Veg,200,Yes
+2148,251,Paneer Tikka,North Indian,Veg,180,No
+2149,251,Fish Curry,Seafood,Non-Veg,80,Yes
+2150,252,Vada Pav,Street Food,Veg,200,Yes
+2151,252,Veg Biryani,Biryani,Veg,400,No
+2152,252,Chicken Biryani,Biryani,Non-Veg,400,Yes
+2153,252,Chicken Manchurian,Chinese,Non-Veg,450,No
+2154,252,Veg Burger,Fast Food,Veg,120,No
+2155,252,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2156,252,Pav Bhaji,Street Food,Veg,220,No
+2157,252,Rajma Rice,North Indian,Veg,150,Yes
+2158,253,Chicken Tikka,Mughlai,Non-Veg,450,No
+2159,253,Margherita Pizza,Italian,Veg,180,Yes
+2160,253,Veg Biryani,Biryani,Veg,120,No
+2161,253,Fish Moilee,Kerala,Non-Veg,80,Yes
+2162,253,Masala Dosa,South Indian,Veg,280,Yes
+2163,253,Chicken Biryani,Biryani,Non-Veg,280,No
+2164,253,Veg Burger,Fast Food,Veg,220,Yes
+2165,253,Vada Pav,Street Food,Veg,80,Yes
+2166,253,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+2167,253,Pav Bhaji,Street Food,Veg,100,No
+2168,253,Chicken Pizza,Italian,Non-Veg,150,Yes
+2169,253,Idli Sambar,South Indian,Veg,450,Yes
+2170,254,Chicken Biryani,Biryani,Non-Veg,500,Yes
+2171,254,Chicken Pizza,Italian,Non-Veg,500,Yes
+2172,254,Rajma Rice,North Indian,Veg,350,No
+2173,254,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+2174,254,Paneer Tikka,North Indian,Veg,350,Yes
+2175,254,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2176,254,Vada Pav,Street Food,Veg,180,Yes
+2177,254,Appam Stew,Kerala,Veg,500,Yes
+2178,254,Litti Chokha,North Indian,Veg,180,Yes
+2179,254,Rasmalai,Desserts,Veg,500,Yes
+2180,255,Chicken Burger,Fast Food,Non-Veg,200,Yes
+2181,255,Masala Dosa,South Indian,Veg,500,Yes
+2182,255,Paneer Tikka,North Indian,Veg,280,Yes
+2183,255,Thali,South Indian,Veg,450,Yes
+2184,255,Pav Bhaji,Street Food,Veg,100,Yes
+2185,255,Rasmalai,Desserts,Veg,180,Yes
+2186,255,Dal Makhani,North Indian,Veg,250,Yes
+2187,255,Margherita Pizza,Italian,Veg,450,Yes
+2188,255,Mutton Rogan Josh,Mughlai,Non-Veg,250,No
+2189,256,Idli Sambar,South Indian,Veg,150,Yes
+2190,256,Rasmalai,Desserts,Veg,280,Yes
+2191,256,Thali,South Indian,Veg,350,Yes
+2192,256,Chicken Biryani,Biryani,Non-Veg,150,No
+2193,256,Veg Biryani,Biryani,Veg,300,Yes
+2194,256,Paratha,North Indian,Veg,150,Yes
+2195,256,Vada Pav,Street Food,Veg,80,Yes
+2196,256,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+2197,256,Gulab Jamun,Desserts,Veg,250,Yes
+2198,256,Butter Chicken,North Indian,Non-Veg,350,Yes
+2199,256,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+2200,256,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+2201,257,Veg Burger,Fast Food,Veg,450,Yes
+2202,257,Hakka Noodles,Chinese,Veg,250,Yes
+2203,257,Rasmalai,Desserts,Veg,500,Yes
+2204,257,Masala Dosa,South Indian,Veg,280,Yes
+2205,257,Margherita Pizza,Italian,Veg,500,No
+2206,257,Vada Pav,Street Food,Veg,120,Yes
+2207,258,Rajma Rice,North Indian,Veg,300,Yes
+2208,258,Fish Curry,Seafood,Non-Veg,120,Yes
+2209,258,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+2210,258,Dal Makhani,North Indian,Veg,220,Yes
+2211,258,Fish Moilee,Kerala,Non-Veg,450,Yes
+2212,259,Chole Bhature,North Indian,Veg,350,No
+2213,259,Veg Burger,Fast Food,Veg,250,Yes
+2214,259,Hakka Noodles,Chinese,Veg,250,Yes
+2215,259,Chicken Pizza,Italian,Non-Veg,200,Yes
+2216,259,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+2217,259,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+2218,259,Veg Biryani,Biryani,Veg,180,Yes
+2219,259,Butter Chicken,North Indian,Non-Veg,80,Yes
+2220,259,Pav Bhaji,Street Food,Veg,450,Yes
+2221,259,Masala Dosa,South Indian,Veg,80,Yes
+2222,259,Gulab Jamun,Desserts,Veg,450,No
+2223,259,Fish Curry,Seafood,Non-Veg,400,Yes
+2224,260,Prawn Masala,Seafood,Non-Veg,280,No
+2225,260,Rasmalai,Desserts,Veg,250,No
+2226,260,Paneer Tikka,North Indian,Veg,80,Yes
+2227,260,Chole Bhature,North Indian,Veg,350,Yes
+2228,260,Rajma Rice,North Indian,Veg,180,Yes
+2229,260,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+2230,260,Chicken Burger,Fast Food,Non-Veg,180,No
+2231,260,Pav Bhaji,Street Food,Veg,350,No
+2232,260,Litti Chokha,North Indian,Veg,350,Yes
+2233,260,Idli Sambar,South Indian,Veg,180,Yes
+2234,260,Thali,South Indian,Veg,280,Yes
+2235,260,Vada Pav,Street Food,Veg,150,No
+2236,261,Paneer Tikka,North Indian,Veg,120,No
+2237,261,Chicken Biryani,Biryani,Non-Veg,120,Yes
+2238,261,Dal Makhani,North Indian,Veg,80,Yes
+2239,261,Fish Moilee,Kerala,Non-Veg,100,Yes
+2240,261,Prawn Masala,Seafood,Non-Veg,150,Yes
+2241,261,Veg Burger,Fast Food,Veg,220,Yes
+2242,262,Prawn Masala,Seafood,Non-Veg,150,Yes
+2243,262,Mutton Rogan Josh,Mughlai,Non-Veg,200,Yes
+2244,262,Idli Sambar,South Indian,Veg,120,Yes
+2245,262,Masala Dosa,South Indian,Veg,450,Yes
+2246,262,Butter Chicken,North Indian,Non-Veg,350,Yes
+2247,262,Veg Biryani,Biryani,Veg,450,No
+2248,263,Rajma Rice,North Indian,Veg,500,Yes
+2249,263,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+2250,263,Chicken Burger,Fast Food,Non-Veg,350,No
+2251,263,Chicken Pizza,Italian,Non-Veg,150,No
+2252,263,Dal Makhani,North Indian,Veg,300,Yes
+2253,263,Fish Moilee,Kerala,Non-Veg,250,Yes
+2254,264,Chicken Pizza,Italian,Non-Veg,250,Yes
+2255,264,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+2256,264,Idli Sambar,South Indian,Veg,220,Yes
+2257,264,Paneer Tikka,North Indian,Veg,180,Yes
+2258,264,Fish Moilee,Kerala,Non-Veg,500,Yes
+2259,264,Butter Chicken,North Indian,Non-Veg,450,Yes
+2260,264,Pav Bhaji,Street Food,Veg,100,Yes
+2261,264,Masala Dosa,South Indian,Veg,150,No
+2262,264,Chicken Biryani,Biryani,Non-Veg,80,Yes
+2263,264,Chicken Tikka,Mughlai,Non-Veg,100,Yes
+2264,264,Veg Biryani,Biryani,Veg,450,Yes
+2265,264,Appam Stew,Kerala,Veg,300,Yes
+2266,265,Pav Bhaji,Street Food,Veg,200,Yes
+2267,265,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+2268,265,Pani Puri,Street Food,Veg,300,Yes
+2269,265,Chicken Pizza,Italian,Non-Veg,250,No
+2270,265,Rasmalai,Desserts,Veg,250,Yes
+2271,265,Chicken Manchurian,Chinese,Non-Veg,150,No
+2272,265,Masala Dosa,South Indian,Veg,250,Yes
+2273,265,Appam Stew,Kerala,Veg,400,No
+2274,265,Margherita Pizza,Italian,Veg,450,Yes
+2275,266,Dal Makhani,North Indian,Veg,150,Yes
+2276,266,Gulab Jamun,Desserts,Veg,200,Yes
+2277,266,Pav Bhaji,Street Food,Veg,250,Yes
+2278,266,Margherita Pizza,Italian,Veg,250,Yes
+2279,266,Veg Biryani,Biryani,Veg,150,No
+2280,266,Masala Dosa,South Indian,Veg,400,Yes
+2281,266,Rajma Rice,North Indian,Veg,500,Yes
+2282,266,Fish Moilee,Kerala,Non-Veg,120,Yes
+2283,266,Paratha,North Indian,Veg,150,Yes
+2284,266,Hakka Noodles,Chinese,Veg,350,No
+2285,266,Prawn Masala,Seafood,Non-Veg,100,Yes
+2286,267,Appam Stew,Kerala,Veg,180,Yes
+2287,267,Margherita Pizza,Italian,Veg,100,No
+2288,267,Thali,South Indian,Veg,220,Yes
+2289,267,Idli Sambar,South Indian,Veg,350,Yes
+2290,267,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+2291,267,Chicken Pizza,Italian,Non-Veg,200,Yes
+2292,267,Chole Bhature,North Indian,Veg,180,Yes
+2293,267,Rajma Rice,North Indian,Veg,100,No
+2294,267,Butter Chicken,North Indian,Non-Veg,280,No
+2295,268,Thali,South Indian,Veg,220,No
+2296,268,Chicken Pizza,Italian,Non-Veg,300,No
+2297,268,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+2298,268,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+2299,268,Butter Chicken,North Indian,Non-Veg,80,Yes
+2300,268,Litti Chokha,North Indian,Veg,180,Yes
+2301,268,Margherita Pizza,Italian,Veg,250,Yes
+2302,268,Vada Pav,Street Food,Veg,220,Yes
+2303,269,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+2304,269,Pav Bhaji,Street Food,Veg,350,Yes
+2305,269,Gulab Jamun,Desserts,Veg,250,Yes
+2306,269,Idli Sambar,South Indian,Veg,220,Yes
+2307,269,Rajma Rice,North Indian,Veg,300,Yes
+2308,269,Masala Dosa,South Indian,Veg,180,Yes
+2309,270,Pani Puri,Street Food,Veg,350,Yes
+2310,270,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+2311,270,Paneer Tikka,North Indian,Veg,100,No
+2312,270,Margherita Pizza,Italian,Veg,120,Yes
+2313,270,Rajma Rice,North Indian,Veg,280,Yes
+2314,271,Chicken Manchurian,Chinese,Non-Veg,400,No
+2315,271,Veg Biryani,Biryani,Veg,350,Yes
+2316,271,Fish Curry,Seafood,Non-Veg,500,No
+2317,271,Chole Bhature,North Indian,Veg,200,No
+2318,271,Butter Chicken,North Indian,Non-Veg,280,Yes
+2319,271,Chicken Biryani,Biryani,Non-Veg,500,No
+2320,271,Prawn Masala,Seafood,Non-Veg,180,No
+2321,271,Thali,South Indian,Veg,300,Yes
+2322,271,Hakka Noodles,Chinese,Veg,200,Yes
+2323,272,Veg Biryani,Biryani,Veg,450,Yes
+2324,272,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+2325,272,Pani Puri,Street Food,Veg,280,Yes
+2326,272,Litti Chokha,North Indian,Veg,280,Yes
+2327,272,Chicken Tikka,Mughlai,Non-Veg,80,No
+2328,272,Prawn Masala,Seafood,Non-Veg,100,No
+2329,272,Chicken Pizza,Italian,Non-Veg,150,Yes
+2330,273,Litti Chokha,North Indian,Veg,250,Yes
+2331,273,Dal Makhani,North Indian,Veg,400,No
+2332,273,Veg Biryani,Biryani,Veg,100,No
+2333,273,Chicken Pizza,Italian,Non-Veg,300,Yes
+2334,273,Chole Bhature,North Indian,Veg,300,No
+2335,273,Pani Puri,Street Food,Veg,150,No
+2336,273,Idli Sambar,South Indian,Veg,280,Yes
+2337,273,Rasmalai,Desserts,Veg,100,Yes
+2338,273,Hakka Noodles,Chinese,Veg,280,Yes
+2339,273,Pav Bhaji,Street Food,Veg,220,Yes
+2340,273,Chicken Burger,Fast Food,Non-Veg,400,Yes
+2341,274,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,No
+2342,274,Chole Bhature,North Indian,Veg,250,Yes
+2343,274,Chicken Burger,Fast Food,Non-Veg,150,Yes
+2344,274,Fish Moilee,Kerala,Non-Veg,100,No
+2345,274,Butter Chicken,North Indian,Non-Veg,150,Yes
+2346,274,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+2347,275,Chicken Biryani,Biryani,Non-Veg,450,Yes
+2348,275,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+2349,275,Rasmalai,Desserts,Veg,150,No
+2350,275,Fish Curry,Seafood,Non-Veg,350,Yes
+2351,275,Vada Pav,Street Food,Veg,300,Yes
+2352,275,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+2353,275,Gulab Jamun,Desserts,Veg,200,Yes
+2354,275,Paneer Tikka,North Indian,Veg,280,Yes
+2355,276,Paratha,North Indian,Veg,250,Yes
+2356,276,Chicken Pizza,Italian,Non-Veg,400,Yes
+2357,276,Fish Moilee,Kerala,Non-Veg,300,Yes
+2358,276,Dal Makhani,North Indian,Veg,120,Yes
+2359,276,Veg Burger,Fast Food,Veg,450,Yes
+2360,276,Rasmalai,Desserts,Veg,100,No
+2361,276,Gulab Jamun,Desserts,Veg,450,Yes
+2362,276,Prawn Masala,Seafood,Non-Veg,100,Yes
+2363,276,Veg Biryani,Biryani,Veg,200,Yes
+2364,276,Masala Dosa,South Indian,Veg,350,Yes
+2365,277,Litti Chokha,North Indian,Veg,220,Yes
+2366,277,Chicken Pizza,Italian,Non-Veg,300,Yes
+2367,277,Idli Sambar,South Indian,Veg,200,Yes
+2368,277,Veg Biryani,Biryani,Veg,100,Yes
+2369,277,Paratha,North Indian,Veg,400,Yes
+2370,277,Pani Puri,Street Food,Veg,200,Yes
+2371,277,Appam Stew,Kerala,Veg,100,Yes
+2372,277,Chole Bhature,North Indian,Veg,220,Yes
+2373,277,Margherita Pizza,Italian,Veg,450,Yes
+2374,277,Paneer Tikka,North Indian,Veg,300,Yes
+2375,277,Fish Moilee,Kerala,Non-Veg,80,No
+2376,277,Prawn Masala,Seafood,Non-Veg,300,No
+2377,278,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,No
+2378,278,Rasmalai,Desserts,Veg,120,Yes
+2379,278,Paneer Tikka,North Indian,Veg,400,Yes
+2380,278,Chicken Burger,Fast Food,Non-Veg,280,Yes
+2381,278,Gulab Jamun,Desserts,Veg,400,Yes
+2382,278,Chicken Pizza,Italian,Non-Veg,250,No
+2383,278,Paratha,North Indian,Veg,350,Yes
+2384,278,Veg Burger,Fast Food,Veg,200,Yes
+2385,278,Mutton Rogan Josh,Mughlai,Non-Veg,220,No
+2386,278,Pav Bhaji,Street Food,Veg,280,Yes
+2387,279,Thali,South Indian,Veg,220,No
+2388,279,Chole Bhature,North Indian,Veg,80,No
+2389,279,Pani Puri,Street Food,Veg,400,Yes
+2390,279,Rasmalai,Desserts,Veg,100,No
+2391,279,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+2392,279,Litti Chokha,North Indian,Veg,400,Yes
+2393,280,Paratha,North Indian,Veg,350,Yes
+2394,280,Pani Puri,Street Food,Veg,350,Yes
+2395,280,Idli Sambar,South Indian,Veg,400,Yes
+2396,280,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+2397,280,Masala Dosa,South Indian,Veg,450,Yes
+2398,281,Veg Burger,Fast Food,Veg,100,Yes
+2399,281,Dal Makhani,North Indian,Veg,180,Yes
+2400,281,Idli Sambar,South Indian,Veg,120,Yes
+2401,281,Rajma Rice,North Indian,Veg,450,Yes
+2402,281,Thali,South Indian,Veg,120,Yes
+2403,281,Chicken Pizza,Italian,Non-Veg,120,Yes
+2404,281,Vada Pav,Street Food,Veg,150,Yes
+2405,281,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+2406,281,Butter Chicken,North Indian,Non-Veg,250,No
+2407,281,Veg Biryani,Biryani,Veg,200,Yes
+2408,281,Prawn Masala,Seafood,Non-Veg,100,No
+2409,282,Vada Pav,Street Food,Veg,180,Yes
+2410,282,Chicken Pizza,Italian,Non-Veg,180,No
+2411,282,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+2412,282,Butter Chicken,North Indian,Non-Veg,300,Yes
+2413,282,Rasmalai,Desserts,Veg,150,No
+2414,282,Gulab Jamun,Desserts,Veg,80,Yes
+2415,283,Fish Moilee,Kerala,Non-Veg,80,Yes
+2416,283,Chicken Burger,Fast Food,Non-Veg,220,Yes
+2417,283,Masala Dosa,South Indian,Veg,350,Yes
+2418,283,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+2419,283,Vada Pav,Street Food,Veg,200,No
+2420,283,Chicken Biryani,Biryani,Non-Veg,200,Yes
+2421,283,Veg Burger,Fast Food,Veg,120,Yes
+2422,283,Thali,South Indian,Veg,80,Yes
+2423,283,Rasmalai,Desserts,Veg,150,No
+2424,284,Paratha,North Indian,Veg,150,Yes
+2425,284,Margherita Pizza,Italian,Veg,280,No
+2426,284,Chicken Pizza,Italian,Non-Veg,100,Yes
+2427,284,Gulab Jamun,Desserts,Veg,100,Yes
+2428,284,Veg Burger,Fast Food,Veg,350,Yes
+2429,284,Litti Chokha,North Indian,Veg,300,Yes
+2430,284,Rasmalai,Desserts,Veg,500,Yes
+2431,284,Idli Sambar,South Indian,Veg,450,Yes
+2432,284,Pani Puri,Street Food,Veg,120,Yes
+2433,284,Fish Moilee,Kerala,Non-Veg,350,Yes
+2434,284,Pav Bhaji,Street Food,Veg,180,Yes
+2435,285,Chicken Pizza,Italian,Non-Veg,350,Yes
+2436,285,Veg Burger,Fast Food,Veg,150,Yes
+2437,285,Idli Sambar,South Indian,Veg,150,No
+2438,285,Fish Curry,Seafood,Non-Veg,200,Yes
+2439,285,Rajma Rice,North Indian,Veg,400,No
+2440,285,Chole Bhature,North Indian,Veg,220,Yes
+2441,285,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+2442,285,Pani Puri,Street Food,Veg,280,No
+2443,285,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+2444,285,Thali,South Indian,Veg,450,Yes
+2445,285,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2446,286,Rajma Rice,North Indian,Veg,200,Yes
+2447,286,Prawn Masala,Seafood,Non-Veg,250,Yes
+2448,286,Idli Sambar,South Indian,Veg,150,Yes
+2449,286,Margherita Pizza,Italian,Veg,500,Yes
+2450,286,Rasmalai,Desserts,Veg,300,Yes
+2451,286,Masala Dosa,South Indian,Veg,120,Yes
+2452,286,Thali,South Indian,Veg,300,Yes
+2453,286,Vada Pav,Street Food,Veg,250,Yes
+2454,287,Gulab Jamun,Desserts,Veg,200,Yes
+2455,287,Chicken Pizza,Italian,Non-Veg,500,No
+2456,287,Appam Stew,Kerala,Veg,220,Yes
+2457,287,Rasmalai,Desserts,Veg,80,Yes
+2458,287,Thali,South Indian,Veg,250,Yes
+2459,287,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+2460,287,Vada Pav,Street Food,Veg,80,Yes
+2461,287,Chole Bhature,North Indian,Veg,450,Yes
+2462,288,Masala Dosa,South Indian,Veg,220,No
+2463,288,Prawn Masala,Seafood,Non-Veg,280,No
+2464,288,Fish Curry,Seafood,Non-Veg,220,No
+2465,288,Hakka Noodles,Chinese,Veg,300,Yes
+2466,288,Chole Bhature,North Indian,Veg,250,Yes
+2467,288,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+2468,288,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+2469,288,Rasmalai,Desserts,Veg,500,No
+2470,288,Chicken Burger,Fast Food,Non-Veg,300,Yes
+2471,289,Litti Chokha,North Indian,Veg,80,Yes
+2472,289,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+2473,289,Rasmalai,Desserts,Veg,450,No
+2474,289,Hakka Noodles,Chinese,Veg,100,Yes
+2475,289,Chicken Biryani,Biryani,Non-Veg,220,No
+2476,289,Appam Stew,Kerala,Veg,500,Yes
+2477,290,Chicken Pizza,Italian,Non-Veg,350,Yes
+2478,290,Rajma Rice,North Indian,Veg,220,No
+2479,290,Vada Pav,Street Food,Veg,350,Yes
+2480,290,Butter Chicken,North Indian,Non-Veg,180,Yes
+2481,290,Chicken Burger,Fast Food,Non-Veg,150,Yes
+2482,290,Litti Chokha,North Indian,Veg,400,Yes
+2483,290,Chicken Biryani,Biryani,Non-Veg,200,No
+2484,290,Prawn Masala,Seafood,Non-Veg,300,Yes
+2485,290,Fish Curry,Seafood,Non-Veg,80,Yes
+2486,290,Pani Puri,Street Food,Veg,200,Yes
+2487,290,Fish Moilee,Kerala,Non-Veg,350,Yes
+2488,291,Chicken Pizza,Italian,Non-Veg,500,Yes
+2489,291,Litti Chokha,North Indian,Veg,120,No
+2490,291,Paratha,North Indian,Veg,100,No
+2491,291,Gulab Jamun,Desserts,Veg,500,Yes
+2492,291,Appam Stew,Kerala,Veg,200,No
+2493,291,Dal Makhani,North Indian,Veg,100,Yes
+2494,291,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+2495,291,Vada Pav,Street Food,Veg,200,Yes
+2496,291,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+2497,291,Paneer Tikka,North Indian,Veg,280,Yes
+2498,291,Masala Dosa,South Indian,Veg,500,No
+2499,292,Rajma Rice,North Indian,Veg,350,Yes
+2500,292,Idli Sambar,South Indian,Veg,300,Yes
+2501,292,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,No
+2502,292,Margherita Pizza,Italian,Veg,500,Yes
+2503,292,Mutton Rogan Josh,Mughlai,Non-Veg,350,No
+2504,292,Fish Curry,Seafood,Non-Veg,150,Yes
+2505,292,Chicken Biryani,Biryani,Non-Veg,280,Yes
+2506,292,Chicken Burger,Fast Food,Non-Veg,150,Yes
+2507,292,Chicken Pizza,Italian,Non-Veg,400,Yes
+2508,292,Dal Makhani,North Indian,Veg,80,Yes
+2509,292,Litti Chokha,North Indian,Veg,500,Yes
+2510,293,Prawn Masala,Seafood,Non-Veg,500,Yes
+2511,293,Gulab Jamun,Desserts,Veg,120,No
+2512,293,Margherita Pizza,Italian,Veg,250,Yes
+2513,293,Rasmalai,Desserts,Veg,280,No
+2514,293,Vada Pav,Street Food,Veg,450,No
+2515,293,Chicken Biryani,Biryani,Non-Veg,80,Yes
+2516,293,Fish Moilee,Kerala,Non-Veg,220,Yes
+2517,293,Chicken Burger,Fast Food,Non-Veg,220,Yes
+2518,293,Chole Bhature,North Indian,Veg,80,Yes
+2519,293,Butter Chicken,North Indian,Non-Veg,400,No
+2520,293,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+2521,293,Fish Curry,Seafood,Non-Veg,180,Yes
+2522,294,Chicken Burger,Fast Food,Non-Veg,400,Yes
+2523,294,Rasmalai,Desserts,Veg,150,Yes
+2524,294,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+2525,294,Margherita Pizza,Italian,Veg,350,Yes
+2526,294,Fish Curry,Seafood,Non-Veg,150,Yes
+2527,294,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,No
+2528,294,Thali,South Indian,Veg,350,No
+2529,294,Fish Moilee,Kerala,Non-Veg,100,No
+2530,295,Hakka Noodles,Chinese,Veg,250,Yes
+2531,295,Thali,South Indian,Veg,180,Yes
+2532,295,Dal Makhani,North Indian,Veg,250,No
+2533,295,Fish Moilee,Kerala,Non-Veg,220,Yes
+2534,295,Veg Biryani,Biryani,Veg,350,No
+2535,296,Margherita Pizza,Italian,Veg,80,No
+2536,296,Dal Makhani,North Indian,Veg,500,No
+2537,296,Pani Puri,Street Food,Veg,180,No
+2538,296,Hakka Noodles,Chinese,Veg,450,Yes
+2539,296,Prawn Masala,Seafood,Non-Veg,300,Yes
+2540,296,Vada Pav,Street Food,Veg,350,Yes
+2541,296,Paratha,North Indian,Veg,350,Yes
+2542,297,Fish Moilee,Kerala,Non-Veg,400,No
+2543,297,Fish Curry,Seafood,Non-Veg,450,Yes
+2544,297,Paratha,North Indian,Veg,500,Yes
+2545,297,Vada Pav,Street Food,Veg,450,Yes
+2546,297,Masala Dosa,South Indian,Veg,250,No
+2547,297,Gulab Jamun,Desserts,Veg,250,No
+2548,297,Pav Bhaji,Street Food,Veg,280,No
+2549,297,Chole Bhature,North Indian,Veg,180,Yes
+2550,297,Hakka Noodles,Chinese,Veg,180,Yes
+2551,298,Litti Chokha,North Indian,Veg,100,Yes
+2552,298,Chicken Manchurian,Chinese,Non-Veg,300,No
+2553,298,Chicken Pizza,Italian,Non-Veg,200,Yes
+2554,298,Hakka Noodles,Chinese,Veg,180,Yes
+2555,298,Pav Bhaji,Street Food,Veg,100,Yes
+2556,299,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,Yes
+2557,299,Chole Bhature,North Indian,Veg,400,Yes
+2558,299,Chicken Burger,Fast Food,Non-Veg,450,No
+2559,299,Pani Puri,Street Food,Veg,200,No
+2560,299,Thali,South Indian,Veg,200,Yes
+2561,299,Paneer Tikka,North Indian,Veg,150,Yes
+2562,299,Rasmalai,Desserts,Veg,400,Yes
+2563,299,Gulab Jamun,Desserts,Veg,200,Yes
+2564,299,Fish Moilee,Kerala,Non-Veg,280,Yes
+2565,299,Veg Burger,Fast Food,Veg,350,No
+2566,299,Litti Chokha,North Indian,Veg,200,Yes
+2567,299,Paratha,North Indian,Veg,200,Yes
+2568,300,Litti Chokha,North Indian,Veg,350,Yes
+2569,300,Veg Burger,Fast Food,Veg,500,Yes
+2570,300,Masala Dosa,South Indian,Veg,180,No
+2571,300,Chicken Pizza,Italian,Non-Veg,80,Yes
+2572,300,Fish Moilee,Kerala,Non-Veg,100,Yes
+2573,300,Paneer Tikka,North Indian,Veg,400,Yes
+2574,300,Chicken Burger,Fast Food,Non-Veg,500,Yes
+2575,300,Thali,South Indian,Veg,300,Yes
+2576,301,Chicken Biryani,Biryani,Non-Veg,100,Yes
+2577,301,Pani Puri,Street Food,Veg,280,Yes
+2578,301,Rasmalai,Desserts,Veg,350,Yes
+2579,301,Paratha,North Indian,Veg,280,Yes
+2580,301,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,No
+2581,301,Litti Chokha,North Indian,Veg,450,Yes
+2582,301,Fish Curry,Seafood,Non-Veg,220,No
+2583,301,Gulab Jamun,Desserts,Veg,100,Yes
+2584,301,Fish Moilee,Kerala,Non-Veg,400,Yes
+2585,301,Margherita Pizza,Italian,Veg,250,No
+2586,301,Vada Pav,Street Food,Veg,220,Yes
+2587,302,Fish Curry,Seafood,Non-Veg,280,Yes
+2588,302,Chicken Manchurian,Chinese,Non-Veg,400,Yes
+2589,302,Veg Burger,Fast Food,Veg,400,Yes
+2590,302,Butter Chicken,North Indian,Non-Veg,400,Yes
+2591,302,Chicken Tikka,Mughlai,Non-Veg,200,No
+2592,302,Rajma Rice,North Indian,Veg,200,Yes
+2593,302,Hakka Noodles,Chinese,Veg,80,Yes
+2594,302,Gulab Jamun,Desserts,Veg,180,Yes
+2595,302,Chicken Pizza,Italian,Non-Veg,400,Yes
+2596,302,Margherita Pizza,Italian,Veg,400,Yes
+2597,302,Chicken Burger,Fast Food,Non-Veg,80,Yes
+2598,303,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+2599,303,Chicken Pizza,Italian,Non-Veg,300,No
+2600,303,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2601,303,Butter Chicken,North Indian,Non-Veg,100,Yes
+2602,303,Vada Pav,Street Food,Veg,80,Yes
+2603,303,Chicken Tikka,Mughlai,Non-Veg,100,Yes
+2604,303,Pani Puri,Street Food,Veg,100,No
+2605,304,Paneer Tikka,North Indian,Veg,250,Yes
+2606,304,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+2607,304,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+2608,304,Thali,South Indian,Veg,500,Yes
+2609,304,Hakka Noodles,Chinese,Veg,500,Yes
+2610,304,Dal Makhani,North Indian,Veg,80,Yes
+2611,304,Chole Bhature,North Indian,Veg,200,Yes
+2612,304,Prawn Masala,Seafood,Non-Veg,180,Yes
+2613,304,Gulab Jamun,Desserts,Veg,80,Yes
+2614,304,Chicken Biryani,Biryani,Non-Veg,400,Yes
+2615,304,Chicken Tikka,Mughlai,Non-Veg,450,No
+2616,305,Fish Moilee,Kerala,Non-Veg,220,Yes
+2617,305,Pav Bhaji,Street Food,Veg,500,No
+2618,305,Chicken Biryani,Biryani,Non-Veg,250,Yes
+2619,305,Prawn Masala,Seafood,Non-Veg,100,Yes
+2620,305,Rajma Rice,North Indian,Veg,100,Yes
+2621,305,Veg Burger,Fast Food,Veg,200,Yes
+2622,305,Paratha,North Indian,Veg,280,Yes
+2623,305,Chicken Pizza,Italian,Non-Veg,80,Yes
+2624,306,Fish Curry,Seafood,Non-Veg,150,Yes
+2625,306,Pav Bhaji,Street Food,Veg,350,Yes
+2626,306,Chole Bhature,North Indian,Veg,400,Yes
+2627,306,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+2628,306,Chicken Pizza,Italian,Non-Veg,200,Yes
+2629,306,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+2630,306,Vada Pav,Street Food,Veg,400,Yes
+2631,306,Prawn Masala,Seafood,Non-Veg,120,No
+2632,306,Chicken Biryani,Biryani,Non-Veg,200,Yes
+2633,306,Thali,South Indian,Veg,450,Yes
+2634,307,Hakka Noodles,Chinese,Veg,180,Yes
+2635,307,Pav Bhaji,Street Food,Veg,280,Yes
+2636,307,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+2637,307,Rasmalai,Desserts,Veg,150,Yes
+2638,307,Idli Sambar,South Indian,Veg,500,Yes
+2639,307,Chole Bhature,North Indian,Veg,500,No
+2640,307,Prawn Masala,Seafood,Non-Veg,150,Yes
+2641,307,Litti Chokha,North Indian,Veg,120,Yes
+2642,307,Veg Biryani,Biryani,Veg,180,Yes
+2643,307,Gulab Jamun,Desserts,Veg,100,Yes
+2644,307,Dal Makhani,North Indian,Veg,300,No
+2645,308,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+2646,308,Litti Chokha,North Indian,Veg,120,No
+2647,308,Paneer Tikka,North Indian,Veg,150,Yes
+2648,308,Fish Moilee,Kerala,Non-Veg,100,Yes
+2649,308,Gulab Jamun,Desserts,Veg,180,No
+2650,308,Rajma Rice,North Indian,Veg,100,Yes
+2651,308,Veg Biryani,Biryani,Veg,150,Yes
+2652,308,Idli Sambar,South Indian,Veg,200,Yes
+2653,309,Chole Bhature,North Indian,Veg,180,Yes
+2654,309,Litti Chokha,North Indian,Veg,250,No
+2655,309,Paneer Tikka,North Indian,Veg,280,Yes
+2656,309,Chicken Biryani,Biryani,Non-Veg,350,Yes
+2657,309,Vada Pav,Street Food,Veg,80,No
+2658,309,Dal Makhani,North Indian,Veg,200,Yes
+2659,309,Thali,South Indian,Veg,350,Yes
+2660,309,Pani Puri,Street Food,Veg,200,No
+2661,309,Rajma Rice,North Indian,Veg,220,No
+2662,309,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+2663,310,Thali,South Indian,Veg,120,No
+2664,310,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+2665,310,Veg Biryani,Biryani,Veg,200,Yes
+2666,310,Appam Stew,Kerala,Veg,80,No
+2667,310,Prawn Masala,Seafood,Non-Veg,180,Yes
+2668,310,Rajma Rice,North Indian,Veg,300,Yes
+2669,310,Idli Sambar,South Indian,Veg,80,No
+2670,310,Rasmalai,Desserts,Veg,100,No
+2671,310,Gulab Jamun,Desserts,Veg,350,No
+2672,310,Litti Chokha,North Indian,Veg,400,Yes
+2673,311,Paneer Tikka,North Indian,Veg,400,Yes
+2674,311,Thali,South Indian,Veg,120,Yes
+2675,311,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+2676,311,Fish Moilee,Kerala,Non-Veg,220,Yes
+2677,311,Litti Chokha,North Indian,Veg,220,Yes
+2678,312,Veg Burger,Fast Food,Veg,220,Yes
+2679,312,Chicken Biryani,Biryani,Non-Veg,350,No
+2680,312,Chicken Burger,Fast Food,Non-Veg,500,No
+2681,312,Appam Stew,Kerala,Veg,120,Yes
+2682,312,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+2683,312,Pav Bhaji,Street Food,Veg,350,Yes
+2684,312,Litti Chokha,North Indian,Veg,250,Yes
+2685,313,Butter Chicken,North Indian,Non-Veg,350,Yes
+2686,313,Pav Bhaji,Street Food,Veg,250,Yes
+2687,313,Gulab Jamun,Desserts,Veg,450,Yes
+2688,313,Dal Makhani,North Indian,Veg,280,No
+2689,313,Masala Dosa,South Indian,Veg,80,Yes
+2690,314,Masala Dosa,South Indian,Veg,280,Yes
+2691,314,Butter Chicken,North Indian,Non-Veg,300,No
+2692,314,Paneer Tikka,North Indian,Veg,400,Yes
+2693,314,Chicken Burger,Fast Food,Non-Veg,180,Yes
+2694,314,Veg Burger,Fast Food,Veg,280,No
+2695,314,Hakka Noodles,Chinese,Veg,100,Yes
+2696,314,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+2697,315,Mutton Rogan Josh,Mughlai,Non-Veg,200,Yes
+2698,315,Vada Pav,Street Food,Veg,400,Yes
+2699,315,Idli Sambar,South Indian,Veg,350,No
+2700,315,Paratha,North Indian,Veg,80,No
+2701,315,Appam Stew,Kerala,Veg,80,Yes
+2702,315,Paneer Tikka,North Indian,Veg,280,Yes
+2703,316,Appam Stew,Kerala,Veg,500,Yes
+2704,316,Fish Moilee,Kerala,Non-Veg,250,Yes
+2705,316,Idli Sambar,South Indian,Veg,250,No
+2706,316,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+2707,316,Butter Chicken,North Indian,Non-Veg,80,Yes
+2708,316,Chicken Pizza,Italian,Non-Veg,180,Yes
+2709,316,Pav Bhaji,Street Food,Veg,350,Yes
+2710,317,Margherita Pizza,Italian,Veg,450,Yes
+2711,317,Paratha,North Indian,Veg,150,No
+2712,317,Chicken Tikka,Mughlai,Non-Veg,280,No
+2713,317,Chole Bhature,North Indian,Veg,400,No
+2714,317,Paneer Tikka,North Indian,Veg,200,No
+2715,317,Veg Biryani,Biryani,Veg,400,Yes
+2716,317,Pani Puri,Street Food,Veg,100,Yes
+2717,317,Vada Pav,Street Food,Veg,220,Yes
+2718,317,Chicken Burger,Fast Food,Non-Veg,220,Yes
+2719,317,Pav Bhaji,Street Food,Veg,120,Yes
+2720,317,Chicken Pizza,Italian,Non-Veg,100,Yes
+2721,318,Prawn Masala,Seafood,Non-Veg,450,No
+2722,318,Margherita Pizza,Italian,Veg,100,Yes
+2723,318,Butter Chicken,North Indian,Non-Veg,150,Yes
+2724,318,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+2725,318,Chicken Manchurian,Chinese,Non-Veg,100,Yes
+2726,318,Gulab Jamun,Desserts,Veg,500,Yes
+2727,318,Fish Moilee,Kerala,Non-Veg,400,Yes
+2728,318,Veg Burger,Fast Food,Veg,280,Yes
+2729,319,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+2730,319,Chicken Biryani,Biryani,Non-Veg,200,Yes
+2731,319,Gulab Jamun,Desserts,Veg,180,No
+2732,319,Paratha,North Indian,Veg,120,Yes
+2733,319,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,Yes
+2734,319,Veg Biryani,Biryani,Veg,100,No
+2735,319,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+2736,319,Hakka Noodles,Chinese,Veg,350,Yes
+2737,319,Litti Chokha,North Indian,Veg,500,Yes
+2738,320,Masala Dosa,South Indian,Veg,500,No
+2739,320,Veg Burger,Fast Food,Veg,500,No
+2740,320,Rajma Rice,North Indian,Veg,500,Yes
+2741,320,Margherita Pizza,Italian,Veg,220,Yes
+2742,320,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+2743,320,Butter Chicken,North Indian,Non-Veg,200,Yes
+2744,320,Prawn Masala,Seafood,Non-Veg,500,Yes
+2745,320,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+2746,321,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+2747,321,Veg Biryani,Biryani,Veg,150,Yes
+2748,321,Fish Curry,Seafood,Non-Veg,220,Yes
+2749,321,Chole Bhature,North Indian,Veg,220,Yes
+2750,321,Masala Dosa,South Indian,Veg,350,No
+2751,322,Pani Puri,Street Food,Veg,250,Yes
+2752,322,Chicken Pizza,Italian,Non-Veg,400,Yes
+2753,322,Chicken Burger,Fast Food,Non-Veg,300,Yes
+2754,322,Chicken Manchurian,Chinese,Non-Veg,500,No
+2755,322,Fish Curry,Seafood,Non-Veg,200,Yes
+2756,322,Butter Chicken,North Indian,Non-Veg,100,Yes
+2757,322,Rasmalai,Desserts,Veg,200,Yes
+2758,322,Margherita Pizza,Italian,Veg,100,No
+2759,322,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+2760,322,Vada Pav,Street Food,Veg,350,Yes
+2761,322,Prawn Masala,Seafood,Non-Veg,300,Yes
+2762,322,Dal Makhani,North Indian,Veg,280,No
+2763,323,Prawn Masala,Seafood,Non-Veg,180,No
+2764,323,Paratha,North Indian,Veg,350,Yes
+2765,323,Hakka Noodles,Chinese,Veg,220,No
+2766,323,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+2767,323,Chicken Biryani,Biryani,Non-Veg,500,Yes
+2768,323,Veg Burger,Fast Food,Veg,450,No
+2769,323,Appam Stew,Kerala,Veg,220,Yes
+2770,323,Thali,South Indian,Veg,200,Yes
+2771,323,Chicken Burger,Fast Food,Non-Veg,180,No
+2772,324,Appam Stew,Kerala,Veg,300,No
+2773,324,Vada Pav,Street Food,Veg,250,No
+2774,324,Chicken Biryani,Biryani,Non-Veg,150,Yes
+2775,324,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+2776,324,Pav Bhaji,Street Food,Veg,300,Yes
+2777,324,Fish Moilee,Kerala,Non-Veg,200,Yes
+2778,324,Chicken Burger,Fast Food,Non-Veg,80,Yes
+2779,324,Chicken Pizza,Italian,Non-Veg,220,Yes
+2780,324,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+2781,324,Veg Biryani,Biryani,Veg,100,Yes
+2782,325,Chicken Burger,Fast Food,Non-Veg,450,Yes
+2783,325,Pani Puri,Street Food,Veg,250,No
+2784,325,Masala Dosa,South Indian,Veg,220,Yes
+2785,325,Idli Sambar,South Indian,Veg,300,Yes
+2786,325,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+2787,325,Litti Chokha,North Indian,Veg,100,Yes
+2788,325,Hyderabadi Biryani,Hyderabadi,Non-Veg,180,Yes
+2789,325,Fish Curry,Seafood,Non-Veg,450,Yes
+2790,325,Appam Stew,Kerala,Veg,150,Yes
+2791,325,Prawn Masala,Seafood,Non-Veg,280,Yes
+2792,325,Chole Bhature,North Indian,Veg,100,Yes
+2793,325,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+2794,326,Rajma Rice,North Indian,Veg,180,No
+2795,326,Dal Makhani,North Indian,Veg,80,Yes
+2796,326,Pav Bhaji,Street Food,Veg,150,Yes
+2797,326,Appam Stew,Kerala,Veg,220,Yes
+2798,326,Fish Curry,Seafood,Non-Veg,300,No
+2799,326,Margherita Pizza,Italian,Veg,250,Yes
+2800,326,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,No
+2801,326,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+2802,326,Veg Biryani,Biryani,Veg,250,Yes
+2803,326,Litti Chokha,North Indian,Veg,80,Yes
+2804,326,Vada Pav,Street Food,Veg,400,Yes
+2805,326,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+2806,327,Veg Biryani,Biryani,Veg,500,Yes
+2807,327,Rasmalai,Desserts,Veg,220,No
+2808,327,Paratha,North Indian,Veg,400,Yes
+2809,327,Masala Dosa,South Indian,Veg,450,Yes
+2810,327,Litti Chokha,North Indian,Veg,400,Yes
+2811,327,Fish Curry,Seafood,Non-Veg,120,Yes
+2812,328,Vada Pav,Street Food,Veg,350,No
+2813,328,Rajma Rice,North Indian,Veg,250,Yes
+2814,328,Litti Chokha,North Indian,Veg,500,Yes
+2815,328,Appam Stew,Kerala,Veg,280,Yes
+2816,328,Chicken Burger,Fast Food,Non-Veg,100,Yes
+2817,328,Veg Burger,Fast Food,Veg,220,Yes
+2818,328,Chole Bhature,North Indian,Veg,220,Yes
+2819,328,Prawn Masala,Seafood,Non-Veg,150,Yes
+2820,328,Dal Makhani,North Indian,Veg,220,No
+2821,328,Butter Chicken,North Indian,Non-Veg,350,Yes
+2822,329,Rajma Rice,North Indian,Veg,100,Yes
+2823,329,Margherita Pizza,Italian,Veg,300,Yes
+2824,329,Butter Chicken,North Indian,Non-Veg,250,No
+2825,329,Hakka Noodles,Chinese,Veg,200,Yes
+2826,329,Prawn Masala,Seafood,Non-Veg,100,Yes
+2827,329,Rasmalai,Desserts,Veg,300,Yes
+2828,329,Litti Chokha,North Indian,Veg,180,Yes
+2829,329,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+2830,329,Vada Pav,Street Food,Veg,300,Yes
+2831,330,Chole Bhature,North Indian,Veg,280,Yes
+2832,330,Veg Burger,Fast Food,Veg,350,No
+2833,330,Veg Biryani,Biryani,Veg,180,No
+2834,330,Chicken Pizza,Italian,Non-Veg,250,No
+2835,330,Chicken Tikka,Mughlai,Non-Veg,200,No
+2836,330,Rasmalai,Desserts,Veg,450,Yes
+2837,330,Prawn Masala,Seafood,Non-Veg,300,Yes
+2838,330,Idli Sambar,South Indian,Veg,250,Yes
+2839,330,Fish Curry,Seafood,Non-Veg,200,Yes
+2840,330,Dal Makhani,North Indian,Veg,180,Yes
+2841,331,Chicken Burger,Fast Food,Non-Veg,350,No
+2842,331,Fish Moilee,Kerala,Non-Veg,100,Yes
+2843,331,Mutton Rogan Josh,Mughlai,Non-Veg,500,No
+2844,331,Dal Makhani,North Indian,Veg,450,Yes
+2845,331,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+2846,331,Chicken Pizza,Italian,Non-Veg,500,Yes
+2847,331,Prawn Masala,Seafood,Non-Veg,450,Yes
+2848,331,Chicken Manchurian,Chinese,Non-Veg,250,No
+2849,332,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+2850,332,Litti Chokha,North Indian,Veg,80,Yes
+2851,332,Veg Biryani,Biryani,Veg,100,Yes
+2852,332,Pav Bhaji,Street Food,Veg,200,Yes
+2853,332,Chole Bhature,North Indian,Veg,250,No
+2854,332,Fish Moilee,Kerala,Non-Veg,500,Yes
+2855,332,Gulab Jamun,Desserts,Veg,450,Yes
+2856,332,Hakka Noodles,Chinese,Veg,300,Yes
+2857,333,Veg Burger,Fast Food,Veg,120,Yes
+2858,333,Chicken Biryani,Biryani,Non-Veg,200,Yes
+2859,333,Fish Moilee,Kerala,Non-Veg,250,Yes
+2860,333,Pani Puri,Street Food,Veg,220,Yes
+2861,333,Chicken Tikka,Mughlai,Non-Veg,100,Yes
+2862,333,Paratha,North Indian,Veg,200,Yes
+2863,333,Prawn Masala,Seafood,Non-Veg,350,No
+2864,333,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+2865,334,Prawn Masala,Seafood,Non-Veg,500,Yes
+2866,334,Vada Pav,Street Food,Veg,280,Yes
+2867,334,Chicken Burger,Fast Food,Non-Veg,200,Yes
+2868,334,Pav Bhaji,Street Food,Veg,280,Yes
+2869,334,Hakka Noodles,Chinese,Veg,500,Yes
+2870,334,Chole Bhature,North Indian,Veg,250,Yes
+2871,334,Rasmalai,Desserts,Veg,500,No
+2872,334,Veg Burger,Fast Food,Veg,200,Yes
+2873,334,Thali,South Indian,Veg,350,No
+2874,334,Masala Dosa,South Indian,Veg,220,Yes
+2875,334,Dal Makhani,North Indian,Veg,120,Yes
+2876,335,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+2877,335,Chole Bhature,North Indian,Veg,250,Yes
+2878,335,Chicken Pizza,Italian,Non-Veg,180,Yes
+2879,335,Idli Sambar,South Indian,Veg,250,Yes
+2880,335,Dal Makhani,North Indian,Veg,180,No
+2881,335,Thali,South Indian,Veg,450,No
+2882,336,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+2883,336,Rajma Rice,North Indian,Veg,180,Yes
+2884,336,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+2885,336,Veg Burger,Fast Food,Veg,400,Yes
+2886,336,Gulab Jamun,Desserts,Veg,300,Yes
+2887,336,Litti Chokha,North Indian,Veg,80,Yes
+2888,337,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+2889,337,Pav Bhaji,Street Food,Veg,100,No
+2890,337,Paratha,North Indian,Veg,200,Yes
+2891,337,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+2892,337,Margherita Pizza,Italian,Veg,450,Yes
+2893,337,Paneer Tikka,North Indian,Veg,250,Yes
+2894,337,Veg Biryani,Biryani,Veg,220,No
+2895,337,Hakka Noodles,Chinese,Veg,300,Yes
+2896,337,Butter Chicken,North Indian,Non-Veg,300,Yes
+2897,337,Chole Bhature,North Indian,Veg,250,No
+2898,337,Rasmalai,Desserts,Veg,400,Yes
+2899,337,Appam Stew,Kerala,Veg,280,Yes
+2900,338,Veg Burger,Fast Food,Veg,350,No
+2901,338,Veg Biryani,Biryani,Veg,250,No
+2902,338,Margherita Pizza,Italian,Veg,350,Yes
+2903,338,Paratha,North Indian,Veg,200,Yes
+2904,338,Masala Dosa,South Indian,Veg,450,No
+2905,338,Thali,South Indian,Veg,250,Yes
+2906,338,Rajma Rice,North Indian,Veg,200,Yes
+2907,338,Pav Bhaji,Street Food,Veg,400,No
+2908,338,Gulab Jamun,Desserts,Veg,80,No
+2909,338,Dal Makhani,North Indian,Veg,80,No
+2910,339,Masala Dosa,South Indian,Veg,150,Yes
+2911,339,Prawn Masala,Seafood,Non-Veg,450,Yes
+2912,339,Thali,South Indian,Veg,500,Yes
+2913,339,Chole Bhature,North Indian,Veg,450,Yes
+2914,339,Chicken Tikka,Mughlai,Non-Veg,300,Yes
+2915,339,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+2916,339,Chicken Biryani,Biryani,Non-Veg,150,Yes
+2917,340,Pani Puri,Street Food,Veg,200,No
+2918,340,Litti Chokha,North Indian,Veg,400,No
+2919,340,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+2920,340,Idli Sambar,South Indian,Veg,400,Yes
+2921,340,Chicken Manchurian,Chinese,Non-Veg,280,Yes
+2922,340,Chicken Burger,Fast Food,Non-Veg,150,Yes
+2923,340,Thali,South Indian,Veg,350,Yes
+2924,340,Rasmalai,Desserts,Veg,250,Yes
+2925,340,Dal Makhani,North Indian,Veg,450,Yes
+2926,340,Chicken Pizza,Italian,Non-Veg,450,No
+2927,340,Margherita Pizza,Italian,Veg,500,Yes
+2928,340,Veg Burger,Fast Food,Veg,280,Yes
+2929,341,Fish Moilee,Kerala,Non-Veg,180,Yes
+2930,341,Butter Chicken,North Indian,Non-Veg,120,No
+2931,341,Fish Curry,Seafood,Non-Veg,220,Yes
+2932,341,Idli Sambar,South Indian,Veg,100,Yes
+2933,341,Vada Pav,Street Food,Veg,350,Yes
+2934,341,Pani Puri,Street Food,Veg,150,Yes
+2935,341,Veg Burger,Fast Food,Veg,100,Yes
+2936,341,Chicken Pizza,Italian,Non-Veg,350,Yes
+2937,341,Dal Makhani,North Indian,Veg,200,Yes
+2938,341,Chicken Manchurian,Chinese,Non-Veg,450,No
+2939,341,Gulab Jamun,Desserts,Veg,100,Yes
+2940,342,Appam Stew,Kerala,Veg,180,Yes
+2941,342,Chicken Burger,Fast Food,Non-Veg,220,Yes
+2942,342,Prawn Masala,Seafood,Non-Veg,400,Yes
+2943,342,Gulab Jamun,Desserts,Veg,120,Yes
+2944,342,Pani Puri,Street Food,Veg,350,Yes
+2945,342,Masala Dosa,South Indian,Veg,180,Yes
+2946,342,Vada Pav,Street Food,Veg,100,Yes
+2947,342,Rasmalai,Desserts,Veg,280,Yes
+2948,342,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+2949,342,Margherita Pizza,Italian,Veg,100,Yes
+2950,342,Rajma Rice,North Indian,Veg,220,No
+2951,342,Hakka Noodles,Chinese,Veg,150,Yes
+2952,343,Masala Dosa,South Indian,Veg,250,No
+2953,343,Paneer Tikka,North Indian,Veg,280,Yes
+2954,343,Chole Bhature,North Indian,Veg,450,Yes
+2955,343,Prawn Masala,Seafood,Non-Veg,280,Yes
+2956,343,Chicken Burger,Fast Food,Non-Veg,500,No
+2957,343,Appam Stew,Kerala,Veg,100,Yes
+2958,343,Fish Moilee,Kerala,Non-Veg,220,Yes
+2959,343,Veg Biryani,Biryani,Veg,120,Yes
+2960,343,Gulab Jamun,Desserts,Veg,100,Yes
+2961,343,Litti Chokha,North Indian,Veg,350,Yes
+2962,344,Dal Makhani,North Indian,Veg,120,Yes
+2963,344,Vada Pav,Street Food,Veg,220,Yes
+2964,344,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+2965,344,Paneer Tikka,North Indian,Veg,280,No
+2966,344,Veg Biryani,Biryani,Veg,450,No
+2967,344,Appam Stew,Kerala,Veg,180,No
+2968,344,Idli Sambar,South Indian,Veg,250,Yes
+2969,344,Hakka Noodles,Chinese,Veg,400,Yes
+2970,345,Veg Burger,Fast Food,Veg,200,Yes
+2971,345,Pani Puri,Street Food,Veg,250,No
+2972,345,Chicken Manchurian,Chinese,Non-Veg,350,No
+2973,345,Chicken Pizza,Italian,Non-Veg,400,Yes
+2974,345,Veg Biryani,Biryani,Veg,350,No
+2975,345,Prawn Masala,Seafood,Non-Veg,120,Yes
+2976,345,Dal Makhani,North Indian,Veg,250,Yes
+2977,345,Hakka Noodles,Chinese,Veg,80,Yes
+2978,345,Margherita Pizza,Italian,Veg,280,No
+2979,345,Masala Dosa,South Indian,Veg,280,Yes
+2980,345,Rasmalai,Desserts,Veg,350,Yes
+2981,346,Fish Curry,Seafood,Non-Veg,150,Yes
+2982,346,Margherita Pizza,Italian,Veg,220,Yes
+2983,346,Fish Moilee,Kerala,Non-Veg,350,Yes
+2984,346,Gulab Jamun,Desserts,Veg,450,No
+2985,346,Dal Makhani,North Indian,Veg,180,No
+2986,346,Paneer Tikka,North Indian,Veg,250,Yes
+2987,347,Gulab Jamun,Desserts,Veg,400,Yes
+2988,347,Rasmalai,Desserts,Veg,300,Yes
+2989,347,Chicken Biryani,Biryani,Non-Veg,220,Yes
+2990,347,Margherita Pizza,Italian,Veg,450,Yes
+2991,347,Paneer Tikka,North Indian,Veg,300,No
+2992,347,Vada Pav,Street Food,Veg,350,Yes
+2993,348,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+2994,348,Masala Dosa,South Indian,Veg,100,Yes
+2995,348,Vada Pav,Street Food,Veg,400,Yes
+2996,348,Fish Moilee,Kerala,Non-Veg,280,Yes
+2997,348,Veg Burger,Fast Food,Veg,150,No
+2998,348,Veg Biryani,Biryani,Veg,280,Yes
+2999,348,Paratha,North Indian,Veg,300,No
+3000,348,Rasmalai,Desserts,Veg,250,Yes
+3001,349,Chicken Tikka,Mughlai,Non-Veg,120,No
+3002,349,Idli Sambar,South Indian,Veg,450,Yes
+3003,349,Veg Biryani,Biryani,Veg,120,Yes
+3004,349,Vada Pav,Street Food,Veg,100,No
+3005,349,Dal Makhani,North Indian,Veg,300,Yes
+3006,349,Chicken Biryani,Biryani,Non-Veg,280,No
+3007,349,Rasmalai,Desserts,Veg,200,Yes
+3008,349,Appam Stew,Kerala,Veg,280,Yes
+3009,349,Chicken Burger,Fast Food,Non-Veg,120,Yes
+3010,349,Margherita Pizza,Italian,Veg,150,Yes
+3011,349,Masala Dosa,South Indian,Veg,280,Yes
+3012,349,Fish Moilee,Kerala,Non-Veg,450,Yes
+3013,350,Veg Burger,Fast Food,Veg,250,Yes
+3014,350,Fish Moilee,Kerala,Non-Veg,450,Yes
+3015,350,Rasmalai,Desserts,Veg,500,Yes
+3016,350,Chicken Burger,Fast Food,Non-Veg,250,Yes
+3017,350,Chicken Biryani,Biryani,Non-Veg,200,Yes
+3018,350,Butter Chicken,North Indian,Non-Veg,220,Yes
+3019,350,Chicken Pizza,Italian,Non-Veg,450,Yes
+3020,350,Pav Bhaji,Street Food,Veg,100,Yes
+3021,351,Rajma Rice,North Indian,Veg,120,Yes
+3022,351,Chicken Biryani,Biryani,Non-Veg,150,Yes
+3023,351,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+3024,351,Paneer Tikka,North Indian,Veg,200,No
+3025,351,Appam Stew,Kerala,Veg,300,Yes
+3026,351,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+3027,351,Thali,South Indian,Veg,450,No
+3028,352,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+3029,352,Pani Puri,Street Food,Veg,200,No
+3030,352,Chicken Biryani,Biryani,Non-Veg,280,No
+3031,352,Thali,South Indian,Veg,80,Yes
+3032,352,Paratha,North Indian,Veg,100,Yes
+3033,352,Butter Chicken,North Indian,Non-Veg,180,No
+3034,353,Vada Pav,Street Food,Veg,450,Yes
+3035,353,Chicken Biryani,Biryani,Non-Veg,450,Yes
+3036,353,Margherita Pizza,Italian,Veg,150,Yes
+3037,353,Chicken Tikka,Mughlai,Non-Veg,250,No
+3038,353,Prawn Masala,Seafood,Non-Veg,280,Yes
+3039,354,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,No
+3040,354,Prawn Masala,Seafood,Non-Veg,500,Yes
+3041,354,Hakka Noodles,Chinese,Veg,80,No
+3042,354,Pani Puri,Street Food,Veg,180,Yes
+3043,354,Margherita Pizza,Italian,Veg,180,Yes
+3044,354,Litti Chokha,North Indian,Veg,350,No
+3045,355,Fish Moilee,Kerala,Non-Veg,150,Yes
+3046,355,Chicken Biryani,Biryani,Non-Veg,120,Yes
+3047,355,Chicken Burger,Fast Food,Non-Veg,300,No
+3048,355,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,No
+3049,355,Chicken Manchurian,Chinese,Non-Veg,200,No
+3050,355,Pani Puri,Street Food,Veg,180,Yes
+3051,355,Dal Makhani,North Indian,Veg,100,Yes
+3052,355,Paneer Tikka,North Indian,Veg,180,Yes
+3053,356,Gulab Jamun,Desserts,Veg,400,Yes
+3054,356,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+3055,356,Paratha,North Indian,Veg,280,Yes
+3056,356,Litti Chokha,North Indian,Veg,200,No
+3057,356,Hakka Noodles,Chinese,Veg,80,Yes
+3058,357,Idli Sambar,South Indian,Veg,400,Yes
+3059,357,Chicken Manchurian,Chinese,Non-Veg,450,No
+3060,357,Paneer Tikka,North Indian,Veg,220,Yes
+3061,357,Hakka Noodles,Chinese,Veg,100,Yes
+3062,357,Rasmalai,Desserts,Veg,80,No
+3063,357,Hyderabadi Biryani,Hyderabadi,Non-Veg,300,No
+3064,357,Gulab Jamun,Desserts,Veg,220,Yes
+3065,357,Pav Bhaji,Street Food,Veg,250,Yes
+3066,357,Rajma Rice,North Indian,Veg,180,Yes
+3067,358,Vada Pav,Street Food,Veg,180,Yes
+3068,358,Hakka Noodles,Chinese,Veg,180,Yes
+3069,358,Masala Dosa,South Indian,Veg,450,Yes
+3070,358,Fish Curry,Seafood,Non-Veg,300,Yes
+3071,358,Gulab Jamun,Desserts,Veg,300,Yes
+3072,358,Thali,South Indian,Veg,350,No
+3073,358,Litti Chokha,North Indian,Veg,280,Yes
+3074,358,Idli Sambar,South Indian,Veg,400,No
+3075,358,Margherita Pizza,Italian,Veg,80,No
+3076,358,Appam Stew,Kerala,Veg,220,Yes
+3077,358,Chole Bhature,North Indian,Veg,500,No
+3078,359,Chole Bhature,North Indian,Veg,250,Yes
+3079,359,Fish Curry,Seafood,Non-Veg,300,No
+3080,359,Masala Dosa,South Indian,Veg,250,No
+3081,359,Chicken Pizza,Italian,Non-Veg,250,Yes
+3082,359,Appam Stew,Kerala,Veg,250,Yes
+3083,359,Prawn Masala,Seafood,Non-Veg,450,Yes
+3084,360,Masala Dosa,South Indian,Veg,250,Yes
+3085,360,Margherita Pizza,Italian,Veg,200,Yes
+3086,360,Dal Makhani,North Indian,Veg,120,No
+3087,360,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+3088,360,Hakka Noodles,Chinese,Veg,350,Yes
+3089,360,Gulab Jamun,Desserts,Veg,220,Yes
+3090,360,Idli Sambar,South Indian,Veg,180,Yes
+3091,360,Appam Stew,Kerala,Veg,120,Yes
+3092,360,Chicken Biryani,Biryani,Non-Veg,150,Yes
+3093,360,Veg Burger,Fast Food,Veg,80,Yes
+3094,360,Paneer Tikka,North Indian,Veg,150,Yes
+3095,361,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+3096,361,Margherita Pizza,Italian,Veg,350,Yes
+3097,361,Butter Chicken,North Indian,Non-Veg,220,Yes
+3098,361,Appam Stew,Kerala,Veg,350,Yes
+3099,361,Thali,South Indian,Veg,150,Yes
+3100,361,Paratha,North Indian,Veg,250,No
+3101,361,Litti Chokha,North Indian,Veg,200,Yes
+3102,361,Fish Moilee,Kerala,Non-Veg,300,Yes
+3103,361,Gulab Jamun,Desserts,Veg,100,Yes
+3104,362,Dal Makhani,North Indian,Veg,500,Yes
+3105,362,Chicken Manchurian,Chinese,Non-Veg,180,No
+3106,362,Paratha,North Indian,Veg,450,Yes
+3107,362,Fish Moilee,Kerala,Non-Veg,150,Yes
+3108,362,Paneer Tikka,North Indian,Veg,100,Yes
+3109,362,Appam Stew,Kerala,Veg,180,Yes
+3110,362,Margherita Pizza,Italian,Veg,200,Yes
+3111,362,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+3112,362,Litti Chokha,North Indian,Veg,280,Yes
+3113,362,Fish Curry,Seafood,Non-Veg,200,Yes
+3114,363,Chicken Pizza,Italian,Non-Veg,350,No
+3115,363,Hyderabadi Biryani,Hyderabadi,Non-Veg,280,No
+3116,363,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+3117,363,Masala Dosa,South Indian,Veg,80,Yes
+3118,363,Pav Bhaji,Street Food,Veg,400,Yes
+3119,363,Vada Pav,Street Food,Veg,120,Yes
+3120,363,Butter Chicken,North Indian,Non-Veg,150,Yes
+3121,363,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+3122,363,Prawn Masala,Seafood,Non-Veg,100,Yes
+3123,363,Pani Puri,Street Food,Veg,280,No
+3124,363,Veg Burger,Fast Food,Veg,220,Yes
+3125,363,Fish Curry,Seafood,Non-Veg,300,Yes
+3126,364,Gulab Jamun,Desserts,Veg,300,Yes
+3127,364,Fish Curry,Seafood,Non-Veg,450,No
+3128,364,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+3129,364,Chicken Manchurian,Chinese,Non-Veg,250,No
+3130,364,Idli Sambar,South Indian,Veg,180,Yes
+3131,364,Thali,South Indian,Veg,100,No
+3132,364,Fish Moilee,Kerala,Non-Veg,80,Yes
+3133,364,Chole Bhature,North Indian,Veg,150,Yes
+3134,364,Chicken Biryani,Biryani,Non-Veg,280,Yes
+3135,364,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+3136,364,Appam Stew,Kerala,Veg,80,Yes
+3137,364,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+3138,365,Fish Curry,Seafood,Non-Veg,80,Yes
+3139,365,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+3140,365,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+3141,365,Vada Pav,Street Food,Veg,100,No
+3142,365,Veg Burger,Fast Food,Veg,200,Yes
+3143,365,Chicken Biryani,Biryani,Non-Veg,200,Yes
+3144,365,Masala Dosa,South Indian,Veg,100,No
+3145,366,Fish Curry,Seafood,Non-Veg,220,No
+3146,366,Chicken Manchurian,Chinese,Non-Veg,120,No
+3147,366,Rasmalai,Desserts,Veg,200,Yes
+3148,366,Masala Dosa,South Indian,Veg,450,Yes
+3149,366,Veg Burger,Fast Food,Veg,200,Yes
+3150,366,Paratha,North Indian,Veg,220,No
+3151,366,Chicken Biryani,Biryani,Non-Veg,180,Yes
+3152,366,Paneer Tikka,North Indian,Veg,120,Yes
+3153,366,Chicken Tikka,Mughlai,Non-Veg,150,No
+3154,367,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+3155,367,Prawn Masala,Seafood,Non-Veg,150,Yes
+3156,367,Pani Puri,Street Food,Veg,300,Yes
+3157,367,Hyderabadi Biryani,Hyderabadi,Non-Veg,280,No
+3158,367,Vada Pav,Street Food,Veg,120,Yes
+3159,368,Margherita Pizza,Italian,Veg,500,Yes
+3160,368,Prawn Masala,Seafood,Non-Veg,200,No
+3161,368,Paratha,North Indian,Veg,300,Yes
+3162,368,Chicken Burger,Fast Food,Non-Veg,150,Yes
+3163,368,Butter Chicken,North Indian,Non-Veg,220,No
+3164,368,Chicken Pizza,Italian,Non-Veg,100,Yes
+3165,368,Paneer Tikka,North Indian,Veg,400,Yes
+3166,368,Chicken Biryani,Biryani,Non-Veg,280,Yes
+3167,369,Butter Chicken,North Indian,Non-Veg,80,Yes
+3168,369,Veg Biryani,Biryani,Veg,200,Yes
+3169,369,Pav Bhaji,Street Food,Veg,300,Yes
+3170,369,Paneer Tikka,North Indian,Veg,80,Yes
+3171,369,Rajma Rice,North Indian,Veg,500,Yes
+3172,369,Thali,South Indian,Veg,280,Yes
+3173,369,Gulab Jamun,Desserts,Veg,120,Yes
+3174,369,Chicken Pizza,Italian,Non-Veg,150,Yes
+3175,369,Chicken Manchurian,Chinese,Non-Veg,300,No
+3176,369,Rasmalai,Desserts,Veg,500,Yes
+3177,369,Veg Burger,Fast Food,Veg,500,Yes
+3178,369,Masala Dosa,South Indian,Veg,300,Yes
+3179,370,Gulab Jamun,Desserts,Veg,100,No
+3180,370,Vada Pav,Street Food,Veg,500,Yes
+3181,370,Fish Curry,Seafood,Non-Veg,450,No
+3182,370,Idli Sambar,South Indian,Veg,100,Yes
+3183,370,Pani Puri,Street Food,Veg,300,Yes
+3184,370,Veg Biryani,Biryani,Veg,80,No
+3185,370,Thali,South Indian,Veg,200,No
+3186,370,Prawn Masala,Seafood,Non-Veg,180,Yes
+3187,370,Chicken Burger,Fast Food,Non-Veg,450,Yes
+3188,370,Pav Bhaji,Street Food,Veg,120,Yes
+3189,370,Rajma Rice,North Indian,Veg,280,No
+3190,370,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,Yes
+3191,371,Idli Sambar,South Indian,Veg,180,No
+3192,371,Margherita Pizza,Italian,Veg,400,No
+3193,371,Masala Dosa,South Indian,Veg,150,No
+3194,371,Pav Bhaji,Street Food,Veg,400,No
+3195,371,Rasmalai,Desserts,Veg,250,Yes
+3196,371,Chicken Biryani,Biryani,Non-Veg,450,Yes
+3197,371,Fish Curry,Seafood,Non-Veg,180,Yes
+3198,371,Prawn Masala,Seafood,Non-Veg,350,Yes
+3199,371,Dal Makhani,North Indian,Veg,150,Yes
+3200,371,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,Yes
+3201,371,Pani Puri,Street Food,Veg,300,No
+3202,372,Idli Sambar,South Indian,Veg,500,Yes
+3203,372,Rasmalai,Desserts,Veg,500,Yes
+3204,372,Litti Chokha,North Indian,Veg,300,Yes
+3205,372,Margherita Pizza,Italian,Veg,450,Yes
+3206,372,Pav Bhaji,Street Food,Veg,180,Yes
+3207,372,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+3208,372,Veg Biryani,Biryani,Veg,120,Yes
+3209,372,Vada Pav,Street Food,Veg,250,No
+3210,372,Fish Moilee,Kerala,Non-Veg,80,Yes
+3211,372,Mutton Rogan Josh,Mughlai,Non-Veg,400,Yes
+3212,372,Dal Makhani,North Indian,Veg,300,Yes
+3213,372,Fish Curry,Seafood,Non-Veg,80,Yes
+3214,373,Paratha,North Indian,Veg,400,Yes
+3215,373,Pav Bhaji,Street Food,Veg,120,Yes
+3216,373,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+3217,373,Dal Makhani,North Indian,Veg,80,Yes
+3218,373,Litti Chokha,North Indian,Veg,220,Yes
+3219,373,Chicken Pizza,Italian,Non-Veg,80,Yes
+3220,373,Masala Dosa,South Indian,Veg,400,Yes
+3221,373,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+3222,373,Idli Sambar,South Indian,Veg,100,Yes
+3223,373,Margherita Pizza,Italian,Veg,120,No
+3224,373,Chicken Burger,Fast Food,Non-Veg,150,Yes
+3225,374,Hyderabadi Biryani,Hyderabadi,Non-Veg,180,Yes
+3226,374,Hakka Noodles,Chinese,Veg,180,No
+3227,374,Idli Sambar,South Indian,Veg,500,Yes
+3228,374,Fish Moilee,Kerala,Non-Veg,220,Yes
+3229,374,Litti Chokha,North Indian,Veg,80,Yes
+3230,374,Margherita Pizza,Italian,Veg,280,Yes
+3231,375,Pani Puri,Street Food,Veg,280,Yes
+3232,375,Rasmalai,Desserts,Veg,250,Yes
+3233,375,Appam Stew,Kerala,Veg,120,Yes
+3234,375,Dal Makhani,North Indian,Veg,300,Yes
+3235,375,Chole Bhature,North Indian,Veg,500,Yes
+3236,375,Vada Pav,Street Food,Veg,300,No
+3237,375,Thali,South Indian,Veg,350,No
+3238,376,Appam Stew,Kerala,Veg,400,Yes
+3239,376,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+3240,376,Pani Puri,Street Food,Veg,220,Yes
+3241,376,Chicken Biryani,Biryani,Non-Veg,80,Yes
+3242,376,Pav Bhaji,Street Food,Veg,400,Yes
+3243,376,Dal Makhani,North Indian,Veg,120,Yes
+3244,376,Rasmalai,Desserts,Veg,300,Yes
+3245,376,Butter Chicken,North Indian,Non-Veg,400,Yes
+3246,376,Idli Sambar,South Indian,Veg,220,Yes
+3247,376,Veg Burger,Fast Food,Veg,500,No
+3248,376,Chicken Pizza,Italian,Non-Veg,220,Yes
+3249,376,Chicken Burger,Fast Food,Non-Veg,500,Yes
+3250,377,Masala Dosa,South Indian,Veg,180,Yes
+3251,377,Hakka Noodles,Chinese,Veg,400,Yes
+3252,377,Fish Curry,Seafood,Non-Veg,120,Yes
+3253,377,Chicken Manchurian,Chinese,Non-Veg,100,No
+3254,377,Dal Makhani,North Indian,Veg,300,No
+3255,377,Rajma Rice,North Indian,Veg,300,Yes
+3256,377,Paratha,North Indian,Veg,400,Yes
+3257,377,Vada Pav,Street Food,Veg,400,No
+3258,377,Hyderabadi Biryani,Hyderabadi,Non-Veg,250,Yes
+3259,378,Gulab Jamun,Desserts,Veg,300,Yes
+3260,378,Dal Makhani,North Indian,Veg,180,Yes
+3261,378,Rasmalai,Desserts,Veg,500,Yes
+3262,378,Chole Bhature,North Indian,Veg,400,Yes
+3263,378,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+3264,378,Thali,South Indian,Veg,120,No
+3265,378,Veg Burger,Fast Food,Veg,280,Yes
+3266,378,Pani Puri,Street Food,Veg,200,No
+3267,378,Margherita Pizza,Italian,Veg,150,Yes
+3268,379,Thali,South Indian,Veg,180,Yes
+3269,379,Dal Makhani,North Indian,Veg,150,Yes
+3270,379,Pani Puri,Street Food,Veg,80,Yes
+3271,379,Butter Chicken,North Indian,Non-Veg,150,No
+3272,379,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+3273,379,Litti Chokha,North Indian,Veg,500,Yes
+3274,380,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+3275,380,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,No
+3276,380,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+3277,380,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+3278,380,Butter Chicken,North Indian,Non-Veg,200,Yes
+3279,380,Chicken Burger,Fast Food,Non-Veg,200,Yes
+3280,380,Gulab Jamun,Desserts,Veg,220,Yes
+3281,381,Dal Makhani,North Indian,Veg,400,Yes
+3282,381,Fish Moilee,Kerala,Non-Veg,200,Yes
+3283,381,Masala Dosa,South Indian,Veg,200,No
+3284,381,Vada Pav,Street Food,Veg,80,Yes
+3285,381,Veg Biryani,Biryani,Veg,350,Yes
+3286,381,Butter Chicken,North Indian,Non-Veg,180,Yes
+3287,381,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+3288,382,Margherita Pizza,Italian,Veg,120,Yes
+3289,382,Mutton Rogan Josh,Mughlai,Non-Veg,150,Yes
+3290,382,Chicken Biryani,Biryani,Non-Veg,250,Yes
+3291,382,Litti Chokha,North Indian,Veg,300,Yes
+3292,382,Gulab Jamun,Desserts,Veg,500,Yes
+3293,382,Rasmalai,Desserts,Veg,500,Yes
+3294,382,Idli Sambar,South Indian,Veg,80,Yes
+3295,382,Pav Bhaji,Street Food,Veg,400,Yes
+3296,382,Paratha,North Indian,Veg,400,Yes
+3297,382,Fish Moilee,Kerala,Non-Veg,300,Yes
+3298,383,Rasmalai,Desserts,Veg,400,No
+3299,383,Paratha,North Indian,Veg,500,Yes
+3300,383,Litti Chokha,North Indian,Veg,200,No
+3301,383,Chicken Manchurian,Chinese,Non-Veg,100,No
+3302,383,Veg Biryani,Biryani,Veg,220,Yes
+3303,383,Vada Pav,Street Food,Veg,120,Yes
+3304,384,Chicken Pizza,Italian,Non-Veg,500,Yes
+3305,384,Dal Makhani,North Indian,Veg,350,Yes
+3306,384,Butter Chicken,North Indian,Non-Veg,400,No
+3307,384,Fish Moilee,Kerala,Non-Veg,150,Yes
+3308,384,Appam Stew,Kerala,Veg,120,Yes
+3309,384,Pani Puri,Street Food,Veg,500,Yes
+3310,384,Veg Biryani,Biryani,Veg,250,No
+3311,384,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+3312,384,Masala Dosa,South Indian,Veg,80,Yes
+3313,385,Paneer Tikka,North Indian,Veg,450,Yes
+3314,385,Vada Pav,Street Food,Veg,350,No
+3315,385,Rasmalai,Desserts,Veg,300,No
+3316,385,Prawn Masala,Seafood,Non-Veg,250,Yes
+3317,385,Veg Burger,Fast Food,Veg,180,Yes
+3318,385,Margherita Pizza,Italian,Veg,350,Yes
+3319,385,Fish Curry,Seafood,Non-Veg,400,No
+3320,386,Pani Puri,Street Food,Veg,300,Yes
+3321,386,Fish Curry,Seafood,Non-Veg,100,Yes
+3322,386,Paneer Tikka,North Indian,Veg,100,Yes
+3323,386,Rajma Rice,North Indian,Veg,450,No
+3324,386,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+3325,387,Rajma Rice,North Indian,Veg,500,Yes
+3326,387,Chole Bhature,North Indian,Veg,280,Yes
+3327,387,Rasmalai,Desserts,Veg,80,Yes
+3328,387,Masala Dosa,South Indian,Veg,450,No
+3329,387,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+3330,388,Dal Makhani,North Indian,Veg,280,Yes
+3331,388,Prawn Masala,Seafood,Non-Veg,220,Yes
+3332,388,Fish Curry,Seafood,Non-Veg,200,Yes
+3333,388,Veg Biryani,Biryani,Veg,350,No
+3334,388,Chicken Pizza,Italian,Non-Veg,200,No
+3335,388,Litti Chokha,North Indian,Veg,450,Yes
+3336,388,Chicken Manchurian,Chinese,Non-Veg,220,No
+3337,388,Paratha,North Indian,Veg,120,Yes
+3338,388,Thali,South Indian,Veg,80,No
+3339,388,Pav Bhaji,Street Food,Veg,120,No
+3340,388,Chicken Biryani,Biryani,Non-Veg,120,Yes
+3341,389,Veg Burger,Fast Food,Veg,350,Yes
+3342,389,Pani Puri,Street Food,Veg,250,Yes
+3343,389,Litti Chokha,North Indian,Veg,200,No
+3344,389,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+3345,389,Hakka Noodles,Chinese,Veg,250,Yes
+3346,389,Masala Dosa,South Indian,Veg,400,Yes
+3347,390,Paneer Tikka,North Indian,Veg,350,Yes
+3348,390,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+3349,390,Margherita Pizza,Italian,Veg,200,Yes
+3350,390,Rasmalai,Desserts,Veg,300,Yes
+3351,390,Hakka Noodles,Chinese,Veg,220,No
+3352,390,Fish Curry,Seafood,Non-Veg,100,Yes
+3353,390,Fish Moilee,Kerala,Non-Veg,220,No
+3354,390,Gulab Jamun,Desserts,Veg,180,Yes
+3355,391,Margherita Pizza,Italian,Veg,100,Yes
+3356,391,Fish Curry,Seafood,Non-Veg,220,Yes
+3357,391,Thali,South Indian,Veg,200,No
+3358,391,Rajma Rice,North Indian,Veg,80,Yes
+3359,391,Chicken Pizza,Italian,Non-Veg,350,Yes
+3360,391,Hakka Noodles,Chinese,Veg,500,No
+3361,391,Pav Bhaji,Street Food,Veg,150,Yes
+3362,391,Chicken Biryani,Biryani,Non-Veg,150,Yes
+3363,391,Prawn Masala,Seafood,Non-Veg,280,Yes
+3364,391,Vada Pav,Street Food,Veg,350,No
+3365,391,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+3366,392,Rajma Rice,North Indian,Veg,500,Yes
+3367,392,Paneer Tikka,North Indian,Veg,220,Yes
+3368,392,Masala Dosa,South Indian,Veg,450,Yes
+3369,392,Pav Bhaji,Street Food,Veg,150,No
+3370,392,Fish Curry,Seafood,Non-Veg,400,No
+3371,393,Appam Stew,Kerala,Veg,450,Yes
+3372,393,Dal Makhani,North Indian,Veg,500,No
+3373,393,Butter Chicken,North Indian,Non-Veg,100,Yes
+3374,393,Veg Burger,Fast Food,Veg,180,No
+3375,393,Chole Bhature,North Indian,Veg,350,Yes
+3376,393,Veg Biryani,Biryani,Veg,80,Yes
+3377,393,Margherita Pizza,Italian,Veg,120,Yes
+3378,393,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+3379,393,Prawn Masala,Seafood,Non-Veg,120,Yes
+3380,393,Paratha,North Indian,Veg,500,Yes
+3381,393,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+3382,393,Gulab Jamun,Desserts,Veg,80,Yes
+3383,394,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+3384,394,Gulab Jamun,Desserts,Veg,300,No
+3385,394,Paneer Tikka,North Indian,Veg,220,No
+3386,394,Fish Curry,Seafood,Non-Veg,150,No
+3387,394,Rajma Rice,North Indian,Veg,120,Yes
+3388,394,Appam Stew,Kerala,Veg,220,Yes
+3389,394,Litti Chokha,North Indian,Veg,220,Yes
+3390,394,Veg Burger,Fast Food,Veg,80,Yes
+3391,394,Thali,South Indian,Veg,450,Yes
+3392,394,Paratha,North Indian,Veg,150,Yes
+3393,395,Butter Chicken,North Indian,Non-Veg,200,Yes
+3394,395,Gulab Jamun,Desserts,Veg,300,Yes
+3395,395,Chicken Biryani,Biryani,Non-Veg,300,Yes
+3396,395,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+3397,395,Dal Makhani,North Indian,Veg,400,Yes
+3398,396,Hakka Noodles,Chinese,Veg,180,No
+3399,396,Gulab Jamun,Desserts,Veg,450,No
+3400,396,Thali,South Indian,Veg,120,No
+3401,396,Chicken Burger,Fast Food,Non-Veg,400,Yes
+3402,396,Chicken Pizza,Italian,Non-Veg,200,Yes
+3403,396,Vada Pav,Street Food,Veg,280,No
+3404,397,Masala Dosa,South Indian,Veg,220,Yes
+3405,397,Vada Pav,Street Food,Veg,80,Yes
+3406,397,Pani Puri,Street Food,Veg,120,Yes
+3407,397,Hakka Noodles,Chinese,Veg,80,Yes
+3408,397,Hyderabadi Biryani,Hyderabadi,Non-Veg,150,Yes
+3409,397,Thali,South Indian,Veg,80,Yes
+3410,397,Chicken Burger,Fast Food,Non-Veg,220,No
+3411,398,Litti Chokha,North Indian,Veg,100,Yes
+3412,398,Pani Puri,Street Food,Veg,450,Yes
+3413,398,Veg Biryani,Biryani,Veg,200,Yes
+3414,398,Idli Sambar,South Indian,Veg,220,No
+3415,398,Pav Bhaji,Street Food,Veg,220,Yes
+3416,398,Chicken Biryani,Biryani,Non-Veg,400,Yes
+3417,398,Veg Burger,Fast Food,Veg,500,Yes
+3418,398,Appam Stew,Kerala,Veg,150,Yes
+3419,398,Fish Curry,Seafood,Non-Veg,250,Yes
+3420,398,Gulab Jamun,Desserts,Veg,450,Yes
+3421,398,Paneer Tikka,North Indian,Veg,250,Yes
+3422,398,Chicken Tikka,Mughlai,Non-Veg,300,No
+3423,399,Chicken Pizza,Italian,Non-Veg,500,Yes
+3424,399,Chicken Biryani,Biryani,Non-Veg,180,Yes
+3425,399,Vada Pav,Street Food,Veg,120,Yes
+3426,399,Masala Dosa,South Indian,Veg,120,Yes
+3427,399,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+3428,399,Margherita Pizza,Italian,Veg,400,Yes
+3429,399,Rasmalai,Desserts,Veg,180,No
+3430,399,Litti Chokha,North Indian,Veg,150,Yes
+3431,400,Litti Chokha,North Indian,Veg,150,Yes
+3432,400,Hakka Noodles,Chinese,Veg,500,Yes
+3433,400,Dal Makhani,North Indian,Veg,280,Yes
+3434,400,Thali,South Indian,Veg,400,Yes
+3435,400,Chicken Biryani,Biryani,Non-Veg,220,No
+3436,400,Mutton Rogan Josh,Mughlai,Non-Veg,350,Yes
+3437,400,Pav Bhaji,Street Food,Veg,180,Yes
+3438,400,Paneer Tikka,North Indian,Veg,300,Yes
+3439,401,Butter Chicken,North Indian,Non-Veg,500,Yes
+3440,401,Margherita Pizza,Italian,Veg,400,Yes
+3441,401,Chicken Biryani,Biryani,Non-Veg,500,No
+3442,401,Pani Puri,Street Food,Veg,350,Yes
+3443,401,Chicken Tikka,Mughlai,Non-Veg,180,No
+3444,401,Hakka Noodles,Chinese,Veg,220,Yes
+3445,401,Litti Chokha,North Indian,Veg,180,Yes
+3446,401,Fish Curry,Seafood,Non-Veg,80,Yes
+3447,401,Gulab Jamun,Desserts,Veg,180,Yes
+3448,401,Veg Biryani,Biryani,Veg,180,Yes
+3449,401,Chicken Burger,Fast Food,Non-Veg,150,Yes
+3450,402,Veg Biryani,Biryani,Veg,180,Yes
+3451,402,Litti Chokha,North Indian,Veg,200,Yes
+3452,402,Thali,South Indian,Veg,400,Yes
+3453,402,Prawn Masala,Seafood,Non-Veg,120,Yes
+3454,402,Chicken Burger,Fast Food,Non-Veg,350,Yes
+3455,402,Pani Puri,Street Food,Veg,250,Yes
+3456,403,Mutton Rogan Josh,Mughlai,Non-Veg,450,Yes
+3457,403,Hakka Noodles,Chinese,Veg,450,No
+3458,403,Paneer Tikka,North Indian,Veg,250,Yes
+3459,403,Fish Curry,Seafood,Non-Veg,180,No
+3460,403,Pav Bhaji,Street Food,Veg,280,Yes
+3461,403,Chicken Pizza,Italian,Non-Veg,100,Yes
+3462,403,Butter Chicken,North Indian,Non-Veg,150,Yes
+3463,403,Gulab Jamun,Desserts,Veg,180,Yes
+3464,403,Chicken Tikka,Mughlai,Non-Veg,450,No
+3465,404,Vada Pav,Street Food,Veg,300,Yes
+3466,404,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+3467,404,Masala Dosa,South Indian,Veg,250,Yes
+3468,404,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+3469,404,Litti Chokha,North Indian,Veg,150,No
+3470,404,Hakka Noodles,Chinese,Veg,180,Yes
+3471,404,Pani Puri,Street Food,Veg,300,No
+3472,404,Veg Burger,Fast Food,Veg,80,Yes
+3473,404,Thali,South Indian,Veg,150,Yes
+3474,405,Margherita Pizza,Italian,Veg,180,Yes
+3475,405,Rajma Rice,North Indian,Veg,80,No
+3476,405,Rasmalai,Desserts,Veg,80,Yes
+3477,405,Mutton Rogan Josh,Mughlai,Non-Veg,120,No
+3478,405,Chicken Biryani,Biryani,Non-Veg,450,No
+3479,405,Idli Sambar,South Indian,Veg,200,Yes
+3480,405,Chicken Burger,Fast Food,Non-Veg,100,Yes
+3481,405,Pani Puri,Street Food,Veg,200,No
+3482,406,Dal Makhani,North Indian,Veg,180,No
+3483,406,Chicken Biryani,Biryani,Non-Veg,450,Yes
+3484,406,Veg Burger,Fast Food,Veg,120,Yes
+3485,406,Fish Moilee,Kerala,Non-Veg,150,No
+3486,406,Paneer Tikka,North Indian,Veg,80,No
+3487,406,Thali,South Indian,Veg,180,Yes
+3488,406,Butter Chicken,North Indian,Non-Veg,80,Yes
+3489,406,Prawn Masala,Seafood,Non-Veg,250,Yes
+3490,406,Rasmalai,Desserts,Veg,280,No
+3491,406,Margherita Pizza,Italian,Veg,250,Yes
+3492,406,Vada Pav,Street Food,Veg,280,No
+3493,407,Fish Curry,Seafood,Non-Veg,450,Yes
+3494,407,Chicken Tikka,Mughlai,Non-Veg,80,Yes
+3495,407,Pani Puri,Street Food,Veg,250,No
+3496,407,Chicken Biryani,Biryani,Non-Veg,80,Yes
+3497,407,Hakka Noodles,Chinese,Veg,250,No
+3498,407,Butter Chicken,North Indian,Non-Veg,450,Yes
+3499,407,Chicken Burger,Fast Food,Non-Veg,350,No
+3500,407,Dal Makhani,North Indian,Veg,200,Yes
+3501,407,Margherita Pizza,Italian,Veg,300,Yes
+3502,408,Fish Moilee,Kerala,Non-Veg,100,No
+3503,408,Paneer Tikka,North Indian,Veg,500,Yes
+3504,408,Hakka Noodles,Chinese,Veg,80,Yes
+3505,408,Fish Curry,Seafood,Non-Veg,300,Yes
+3506,408,Veg Biryani,Biryani,Veg,120,Yes
+3507,408,Appam Stew,Kerala,Veg,180,Yes
+3508,408,Chicken Biryani,Biryani,Non-Veg,180,Yes
+3509,408,Litti Chokha,North Indian,Veg,450,Yes
+3510,409,Litti Chokha,North Indian,Veg,180,No
+3511,409,Gulab Jamun,Desserts,Veg,400,Yes
+3512,409,Chicken Pizza,Italian,Non-Veg,200,Yes
+3513,409,Hakka Noodles,Chinese,Veg,150,Yes
+3514,409,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+3515,409,Dal Makhani,North Indian,Veg,500,Yes
+3516,409,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+3517,409,Rajma Rice,North Indian,Veg,200,Yes
+3518,409,Veg Burger,Fast Food,Veg,80,Yes
+3519,409,Fish Curry,Seafood,Non-Veg,180,Yes
+3520,410,Chicken Burger,Fast Food,Non-Veg,150,Yes
+3521,410,Margherita Pizza,Italian,Veg,250,Yes
+3522,410,Pav Bhaji,Street Food,Veg,300,Yes
+3523,410,Chole Bhature,North Indian,Veg,450,No
+3524,410,Rajma Rice,North Indian,Veg,400,Yes
+3525,410,Thali,South Indian,Veg,180,No
+3526,410,Paratha,North Indian,Veg,400,Yes
+3527,410,Veg Biryani,Biryani,Veg,150,Yes
+3528,410,Rasmalai,Desserts,Veg,500,No
+3529,410,Chicken Manchurian,Chinese,Non-Veg,500,Yes
+3530,410,Hakka Noodles,Chinese,Veg,350,Yes
+3531,411,Litti Chokha,North Indian,Veg,350,Yes
+3532,411,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+3533,411,Veg Burger,Fast Food,Veg,150,Yes
+3534,411,Appam Stew,Kerala,Veg,300,Yes
+3535,411,Margherita Pizza,Italian,Veg,450,Yes
+3536,411,Prawn Masala,Seafood,Non-Veg,450,No
+3537,411,Hakka Noodles,Chinese,Veg,300,No
+3538,412,Pani Puri,Street Food,Veg,250,Yes
+3539,412,Paneer Tikka,North Indian,Veg,100,Yes
+3540,412,Chicken Pizza,Italian,Non-Veg,220,Yes
+3541,412,Butter Chicken,North Indian,Non-Veg,200,Yes
+3542,412,Pav Bhaji,Street Food,Veg,220,Yes
+3543,412,Appam Stew,Kerala,Veg,200,Yes
+3544,412,Prawn Masala,Seafood,Non-Veg,220,Yes
+3545,412,Chicken Burger,Fast Food,Non-Veg,220,Yes
+3546,412,Veg Biryani,Biryani,Veg,500,No
+3547,412,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+3548,412,Dal Makhani,North Indian,Veg,180,Yes
+3549,412,Vada Pav,Street Food,Veg,200,No
+3550,413,Litti Chokha,North Indian,Veg,350,Yes
+3551,413,Dal Makhani,North Indian,Veg,250,Yes
+3552,413,Rasmalai,Desserts,Veg,400,No
+3553,413,Paratha,North Indian,Veg,220,Yes
+3554,413,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+3555,414,Rasmalai,Desserts,Veg,300,Yes
+3556,414,Fish Moilee,Kerala,Non-Veg,220,Yes
+3557,414,Litti Chokha,North Indian,Veg,80,Yes
+3558,414,Chicken Burger,Fast Food,Non-Veg,350,Yes
+3559,414,Paneer Tikka,North Indian,Veg,450,Yes
+3560,414,Vada Pav,Street Food,Veg,350,Yes
+3561,414,Butter Chicken,North Indian,Non-Veg,100,Yes
+3562,415,Chicken Biryani,Biryani,Non-Veg,100,Yes
+3563,415,Chicken Pizza,Italian,Non-Veg,100,Yes
+3564,415,Pani Puri,Street Food,Veg,80,Yes
+3565,415,Gulab Jamun,Desserts,Veg,350,Yes
+3566,415,Hakka Noodles,Chinese,Veg,350,Yes
+3567,415,Chole Bhature,North Indian,Veg,280,Yes
+3568,415,Prawn Masala,Seafood,Non-Veg,350,No
+3569,415,Chicken Tikka,Mughlai,Non-Veg,500,Yes
+3570,415,Paratha,North Indian,Veg,450,No
+3571,415,Rasmalai,Desserts,Veg,250,Yes
+3572,415,Fish Curry,Seafood,Non-Veg,150,Yes
+3573,416,Paneer Tikka,North Indian,Veg,250,No
+3574,416,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+3575,416,Veg Burger,Fast Food,Veg,350,No
+3576,416,Thali,South Indian,Veg,500,Yes
+3577,416,Fish Curry,Seafood,Non-Veg,200,No
+3578,416,Veg Biryani,Biryani,Veg,100,Yes
+3579,417,Chicken Biryani,Biryani,Non-Veg,220,Yes
+3580,417,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+3581,417,Fish Curry,Seafood,Non-Veg,280,No
+3582,417,Prawn Masala,Seafood,Non-Veg,500,Yes
+3583,417,Masala Dosa,South Indian,Veg,100,No
+3584,417,Appam Stew,Kerala,Veg,220,Yes
+3585,417,Butter Chicken,North Indian,Non-Veg,350,Yes
+3586,418,Masala Dosa,South Indian,Veg,100,No
+3587,418,Chole Bhature,North Indian,Veg,300,Yes
+3588,418,Chicken Pizza,Italian,Non-Veg,220,Yes
+3589,418,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+3590,418,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,No
+3591,419,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+3592,419,Butter Chicken,North Indian,Non-Veg,200,Yes
+3593,419,Fish Moilee,Kerala,Non-Veg,450,Yes
+3594,419,Dal Makhani,North Indian,Veg,350,No
+3595,419,Masala Dosa,South Indian,Veg,450,No
+3596,419,Litti Chokha,North Indian,Veg,100,Yes
+3597,419,Gulab Jamun,Desserts,Veg,220,Yes
+3598,419,Veg Burger,Fast Food,Veg,250,Yes
+3599,419,Chicken Biryani,Biryani,Non-Veg,300,Yes
+3600,419,Rajma Rice,North Indian,Veg,500,Yes
+3601,419,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+3602,420,Pani Puri,Street Food,Veg,350,Yes
+3603,420,Rasmalai,Desserts,Veg,450,Yes
+3604,420,Chicken Pizza,Italian,Non-Veg,450,No
+3605,420,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,No
+3606,420,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+3607,420,Appam Stew,Kerala,Veg,500,Yes
+3608,420,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+3609,421,Dal Makhani,North Indian,Veg,80,Yes
+3610,421,Paneer Tikka,North Indian,Veg,280,No
+3611,421,Chicken Pizza,Italian,Non-Veg,250,Yes
+3612,421,Chicken Tikka,Mughlai,Non-Veg,500,Yes
+3613,421,Butter Chicken,North Indian,Non-Veg,200,Yes
+3614,421,Rasmalai,Desserts,Veg,300,Yes
+3615,421,Paratha,North Indian,Veg,450,No
+3616,421,Fish Curry,Seafood,Non-Veg,400,Yes
+3617,422,Fish Curry,Seafood,Non-Veg,150,No
+3618,422,Chicken Manchurian,Chinese,Non-Veg,120,Yes
+3619,422,Rasmalai,Desserts,Veg,220,Yes
+3620,422,Paneer Tikka,North Indian,Veg,400,No
+3621,422,Idli Sambar,South Indian,Veg,220,Yes
+3622,422,Pav Bhaji,Street Food,Veg,150,Yes
+3623,422,Gulab Jamun,Desserts,Veg,150,Yes
+3624,422,Veg Biryani,Biryani,Veg,280,Yes
+3625,422,Masala Dosa,South Indian,Veg,100,Yes
+3626,422,Butter Chicken,North Indian,Non-Veg,120,Yes
+3627,422,Chicken Tikka,Mughlai,Non-Veg,200,No
+3628,422,Margherita Pizza,Italian,Veg,250,Yes
+3629,423,Pani Puri,Street Food,Veg,350,Yes
+3630,423,Appam Stew,Kerala,Veg,180,No
+3631,423,Gulab Jamun,Desserts,Veg,180,Yes
+3632,423,Chole Bhature,North Indian,Veg,100,Yes
+3633,423,Rasmalai,Desserts,Veg,250,Yes
+3634,423,Pav Bhaji,Street Food,Veg,220,No
+3635,423,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+3636,423,Litti Chokha,North Indian,Veg,400,No
+3637,423,Vada Pav,Street Food,Veg,120,Yes
+3638,423,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,No
+3639,423,Chicken Biryani,Biryani,Non-Veg,500,No
+3640,423,Paratha,North Indian,Veg,100,Yes
+3641,424,Pav Bhaji,Street Food,Veg,80,Yes
+3642,424,Prawn Masala,Seafood,Non-Veg,280,Yes
+3643,424,Mutton Rogan Josh,Mughlai,Non-Veg,200,No
+3644,424,Rajma Rice,North Indian,Veg,150,Yes
+3645,424,Idli Sambar,South Indian,Veg,400,Yes
+3646,424,Chole Bhature,North Indian,Veg,300,Yes
+3647,424,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+3648,425,Fish Curry,Seafood,Non-Veg,250,Yes
+3649,425,Hakka Noodles,Chinese,Veg,100,Yes
+3650,425,Dal Makhani,North Indian,Veg,350,No
+3651,425,Fish Moilee,Kerala,Non-Veg,150,No
+3652,425,Idli Sambar,South Indian,Veg,200,Yes
+3653,425,Veg Biryani,Biryani,Veg,280,Yes
+3654,425,Paneer Tikka,North Indian,Veg,120,Yes
+3655,426,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+3656,426,Masala Dosa,South Indian,Veg,280,Yes
+3657,426,Butter Chicken,North Indian,Non-Veg,120,No
+3658,426,Chicken Biryani,Biryani,Non-Veg,180,Yes
+3659,426,Rasmalai,Desserts,Veg,220,Yes
+3660,427,Rasmalai,Desserts,Veg,200,Yes
+3661,427,Paratha,North Indian,Veg,100,Yes
+3662,427,Chicken Pizza,Italian,Non-Veg,80,Yes
+3663,427,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+3664,427,Chole Bhature,North Indian,Veg,280,Yes
+3665,427,Chicken Burger,Fast Food,Non-Veg,300,Yes
+3666,427,Margherita Pizza,Italian,Veg,400,Yes
+3667,427,Vada Pav,Street Food,Veg,400,Yes
+3668,427,Chicken Biryani,Biryani,Non-Veg,120,No
+3669,427,Idli Sambar,South Indian,Veg,120,Yes
+3670,427,Pani Puri,Street Food,Veg,400,Yes
+3671,427,Thali,South Indian,Veg,80,Yes
+3672,428,Butter Chicken,North Indian,Non-Veg,80,Yes
+3673,428,Hakka Noodles,Chinese,Veg,350,Yes
+3674,428,Masala Dosa,South Indian,Veg,350,Yes
+3675,428,Litti Chokha,North Indian,Veg,500,Yes
+3676,428,Dal Makhani,North Indian,Veg,150,No
+3677,428,Vada Pav,Street Food,Veg,200,Yes
+3678,428,Paneer Tikka,North Indian,Veg,300,Yes
+3679,428,Fish Moilee,Kerala,Non-Veg,220,Yes
+3680,428,Chicken Burger,Fast Food,Non-Veg,500,Yes
+3681,428,Fish Curry,Seafood,Non-Veg,500,Yes
+3682,428,Appam Stew,Kerala,Veg,500,No
+3683,429,Dal Makhani,North Indian,Veg,80,Yes
+3684,429,Veg Biryani,Biryani,Veg,150,Yes
+3685,429,Chicken Pizza,Italian,Non-Veg,180,Yes
+3686,429,Fish Moilee,Kerala,Non-Veg,180,Yes
+3687,429,Appam Stew,Kerala,Veg,100,Yes
+3688,429,Litti Chokha,North Indian,Veg,220,Yes
+3689,429,Rasmalai,Desserts,Veg,220,No
+3690,429,Margherita Pizza,Italian,Veg,180,No
+3691,429,Prawn Masala,Seafood,Non-Veg,80,Yes
+3692,429,Chicken Manchurian,Chinese,Non-Veg,350,Yes
+3693,429,Mutton Rogan Josh,Mughlai,Non-Veg,180,Yes
+3694,430,Veg Biryani,Biryani,Veg,220,Yes
+3695,430,Vada Pav,Street Food,Veg,120,No
+3696,430,Rajma Rice,North Indian,Veg,500,Yes
+3697,430,Chicken Burger,Fast Food,Non-Veg,280,Yes
+3698,430,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+3699,431,Veg Biryani,Biryani,Veg,300,No
+3700,431,Pani Puri,Street Food,Veg,100,Yes
+3701,431,Pav Bhaji,Street Food,Veg,100,Yes
+3702,431,Butter Chicken,North Indian,Non-Veg,500,Yes
+3703,431,Vada Pav,Street Food,Veg,400,Yes
+3704,431,Fish Moilee,Kerala,Non-Veg,200,Yes
+3705,431,Chicken Burger,Fast Food,Non-Veg,400,Yes
+3706,431,Rasmalai,Desserts,Veg,400,Yes
+3707,431,Chicken Pizza,Italian,Non-Veg,120,Yes
+3708,432,Fish Curry,Seafood,Non-Veg,200,Yes
+3709,432,Fish Moilee,Kerala,Non-Veg,400,Yes
+3710,432,Prawn Masala,Seafood,Non-Veg,400,Yes
+3711,432,Chole Bhature,North Indian,Veg,250,No
+3712,432,Hakka Noodles,Chinese,Veg,120,Yes
+3713,432,Chicken Burger,Fast Food,Non-Veg,400,Yes
+3714,432,Appam Stew,Kerala,Veg,300,Yes
+3715,432,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+3716,432,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+3717,432,Dal Makhani,North Indian,Veg,200,Yes
+3718,433,Vada Pav,Street Food,Veg,280,Yes
+3719,433,Fish Curry,Seafood,Non-Veg,220,Yes
+3720,433,Veg Burger,Fast Food,Veg,150,Yes
+3721,433,Chicken Pizza,Italian,Non-Veg,250,Yes
+3722,433,Idli Sambar,South Indian,Veg,280,Yes
+3723,433,Hakka Noodles,Chinese,Veg,150,Yes
+3724,433,Hyderabadi Biryani,Hyderabadi,Non-Veg,180,Yes
+3725,433,Paratha,North Indian,Veg,450,Yes
+3726,433,Prawn Masala,Seafood,Non-Veg,400,No
+3727,433,Litti Chokha,North Indian,Veg,100,No
+3728,434,Appam Stew,Kerala,Veg,120,Yes
+3729,434,Thali,South Indian,Veg,200,Yes
+3730,434,Litti Chokha,North Indian,Veg,400,Yes
+3731,434,Fish Moilee,Kerala,Non-Veg,350,Yes
+3732,434,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+3733,434,Masala Dosa,South Indian,Veg,80,Yes
+3734,435,Gulab Jamun,Desserts,Veg,350,Yes
+3735,435,Chicken Pizza,Italian,Non-Veg,450,No
+3736,435,Hakka Noodles,Chinese,Veg,300,Yes
+3737,435,Vada Pav,Street Food,Veg,80,Yes
+3738,435,Litti Chokha,North Indian,Veg,450,Yes
+3739,435,Chicken Manchurian,Chinese,Non-Veg,250,No
+3740,435,Rasmalai,Desserts,Veg,120,No
+3741,435,Rajma Rice,North Indian,Veg,500,Yes
+3742,435,Chicken Biryani,Biryani,Non-Veg,200,Yes
+3743,435,Veg Biryani,Biryani,Veg,100,No
+3744,436,Prawn Masala,Seafood,Non-Veg,280,No
+3745,436,Gulab Jamun,Desserts,Veg,80,Yes
+3746,436,Thali,South Indian,Veg,200,Yes
+3747,436,Litti Chokha,North Indian,Veg,120,Yes
+3748,436,Pav Bhaji,Street Food,Veg,450,Yes
+3749,437,Margherita Pizza,Italian,Veg,280,Yes
+3750,437,Paratha,North Indian,Veg,180,No
+3751,437,Fish Curry,Seafood,Non-Veg,220,Yes
+3752,437,Rasmalai,Desserts,Veg,120,Yes
+3753,437,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,No
+3754,437,Pani Puri,Street Food,Veg,180,No
+3755,437,Paneer Tikka,North Indian,Veg,100,Yes
+3756,437,Butter Chicken,North Indian,Non-Veg,400,Yes
+3757,438,Gulab Jamun,Desserts,Veg,150,No
+3758,438,Thali,South Indian,Veg,400,Yes
+3759,438,Litti Chokha,North Indian,Veg,500,Yes
+3760,438,Rasmalai,Desserts,Veg,280,Yes
+3761,438,Masala Dosa,South Indian,Veg,400,No
+3762,438,Hakka Noodles,Chinese,Veg,280,Yes
+3763,438,Veg Biryani,Biryani,Veg,280,Yes
+3764,438,Chicken Burger,Fast Food,Non-Veg,450,Yes
+3765,438,Vada Pav,Street Food,Veg,300,No
+3766,438,Margherita Pizza,Italian,Veg,220,Yes
+3767,438,Paneer Tikka,North Indian,Veg,80,Yes
+3768,438,Dal Makhani,North Indian,Veg,350,Yes
+3769,439,Dal Makhani,North Indian,Veg,350,Yes
+3770,439,Chicken Manchurian,Chinese,Non-Veg,500,Yes
+3771,439,Gulab Jamun,Desserts,Veg,180,Yes
+3772,439,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+3773,439,Rasmalai,Desserts,Veg,250,No
+3774,439,Litti Chokha,North Indian,Veg,300,Yes
+3775,439,Appam Stew,Kerala,Veg,400,No
+3776,439,Chicken Burger,Fast Food,Non-Veg,120,No
+3777,439,Fish Moilee,Kerala,Non-Veg,350,Yes
+3778,439,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+3779,439,Vada Pav,Street Food,Veg,180,No
+3780,439,Hakka Noodles,Chinese,Veg,500,Yes
+3781,440,Paratha,North Indian,Veg,150,Yes
+3782,440,Margherita Pizza,Italian,Veg,300,Yes
+3783,440,Butter Chicken,North Indian,Non-Veg,300,Yes
+3784,440,Appam Stew,Kerala,Veg,350,Yes
+3785,440,Rajma Rice,North Indian,Veg,250,No
+3786,440,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+3787,441,Fish Curry,Seafood,Non-Veg,280,Yes
+3788,441,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,Yes
+3789,441,Dal Makhani,North Indian,Veg,180,Yes
+3790,441,Veg Burger,Fast Food,Veg,250,Yes
+3791,441,Chicken Manchurian,Chinese,Non-Veg,80,No
+3792,441,Vada Pav,Street Food,Veg,350,Yes
+3793,441,Chicken Pizza,Italian,Non-Veg,450,No
+3794,441,Fish Moilee,Kerala,Non-Veg,250,No
+3795,441,Prawn Masala,Seafood,Non-Veg,100,Yes
+3796,441,Chicken Biryani,Biryani,Non-Veg,200,Yes
+3797,441,Margherita Pizza,Italian,Veg,350,Yes
+3798,441,Appam Stew,Kerala,Veg,250,Yes
+3799,442,Gulab Jamun,Desserts,Veg,150,Yes
+3800,442,Idli Sambar,South Indian,Veg,220,Yes
+3801,442,Masala Dosa,South Indian,Veg,120,Yes
+3802,442,Chole Bhature,North Indian,Veg,350,Yes
+3803,442,Fish Moilee,Kerala,Non-Veg,400,Yes
+3804,442,Paratha,North Indian,Veg,150,Yes
+3805,442,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+3806,442,Fish Curry,Seafood,Non-Veg,500,No
+3807,442,Vada Pav,Street Food,Veg,200,Yes
+3808,442,Mutton Rogan Josh,Mughlai,Non-Veg,120,No
+3809,442,Butter Chicken,North Indian,Non-Veg,150,Yes
+3810,443,Appam Stew,Kerala,Veg,120,Yes
+3811,443,Veg Biryani,Biryani,Veg,150,Yes
+3812,443,Mutton Rogan Josh,Mughlai,Non-Veg,250,No
+3813,443,Rasmalai,Desserts,Veg,100,Yes
+3814,443,Hakka Noodles,Chinese,Veg,220,Yes
+3815,443,Masala Dosa,South Indian,Veg,80,Yes
+3816,443,Chicken Tikka,Mughlai,Non-Veg,400,Yes
+3817,443,Fish Moilee,Kerala,Non-Veg,200,Yes
+3818,443,Paneer Tikka,North Indian,Veg,200,No
+3819,443,Chole Bhature,North Indian,Veg,80,Yes
+3820,444,Paneer Tikka,North Indian,Veg,100,Yes
+3821,444,Chicken Pizza,Italian,Non-Veg,220,Yes
+3822,444,Veg Biryani,Biryani,Veg,180,Yes
+3823,444,Chicken Manchurian,Chinese,Non-Veg,300,Yes
+3824,444,Chicken Tikka,Mughlai,Non-Veg,450,No
+3825,445,Veg Biryani,Biryani,Veg,250,Yes
+3826,445,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,No
+3827,445,Idli Sambar,South Indian,Veg,200,Yes
+3828,445,Pani Puri,Street Food,Veg,250,No
+3829,445,Prawn Masala,Seafood,Non-Veg,100,Yes
+3830,445,Gulab Jamun,Desserts,Veg,120,Yes
+3831,445,Dal Makhani,North Indian,Veg,280,Yes
+3832,445,Veg Burger,Fast Food,Veg,350,Yes
+3833,445,Rasmalai,Desserts,Veg,200,No
+3834,445,Chicken Biryani,Biryani,Non-Veg,180,Yes
+3835,445,Masala Dosa,South Indian,Veg,220,Yes
+3836,446,Veg Burger,Fast Food,Veg,200,Yes
+3837,446,Butter Chicken,North Indian,Non-Veg,120,No
+3838,446,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+3839,446,Pav Bhaji,Street Food,Veg,220,Yes
+3840,446,Fish Moilee,Kerala,Non-Veg,250,No
+3841,446,Vada Pav,Street Food,Veg,250,Yes
+3842,446,Hyderabadi Biryani,Hyderabadi,Non-Veg,450,Yes
+3843,446,Gulab Jamun,Desserts,Veg,150,Yes
+3844,447,Chicken Pizza,Italian,Non-Veg,280,Yes
+3845,447,Litti Chokha,North Indian,Veg,400,Yes
+3846,447,Chole Bhature,North Indian,Veg,220,No
+3847,447,Gulab Jamun,Desserts,Veg,400,Yes
+3848,447,Rajma Rice,North Indian,Veg,220,Yes
+3849,447,Rasmalai,Desserts,Veg,120,Yes
+3850,447,Paneer Tikka,North Indian,Veg,120,Yes
+3851,447,Chicken Tikka,Mughlai,Non-Veg,300,No
+3852,447,Veg Burger,Fast Food,Veg,200,Yes
+3853,447,Pani Puri,Street Food,Veg,350,Yes
+3854,447,Appam Stew,Kerala,Veg,220,Yes
+3855,447,Butter Chicken,North Indian,Non-Veg,250,Yes
+3856,448,Chicken Burger,Fast Food,Non-Veg,150,Yes
+3857,448,Hakka Noodles,Chinese,Veg,180,Yes
+3858,448,Butter Chicken,North Indian,Non-Veg,300,Yes
+3859,448,Rajma Rice,North Indian,Veg,250,No
+3860,448,Chicken Biryani,Biryani,Non-Veg,300,No
+3861,448,Vada Pav,Street Food,Veg,120,Yes
+3862,448,Veg Burger,Fast Food,Veg,220,Yes
+3863,448,Veg Biryani,Biryani,Veg,400,Yes
+3864,448,Idli Sambar,South Indian,Veg,280,Yes
+3865,448,Paneer Tikka,North Indian,Veg,350,Yes
+3866,448,Pani Puri,Street Food,Veg,450,Yes
+3867,449,Rajma Rice,North Indian,Veg,300,Yes
+3868,449,Rasmalai,Desserts,Veg,100,Yes
+3869,449,Idli Sambar,South Indian,Veg,500,Yes
+3870,449,Gulab Jamun,Desserts,Veg,150,Yes
+3871,449,Margherita Pizza,Italian,Veg,250,Yes
+3872,449,Chicken Burger,Fast Food,Non-Veg,120,Yes
+3873,450,Paneer Tikka,North Indian,Veg,400,Yes
+3874,450,Litti Chokha,North Indian,Veg,120,No
+3875,450,Pani Puri,Street Food,Veg,450,Yes
+3876,450,Prawn Masala,Seafood,Non-Veg,200,Yes
+3877,450,Masala Dosa,South Indian,Veg,300,Yes
+3878,450,Appam Stew,Kerala,Veg,250,No
+3879,450,Fish Curry,Seafood,Non-Veg,450,Yes
+3880,450,Dal Makhani,North Indian,Veg,280,Yes
+3881,450,Chicken Burger,Fast Food,Non-Veg,80,No
+3882,450,Hakka Noodles,Chinese,Veg,150,Yes
+3883,450,Veg Burger,Fast Food,Veg,120,Yes
+3884,451,Idli Sambar,South Indian,Veg,180,No
+3885,451,Chicken Pizza,Italian,Non-Veg,400,No
+3886,451,Gulab Jamun,Desserts,Veg,200,Yes
+3887,451,Prawn Masala,Seafood,Non-Veg,120,Yes
+3888,451,Paneer Tikka,North Indian,Veg,250,No
+3889,451,Mutton Rogan Josh,Mughlai,Non-Veg,80,No
+3890,452,Chicken Burger,Fast Food,Non-Veg,250,Yes
+3891,452,Chicken Pizza,Italian,Non-Veg,400,Yes
+3892,452,Thali,South Indian,Veg,500,Yes
+3893,452,Fish Moilee,Kerala,Non-Veg,120,Yes
+3894,452,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+3895,453,Prawn Masala,Seafood,Non-Veg,450,Yes
+3896,453,Hakka Noodles,Chinese,Veg,220,Yes
+3897,453,Paratha,North Indian,Veg,250,No
+3898,453,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+3899,453,Chicken Manchurian,Chinese,Non-Veg,220,Yes
+3900,453,Appam Stew,Kerala,Veg,120,No
+3901,453,Pani Puri,Street Food,Veg,120,Yes
+3902,453,Rajma Rice,North Indian,Veg,120,No
+3903,453,Fish Moilee,Kerala,Non-Veg,280,Yes
+3904,453,Butter Chicken,North Indian,Non-Veg,450,Yes
+3905,453,Thali,South Indian,Veg,280,Yes
+3906,453,Chicken Burger,Fast Food,Non-Veg,220,Yes
+3907,454,Chicken Tikka,Mughlai,Non-Veg,220,Yes
+3908,454,Veg Biryani,Biryani,Veg,200,No
+3909,454,Hakka Noodles,Chinese,Veg,400,No
+3910,454,Butter Chicken,North Indian,Non-Veg,280,Yes
+3911,454,Fish Moilee,Kerala,Non-Veg,450,Yes
+3912,454,Vada Pav,Street Food,Veg,100,No
+3913,454,Chole Bhature,North Indian,Veg,220,Yes
+3914,454,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+3915,454,Chicken Biryani,Biryani,Non-Veg,350,Yes
+3916,454,Chicken Burger,Fast Food,Non-Veg,120,No
+3917,454,Fish Curry,Seafood,Non-Veg,300,Yes
+3918,455,Thali,South Indian,Veg,280,Yes
+3919,455,Idli Sambar,South Indian,Veg,150,Yes
+3920,455,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+3921,455,Litti Chokha,North Indian,Veg,100,No
+3922,455,Chicken Tikka,Mughlai,Non-Veg,450,Yes
+3923,455,Masala Dosa,South Indian,Veg,100,Yes
+3924,456,Prawn Masala,Seafood,Non-Veg,400,No
+3925,456,Butter Chicken,North Indian,Non-Veg,250,Yes
+3926,456,Fish Curry,Seafood,Non-Veg,200,Yes
+3927,456,Hakka Noodles,Chinese,Veg,80,No
+3928,456,Thali,South Indian,Veg,250,Yes
+3929,456,Paratha,North Indian,Veg,400,Yes
+3930,456,Veg Biryani,Biryani,Veg,250,Yes
+3931,456,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+3932,456,Appam Stew,Kerala,Veg,150,Yes
+3933,457,Prawn Masala,Seafood,Non-Veg,220,Yes
+3934,457,Gulab Jamun,Desserts,Veg,350,Yes
+3935,457,Pav Bhaji,Street Food,Veg,200,Yes
+3936,457,Rajma Rice,North Indian,Veg,100,Yes
+3937,457,Hakka Noodles,Chinese,Veg,500,Yes
+3938,457,Rasmalai,Desserts,Veg,80,No
+3939,457,Margherita Pizza,Italian,Veg,80,Yes
+3940,457,Appam Stew,Kerala,Veg,250,Yes
+3941,457,Masala Dosa,South Indian,Veg,80,Yes
+3942,457,Chicken Burger,Fast Food,Non-Veg,80,Yes
+3943,457,Mutton Rogan Josh,Mughlai,Non-Veg,80,Yes
+3944,458,Veg Burger,Fast Food,Veg,120,Yes
+3945,458,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+3946,458,Gulab Jamun,Desserts,Veg,350,Yes
+3947,458,Chicken Manchurian,Chinese,Non-Veg,300,No
+3948,458,Idli Sambar,South Indian,Veg,200,No
+3949,458,Pani Puri,Street Food,Veg,180,No
+3950,458,Chicken Burger,Fast Food,Non-Veg,350,Yes
+3951,458,Dal Makhani,North Indian,Veg,350,Yes
+3952,458,Hyderabadi Biryani,Hyderabadi,Non-Veg,500,No
+3953,458,Rasmalai,Desserts,Veg,200,No
+3954,459,Chicken Tikka,Mughlai,Non-Veg,350,Yes
+3955,459,Fish Moilee,Kerala,Non-Veg,350,Yes
+3956,459,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,Yes
+3957,459,Idli Sambar,South Indian,Veg,100,No
+3958,459,Pav Bhaji,Street Food,Veg,180,Yes
+3959,459,Masala Dosa,South Indian,Veg,200,Yes
+3960,459,Margherita Pizza,Italian,Veg,250,Yes
+3961,459,Veg Burger,Fast Food,Veg,80,Yes
+3962,459,Paratha,North Indian,Veg,100,Yes
+3963,460,Hakka Noodles,Chinese,Veg,400,No
+3964,460,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+3965,460,Rasmalai,Desserts,Veg,400,No
+3966,460,Thali,South Indian,Veg,450,Yes
+3967,460,Dal Makhani,North Indian,Veg,500,Yes
+3968,460,Pani Puri,Street Food,Veg,200,No
+3969,460,Chicken Pizza,Italian,Non-Veg,450,Yes
+3970,460,Margherita Pizza,Italian,Veg,450,No
+3971,461,Rasmalai,Desserts,Veg,280,Yes
+3972,461,Veg Burger,Fast Food,Veg,180,Yes
+3973,461,Paneer Tikka,North Indian,Veg,300,Yes
+3974,461,Appam Stew,Kerala,Veg,280,Yes
+3975,461,Pav Bhaji,Street Food,Veg,150,Yes
+3976,461,Fish Curry,Seafood,Non-Veg,280,No
+3977,461,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+3978,461,Pani Puri,Street Food,Veg,400,Yes
+3979,461,Margherita Pizza,Italian,Veg,350,Yes
+3980,462,Chicken Tikka,Mughlai,Non-Veg,200,Yes
+3981,462,Pani Puri,Street Food,Veg,200,Yes
+3982,462,Vada Pav,Street Food,Veg,250,Yes
+3983,462,Butter Chicken,North Indian,Non-Veg,100,Yes
+3984,462,Gulab Jamun,Desserts,Veg,100,Yes
+3985,462,Rasmalai,Desserts,Veg,400,Yes
+3986,462,Appam Stew,Kerala,Veg,450,Yes
+3987,462,Prawn Masala,Seafood,Non-Veg,280,Yes
+3988,462,Chicken Pizza,Italian,Non-Veg,220,No
+3989,462,Chole Bhature,North Indian,Veg,280,Yes
+3990,462,Idli Sambar,South Indian,Veg,300,Yes
+3991,462,Thali,South Indian,Veg,500,Yes
+3992,463,Dal Makhani,North Indian,Veg,280,Yes
+3993,463,Pav Bhaji,Street Food,Veg,80,No
+3994,463,Fish Moilee,Kerala,Non-Veg,400,Yes
+3995,463,Gulab Jamun,Desserts,Veg,350,Yes
+3996,463,Chicken Pizza,Italian,Non-Veg,400,Yes
+3997,463,Veg Biryani,Biryani,Veg,450,Yes
+3998,464,Masala Dosa,South Indian,Veg,300,No
+3999,464,Veg Burger,Fast Food,Veg,350,Yes
+4000,464,Litti Chokha,North Indian,Veg,80,Yes
+4001,464,Chicken Pizza,Italian,Non-Veg,500,Yes
+4002,464,Chicken Tikka,Mughlai,Non-Veg,180,Yes
+4003,464,Pani Puri,Street Food,Veg,500,No
+4004,464,Pav Bhaji,Street Food,Veg,450,Yes
+4005,465,Chicken Biryani,Biryani,Non-Veg,180,Yes
+4006,465,Litti Chokha,North Indian,Veg,250,Yes
+4007,465,Hyderabadi Biryani,Hyderabadi,Non-Veg,220,Yes
+4008,465,Appam Stew,Kerala,Veg,180,Yes
+4009,465,Mutton Rogan Josh,Mughlai,Non-Veg,300,Yes
+4010,465,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+4011,465,Veg Burger,Fast Food,Veg,250,Yes
+4012,466,Appam Stew,Kerala,Veg,80,Yes
+4013,466,Thali,South Indian,Veg,200,Yes
+4014,466,Idli Sambar,South Indian,Veg,300,Yes
+4015,466,Chicken Biryani,Biryani,Non-Veg,220,No
+4016,466,Chicken Tikka,Mughlai,Non-Veg,500,No
+4017,466,Chicken Pizza,Italian,Non-Veg,300,No
+4018,466,Fish Moilee,Kerala,Non-Veg,300,No
+4019,466,Hakka Noodles,Chinese,Veg,250,Yes
+4020,466,Litti Chokha,North Indian,Veg,180,Yes
+4021,466,Chicken Manchurian,Chinese,Non-Veg,200,Yes
+4022,466,Vada Pav,Street Food,Veg,250,Yes
+4023,466,Prawn Masala,Seafood,Non-Veg,100,Yes
+4024,467,Butter Chicken,North Indian,Non-Veg,80,Yes
+4025,467,Veg Biryani,Biryani,Veg,300,No
+4026,467,Rasmalai,Desserts,Veg,120,No
+4027,467,Masala Dosa,South Indian,Veg,200,Yes
+4028,467,Rajma Rice,North Indian,Veg,400,Yes
+4029,467,Gulab Jamun,Desserts,Veg,180,No
+4030,467,Paratha,North Indian,Veg,150,Yes
+4031,467,Chole Bhature,North Indian,Veg,100,Yes
+4032,467,Chicken Pizza,Italian,Non-Veg,500,Yes
+4033,468,Appam Stew,Kerala,Veg,220,Yes
+4034,468,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+4035,468,Chicken Manchurian,Chinese,Non-Veg,220,No
+4036,468,Rasmalai,Desserts,Veg,120,Yes
+4037,468,Dal Makhani,North Indian,Veg,400,Yes
+4038,468,Chicken Pizza,Italian,Non-Veg,500,Yes
+4039,468,Rajma Rice,North Indian,Veg,450,No
+4040,468,Veg Burger,Fast Food,Veg,80,No
+4041,468,Pav Bhaji,Street Food,Veg,200,Yes
+4042,469,Litti Chokha,North Indian,Veg,80,Yes
+4043,469,Vada Pav,Street Food,Veg,400,Yes
+4044,469,Dal Makhani,North Indian,Veg,250,Yes
+4045,469,Veg Biryani,Biryani,Veg,150,Yes
+4046,469,Margherita Pizza,Italian,Veg,80,Yes
+4047,470,Veg Burger,Fast Food,Veg,180,No
+4048,470,Idli Sambar,South Indian,Veg,500,Yes
+4049,470,Appam Stew,Kerala,Veg,220,Yes
+4050,470,Chicken Burger,Fast Food,Non-Veg,500,Yes
+4051,470,Paratha,North Indian,Veg,450,Yes
+4052,470,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+4053,470,Chicken Manchurian,Chinese,Non-Veg,150,Yes
+4054,470,Chicken Biryani,Biryani,Non-Veg,250,Yes
+4055,470,Prawn Masala,Seafood,Non-Veg,280,No
+4056,470,Chicken Pizza,Italian,Non-Veg,280,Yes
+4057,470,Thali,South Indian,Veg,220,No
+4058,470,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+4059,471,Pav Bhaji,Street Food,Veg,200,No
+4060,471,Rasmalai,Desserts,Veg,200,Yes
+4061,471,Litti Chokha,North Indian,Veg,100,Yes
+4062,471,Fish Curry,Seafood,Non-Veg,120,Yes
+4063,471,Vada Pav,Street Food,Veg,200,Yes
+4064,471,Fish Moilee,Kerala,Non-Veg,100,Yes
+4065,471,Margherita Pizza,Italian,Veg,350,No
+4066,471,Rajma Rice,North Indian,Veg,220,Yes
+4067,471,Dal Makhani,North Indian,Veg,200,Yes
+4068,472,Gulab Jamun,Desserts,Veg,180,No
+4069,472,Paratha,North Indian,Veg,80,Yes
+4070,472,Rasmalai,Desserts,Veg,120,Yes
+4071,472,Fish Curry,Seafood,Non-Veg,150,Yes
+4072,472,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,Yes
+4073,472,Mutton Rogan Josh,Mughlai,Non-Veg,500,Yes
+4074,472,Idli Sambar,South Indian,Veg,500,No
+4075,472,Prawn Masala,Seafood,Non-Veg,100,Yes
+4076,472,Fish Moilee,Kerala,Non-Veg,150,Yes
+4077,472,Rajma Rice,North Indian,Veg,80,Yes
+4078,472,Thali,South Indian,Veg,500,No
+4079,473,Fish Curry,Seafood,Non-Veg,220,Yes
+4080,473,Chicken Pizza,Italian,Non-Veg,120,No
+4081,473,Mutton Rogan Josh,Mughlai,Non-Veg,120,No
+4082,473,Masala Dosa,South Indian,Veg,400,No
+4083,473,Appam Stew,Kerala,Veg,80,Yes
+4084,473,Hakka Noodles,Chinese,Veg,120,Yes
+4085,473,Rajma Rice,North Indian,Veg,280,No
+4086,473,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+4087,473,Prawn Masala,Seafood,Non-Veg,500,Yes
+4088,473,Margherita Pizza,Italian,Veg,250,Yes
+4089,473,Fish Moilee,Kerala,Non-Veg,400,Yes
+4090,474,Idli Sambar,South Indian,Veg,250,Yes
+4091,474,Veg Burger,Fast Food,Veg,200,No
+4092,474,Prawn Masala,Seafood,Non-Veg,120,Yes
+4093,474,Dal Makhani,North Indian,Veg,350,Yes
+4094,474,Fish Moilee,Kerala,Non-Veg,500,No
+4095,474,Chicken Tikka,Mughlai,Non-Veg,250,Yes
+4096,474,Chicken Burger,Fast Food,Non-Veg,80,Yes
+4097,474,Rajma Rice,North Indian,Veg,200,Yes
+4098,474,Pav Bhaji,Street Food,Veg,200,Yes
+4099,474,Paratha,North Indian,Veg,400,No
+4100,474,Thali,South Indian,Veg,150,Yes
+4101,475,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,Yes
+4102,475,Hakka Noodles,Chinese,Veg,500,No
+4103,475,Dal Makhani,North Indian,Veg,80,Yes
+4104,475,Rajma Rice,North Indian,Veg,400,Yes
+4105,475,Chicken Burger,Fast Food,Non-Veg,450,Yes
+4106,475,Veg Burger,Fast Food,Veg,80,Yes
+4107,475,Masala Dosa,South Indian,Veg,200,Yes
+4108,476,Mutton Rogan Josh,Mughlai,Non-Veg,250,Yes
+4109,476,Chicken Pizza,Italian,Non-Veg,180,Yes
+4110,476,Fish Curry,Seafood,Non-Veg,100,No
+4111,476,Rasmalai,Desserts,Veg,250,Yes
+4112,476,Rajma Rice,North Indian,Veg,200,No
+4113,476,Paratha,North Indian,Veg,350,Yes
+4114,476,Veg Burger,Fast Food,Veg,220,No
+4115,476,Dal Makhani,North Indian,Veg,150,No
+4116,476,Gulab Jamun,Desserts,Veg,500,Yes
+4117,476,Hakka Noodles,Chinese,Veg,220,Yes
+4118,477,Chicken Tikka,Mughlai,Non-Veg,150,Yes
+4119,477,Fish Curry,Seafood,Non-Veg,400,Yes
+4120,477,Veg Burger,Fast Food,Veg,300,Yes
+4121,477,Pani Puri,Street Food,Veg,400,Yes
+4122,477,Rajma Rice,North Indian,Veg,180,Yes
+4123,477,Litti Chokha,North Indian,Veg,200,No
+4124,477,Chicken Pizza,Italian,Non-Veg,400,No
+4125,477,Chicken Manchurian,Chinese,Non-Veg,80,Yes
+4126,477,Dal Makhani,North Indian,Veg,350,No
+4127,478,Dal Makhani,North Indian,Veg,350,Yes
+4128,478,Veg Burger,Fast Food,Veg,120,No
+4129,478,Rasmalai,Desserts,Veg,180,Yes
+4130,478,Chicken Tikka,Mughlai,Non-Veg,250,No
+4131,478,Vada Pav,Street Food,Veg,80,Yes
+4132,478,Gulab Jamun,Desserts,Veg,150,Yes
+4133,478,Hyderabadi Biryani,Hyderabadi,Non-Veg,100,Yes
+4134,479,Dal Makhani,North Indian,Veg,400,Yes
+4135,479,Litti Chokha,North Indian,Veg,150,No
+4136,479,Gulab Jamun,Desserts,Veg,100,No
+4137,479,Fish Curry,Seafood,Non-Veg,120,Yes
+4138,479,Butter Chicken,North Indian,Non-Veg,150,Yes
+4139,480,Prawn Masala,Seafood,Non-Veg,200,Yes
+4140,480,Rasmalai,Desserts,Veg,150,No
+4141,480,Paneer Tikka,North Indian,Veg,180,Yes
+4142,480,Vada Pav,Street Food,Veg,200,No
+4143,480,Pani Puri,Street Food,Veg,250,Yes
+4144,480,Hyderabadi Biryani,Hyderabadi,Non-Veg,120,No
+4145,480,Chicken Biryani,Biryani,Non-Veg,250,Yes
+4146,480,Litti Chokha,North Indian,Veg,280,No
+4147,480,Appam Stew,Kerala,Veg,100,Yes
+4148,480,Butter Chicken,North Indian,Non-Veg,220,Yes
+4149,480,Veg Biryani,Biryani,Veg,300,No
+4150,481,Hakka Noodles,Chinese,Veg,300,Yes
+4151,481,Paratha,North Indian,Veg,200,Yes
+4152,481,Gulab Jamun,Desserts,Veg,200,Yes
+4153,481,Veg Burger,Fast Food,Veg,350,Yes
+4154,481,Mutton Rogan Josh,Mughlai,Non-Veg,400,No
+4155,481,Pav Bhaji,Street Food,Veg,120,Yes
+4156,481,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+4157,481,Vada Pav,Street Food,Veg,180,Yes
+4158,481,Litti Chokha,North Indian,Veg,500,Yes
+4159,481,Thali,South Indian,Veg,100,Yes
+4160,482,Idli Sambar,South Indian,Veg,350,Yes
+4161,482,Paratha,North Indian,Veg,450,Yes
+4162,482,Vada Pav,Street Food,Veg,220,Yes
+4163,482,Masala Dosa,South Indian,Veg,100,Yes
+4164,482,Rajma Rice,North Indian,Veg,300,Yes
+4165,482,Veg Burger,Fast Food,Veg,100,Yes
+4166,482,Pav Bhaji,Street Food,Veg,500,Yes
+4167,482,Fish Moilee,Kerala,Non-Veg,250,Yes
+4168,482,Paneer Tikka,North Indian,Veg,400,Yes
+4169,482,Hakka Noodles,Chinese,Veg,200,Yes
+4170,483,Appam Stew,Kerala,Veg,250,No
+4171,483,Chole Bhature,North Indian,Veg,450,Yes
+4172,483,Paneer Tikka,North Indian,Veg,250,Yes
+4173,483,Veg Burger,Fast Food,Veg,80,Yes
+4174,483,Masala Dosa,South Indian,Veg,180,Yes
+4175,484,Fish Moilee,Kerala,Non-Veg,450,Yes
+4176,484,Rajma Rice,North Indian,Veg,400,Yes
+4177,484,Pav Bhaji,Street Food,Veg,180,Yes
+4178,484,Veg Burger,Fast Food,Veg,400,Yes
+4179,484,Dal Makhani,North Indian,Veg,300,Yes
+4180,484,Idli Sambar,South Indian,Veg,450,No
+4181,484,Thali,South Indian,Veg,150,Yes
+4182,484,Chicken Biryani,Biryani,Non-Veg,350,Yes
+4183,485,Chicken Biryani,Biryani,Non-Veg,120,Yes
+4184,485,Idli Sambar,South Indian,Veg,250,Yes
+4185,485,Appam Stew,Kerala,Veg,300,Yes
+4186,485,Paratha,North Indian,Veg,400,Yes
+4187,485,Pani Puri,Street Food,Veg,180,No
+4188,485,Prawn Masala,Seafood,Non-Veg,300,Yes
+4189,485,Paneer Tikka,North Indian,Veg,100,Yes
+4190,485,Pav Bhaji,Street Food,Veg,450,Yes
+4191,485,Veg Burger,Fast Food,Veg,120,Yes
+4192,486,Chicken Pizza,Italian,Non-Veg,400,Yes
+4193,486,Butter Chicken,North Indian,Non-Veg,180,Yes
+4194,486,Chicken Biryani,Biryani,Non-Veg,250,Yes
+4195,486,Prawn Masala,Seafood,Non-Veg,150,Yes
+4196,486,Rasmalai,Desserts,Veg,300,No
+4197,486,Litti Chokha,North Indian,Veg,400,Yes
+4198,486,Veg Biryani,Biryani,Veg,250,No
+4199,486,Chole Bhature,North Indian,Veg,280,No
+4200,486,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+4201,487,Dal Makhani,North Indian,Veg,400,Yes
+4202,487,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+4203,487,Fish Moilee,Kerala,Non-Veg,150,Yes
+4204,487,Masala Dosa,South Indian,Veg,100,Yes
+4205,487,Veg Biryani,Biryani,Veg,300,Yes
+4206,487,Hyderabadi Biryani,Hyderabadi,Non-Veg,280,Yes
+4207,487,Appam Stew,Kerala,Veg,120,Yes
+4208,487,Litti Chokha,North Indian,Veg,280,Yes
+4209,487,Butter Chicken,North Indian,Non-Veg,300,No
+4210,487,Idli Sambar,South Indian,Veg,350,No
+4211,487,Rasmalai,Desserts,Veg,180,Yes
+4212,487,Chicken Biryani,Biryani,Non-Veg,120,Yes
+4213,488,Fish Moilee,Kerala,Non-Veg,80,Yes
+4214,488,Gulab Jamun,Desserts,Veg,100,Yes
+4215,488,Veg Biryani,Biryani,Veg,150,Yes
+4216,488,Veg Burger,Fast Food,Veg,220,Yes
+4217,488,Thali,South Indian,Veg,100,No
+4218,488,Appam Stew,Kerala,Veg,120,Yes
+4219,489,Thali,South Indian,Veg,80,Yes
+4220,489,Litti Chokha,North Indian,Veg,400,Yes
+4221,489,Chicken Burger,Fast Food,Non-Veg,300,Yes
+4222,489,Margherita Pizza,Italian,Veg,280,No
+4223,489,Chicken Manchurian,Chinese,Non-Veg,180,Yes
+4224,489,Paneer Tikka,North Indian,Veg,200,Yes
+4225,489,Mutton Rogan Josh,Mughlai,Non-Veg,100,Yes
+4226,489,Paratha,North Indian,Veg,400,Yes
+4227,489,Chicken Biryani,Biryani,Non-Veg,450,Yes
+4228,489,Appam Stew,Kerala,Veg,80,Yes
+4229,489,Veg Burger,Fast Food,Veg,180,Yes
+4230,490,Chicken Pizza,Italian,Non-Veg,500,No
+4231,490,Butter Chicken,North Indian,Non-Veg,250,Yes
+4232,490,Chicken Manchurian,Chinese,Non-Veg,450,Yes
+4233,490,Chicken Biryani,Biryani,Non-Veg,200,No
+4234,490,Chicken Tikka,Mughlai,Non-Veg,120,Yes
+4235,490,Fish Curry,Seafood,Non-Veg,100,No
+4236,490,Litti Chokha,North Indian,Veg,450,Yes
+4237,490,Margherita Pizza,Italian,Veg,100,No
+4238,490,Pav Bhaji,Street Food,Veg,80,Yes
+4239,490,Paneer Tikka,North Indian,Veg,350,No
+4240,491,Chicken Biryani,Biryani,Non-Veg,80,Yes
+4241,491,Chicken Burger,Fast Food,Non-Veg,450,No
+4242,491,Litti Chokha,North Indian,Veg,500,Yes
+4243,491,Veg Burger,Fast Food,Veg,150,No
+4244,491,Rajma Rice,North Indian,Veg,500,Yes
+4245,491,Hyderabadi Biryani,Hyderabadi,Non-Veg,80,No
+4246,492,Litti Chokha,North Indian,Veg,220,Yes
+4247,492,Hakka Noodles,Chinese,Veg,500,Yes
+4248,492,Butter Chicken,North Indian,Non-Veg,450,Yes
+4249,492,Pani Puri,Street Food,Veg,150,No
+4250,492,Pav Bhaji,Street Food,Veg,80,Yes
+4251,492,Rasmalai,Desserts,Veg,250,Yes
+4252,492,Hyderabadi Biryani,Hyderabadi,Non-Veg,400,Yes
+4253,492,Chicken Tikka,Mughlai,Non-Veg,280,Yes
+4254,492,Margherita Pizza,Italian,Veg,450,Yes
+4255,492,Rajma Rice,North Indian,Veg,300,No
+4256,492,Veg Burger,Fast Food,Veg,500,Yes
+4257,493,Chicken Burger,Fast Food,Non-Veg,150,Yes
+4258,493,Paneer Tikka,North Indian,Veg,450,No
+4259,493,Prawn Masala,Seafood,Non-Veg,200,No
+4260,493,Chicken Pizza,Italian,Non-Veg,180,Yes
+4261,493,Chole Bhature,North Indian,Veg,400,Yes
+4262,493,Dal Makhani,North Indian,Veg,300,Yes
+4263,493,Idli Sambar,South Indian,Veg,150,No
+4264,493,Appam Stew,Kerala,Veg,200,Yes
+4265,493,Mutton Rogan Josh,Mughlai,Non-Veg,500,No
+4266,494,Masala Dosa,South Indian,Veg,350,Yes
+4267,494,Fish Curry,Seafood,Non-Veg,280,Yes
+4268,494,Litti Chokha,North Indian,Veg,400,Yes
+4269,494,Vada Pav,Street Food,Veg,200,Yes
+4270,494,Prawn Masala,Seafood,Non-Veg,500,Yes
+4271,494,Paratha,North Indian,Veg,150,Yes
+4272,494,Pani Puri,Street Food,Veg,300,No
+4273,495,Chole Bhature,North Indian,Veg,120,Yes
+4274,495,Pani Puri,Street Food,Veg,220,No
+4275,495,Mutton Rogan Josh,Mughlai,Non-Veg,280,Yes
+4276,495,Fish Curry,Seafood,Non-Veg,280,No
+4277,495,Litti Chokha,North Indian,Veg,150,No
+4278,496,Masala Dosa,South Indian,Veg,220,Yes
+4279,496,Dal Makhani,North Indian,Veg,250,Yes
+4280,496,Prawn Masala,Seafood,Non-Veg,280,Yes
+4281,496,Butter Chicken,North Indian,Non-Veg,220,No
+4282,496,Paneer Tikka,North Indian,Veg,450,Yes
+4283,496,Chicken Tikka,Mughlai,Non-Veg,280,No
+4284,496,Paratha,North Indian,Veg,400,No
+4285,496,Thali,South Indian,Veg,400,Yes
+4286,497,Margherita Pizza,Italian,Veg,80,No
+4287,497,Dal Makhani,North Indian,Veg,150,Yes
+4288,497,Chicken Manchurian,Chinese,Non-Veg,250,Yes
+4289,497,Hyderabadi Biryani,Hyderabadi,Non-Veg,200,Yes
+4290,497,Chicken Biryani,Biryani,Non-Veg,300,No
+4291,497,Masala Dosa,South Indian,Veg,250,No
+4292,498,Veg Biryani,Biryani,Veg,80,Yes
+4293,498,Chicken Tikka,Mughlai,Non-Veg,100,Yes
+4294,498,Pav Bhaji,Street Food,Veg,180,Yes
+4295,498,Fish Curry,Seafood,Non-Veg,200,No
+4296,498,Mutton Rogan Josh,Mughlai,Non-Veg,120,Yes
+4297,499,Paratha,North Indian,Veg,100,Yes
+4298,499,Chole Bhature,North Indian,Veg,180,No
+4299,499,Pani Puri,Street Food,Veg,80,Yes
+4300,499,Margherita Pizza,Italian,Veg,220,Yes
+4301,499,Chicken Biryani,Biryani,Non-Veg,100,Yes
+4302,499,Appam Stew,Kerala,Veg,220,Yes
+4303,499,Chicken Pizza,Italian,Non-Veg,450,Yes
+4304,499,Prawn Masala,Seafood,Non-Veg,200,Yes
+4305,499,Fish Moilee,Kerala,Non-Veg,400,Yes
+4306,500,Pav Bhaji,Street Food,Veg,250,No
+4307,500,Chicken Tikka,Mughlai,Non-Veg,100,Yes
+4308,500,Idli Sambar,South Indian,Veg,450,Yes
+4309,500,Rajma Rice,North Indian,Veg,150,Yes
+4310,500,Margherita Pizza,Italian,Veg,450,Yes
+4311,500,Fish Curry,Seafood,Non-Veg,350,Yes
+4312,500,Dal Makhani,North Indian,Veg,180,Yes
+4313,500,Appam Stew,Kerala,Veg,500,Yes
+4314,500,Hyderabadi Biryani,Hyderabadi,Non-Veg,350,No
+4315,500,Thali,South Indian,Veg,450,No
+4316,500,Fish Moilee,Kerala,Non-Veg,80,Yes

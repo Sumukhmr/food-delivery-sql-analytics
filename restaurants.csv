@@ -1,0 +1,501 @@
+restaurant_id,restaurant_name,city,area,cuisines,avg_cost_for_two,rating,total_ratings,has_online_delivery,has_table_booking,opening_date,is_active
+1,Highway Point,Nagpur,Sadar,"North Indian, Punjabi",800,3.5,3632,Yes,No,2020-09-09,Yes
+2,New Tadka,Bengaluru,Jayanagar,Seafood,300,3.3,3328,Yes,Yes,2017-04-28,Yes
+3,Bhavan Eatery,Ahmedabad,CG Road,Gujarati,1000,4.2,3714,Yes,No,2017-09-26,No
+4,Udupi Dhaba,Indore,Palasia,"Bengali, Rajasthani",200,3.6,2862,Yes,No,2019-10-04,Yes
+5,Shahi Corner,Jaipur,Raja Park,Gujarati,700,4.0,1613,Yes,No,2022-03-26,Yes
+6,Golden Corner,Delhi,Lajpat Nagar,Chettinad,700,2.6,659,Yes,No,2022-10-19,Yes
+7,Classic Diner,Lucknow,Gomti Nagar,"Mughlai, Street Food",350,2.9,557,Yes,Yes,2019-08-05,No
+8,Ruchi Corner,Delhi,Rohini,"Hyderabadi, Punjabi",250,3.1,1610,Yes,Yes,2019-09-30,Yes
+9,Haveli Bistro,Jaipur,Vaishali Nagar,"Hyderabadi, Desserts",250,3.8,1540,Yes,Yes,2017-01-02,Yes
+10,Dawat Dhaba,Pune,Hinjewadi,"Kerala, South Indian, Seafood",250,2.6,1287,Yes,Yes,2016-07-06,No
+11,Highway Palace,Indore,Rajwada,"Street Food, Rajasthani",1200,2.8,2043,Yes,No,2016-12-18,No
+12,Udupi Cafe,Delhi,Connaught Place,Pizza,700,4.5,3245,No,No,2020-03-02,Yes
+13,Highway Tadka,Bhopal,Habibganj,"Kerala, Bengali",700,4.6,1044,Yes,Yes,2016-11-14,Yes
+14,New Garden,Visakhapatnam,Gajuwaka,Chettinad,500,3.4,3070,Yes,No,2019-08-17,Yes
+15,Masala Diner,Kolkata,Park Street,"Italian, Rajasthani, Chettinad",1500,3.3,2012,Yes,Yes,2022-04-12,Yes
+16,Biryani Bros Tadka,Mysuru,Chamundi Hill,"Rajasthani, Desserts",600,2.8,430,Yes,Yes,2017-04-18,Yes
+17,Royal Express,Lucknow,Alambagh,"Seafood, Bengali",800,3.2,4208,No,Yes,2015-11-16,Yes
+18,Zaika House,Bengaluru,Whitefield,"Kerala, Mughlai",200,2.9,4610,Yes,Yes,2015-02-15,Yes
+19,Ruchi Express,Bhopal,Arera Colony,Rajasthani,400,4.5,3780,Yes,No,2019-07-11,Yes
+20,Royal Bistro,Lucknow,Alambagh,"Punjabi, Bengali",150,4.2,4499,Yes,Yes,2020-10-06,Yes
+21,Maa Ki Palace,Chandigarh,Sector 43,Italian,200,4.0,2269,No,Yes,2017-03-15,Yes
+22,Spice Cafe,Delhi,Karol Bagh,Bengali,300,3.5,1252,No,No,2021-05-20,No
+23,Spice Restaurant,Jaipur,Vaishali Nagar,South Indian,1200,3.7,551,Yes,No,2017-12-23,Yes
+24,Golden Bites,Nagpur,Dharampeth,"Chettinad, Desserts",350,3.9,4498,Yes,No,2020-04-04,Yes
+25,Swad Palace,Bhopal,Arera Colony,"Street Food, Chettinad, North Indian",600,3.2,4178,Yes,No,2019-11-13,Yes
+26,Tandoor Palace,Delhi,Rohini,Italian,300,4.6,1803,Yes,No,2021-03-23,Yes
+27,Dawat Express,Hyderabad,Madhapur,"Seafood, Bengali",400,3.2,1996,Yes,No,2021-05-09,Yes
+28,Star Kitchen,Bengaluru,Whitefield,"Seafood, Bengali",500,3.7,260,Yes,No,2016-09-22,Yes
+29,Biryani Bros Eatery,Lucknow,Gomti Nagar,"Gujarati, Biryani",500,4.6,2356,Yes,No,2019-07-19,Yes
+30,Bhavan Point,Chandigarh,Sector 22,"Seafood, Chinese, Continental",200,4.5,79,Yes,No,2015-12-03,Yes
+31,Star Cafe,Nagpur,Dharampeth,North Indian,250,2.6,2397,Yes,No,2020-04-14,Yes
+32,Royal Corner,Coimbatore,RS Puram,"Burgers, Continental",800,2.7,333,Yes,Yes,2015-06-09,Yes
+33,Punjabi Palace,Surat,Udhna,"Pizza, Kerala, Chinese",350,2.8,3797,Yes,Yes,2021-11-14,No
+34,Bhavan Hub,Hyderabad,Secunderabad,"Pizza, South Indian, Seafood",1000,2.9,3882,No,No,2018-10-19,No
+35,Ruchi Tadka,Lucknow,Alambagh,"Street Food, Pizza",400,3.0,3788,Yes,No,2022-06-21,Yes
+36,Royal Bistro,Delhi,Connaught Place,Continental,250,2.9,611,Yes,No,2020-01-13,Yes
+37,Amantran Eatery,Coimbatore,Gandhipuram,"Bengali, Continental",1000,4.9,4532,Yes,No,2022-03-24,Yes
+38,Annapurna Corner,Nagpur,Dharampeth,"Biryani, Desserts",150,2.6,2075,No,Yes,2015-09-28,Yes
+39,Highway Point,Mysuru,Hebbal,"Italian, Burgers",500,4.1,4651,Yes,Yes,2022-12-07,Yes
+40,Golden Eatery,Jaipur,Raja Park,"Italian, South Indian",300,3.8,4067,Yes,Yes,2016-07-28,Yes
+41,Ghar Ka Dhaba,Kochi,MG Road,"Desserts, Burgers, Chettinad",150,2.8,4114,Yes,Yes,2018-10-13,Yes
+42,Rasoi Tadka,Chandigarh,Mohali,"Gujarati, Biryani, Bengali",600,4.9,4851,Yes,No,2015-06-11,Yes
+43,Zaika Dhaba,Delhi,Karol Bagh,"Gujarati, Chinese",500,4.8,4996,Yes,No,2020-04-27,No
+44,Rasoi Garden,Ahmedabad,CG Road,"South Indian, Street Food, Fast Food",350,2.5,1887,Yes,Yes,2019-06-06,Yes
+45,Spice Diner,Ahmedabad,CG Road,Chinese,700,4.5,4487,No,Yes,2018-01-25,No
+46,Swad Kitchen,Lucknow,Indiranagar,"Gujarati, Biryani",1000,3.9,959,Yes,No,2020-12-27,No
+47,Haveli House,Chandigarh,Sector 22,Bengali,400,4.1,3941,Yes,Yes,2015-11-23,Yes
+48,Swad Garden,Jaipur,Vaishali Nagar,"Fast Food, Bengali, Mughlai",300,4.3,2970,Yes,No,2019-10-13,Yes
+49,Ruchi Restaurant,Vadodara,Manjalpur,Italian,150,4.9,550,Yes,Yes,2016-05-12,Yes
+50,Punjabi Bites,Mysuru,Chamundi Hill,"Continental, Punjabi, Fast Food",400,4.5,2903,Yes,No,2015-12-08,Yes
+51,Maa Ki Dhaba,Vadodara,Sama,"Chinese, Chettinad, Mughlai",400,2.9,4391,Yes,No,2016-08-20,Yes
+52,Classic Tadka,Mumbai,Juhu,"Continental, Kerala",300,2.9,3970,Yes,No,2019-07-07,Yes
+53,Ghar Ka Bites,Nagpur,Itwari,"Burgers, Desserts",150,2.6,1550,Yes,No,2017-03-26,Yes
+54,Star Express,Mumbai,Kurla,"Burgers, Bengali, North Indian",600,2.7,796,Yes,No,2018-07-14,Yes
+55,Haveli Point,Nagpur,Sadar,Chettinad,1500,4.6,2607,Yes,No,2015-05-14,No
+56,Royal Bistro,Kochi,Kakkanad,Pizza,250,4.2,3119,Yes,No,2022-06-16,Yes
+57,Dawat Express,Kochi,MG Road,Punjabi,1200,3.2,196,Yes,No,2018-06-17,Yes
+58,Golden Cafe,Pune,Hadapsar,"Chettinad, Continental, Desserts",200,4.9,2744,Yes,Yes,2016-04-09,Yes
+59,Swagat Restaurant,Coimbatore,Gandhipuram,South Indian,350,4.6,4517,Yes,No,2018-02-06,No
+60,Tandoor Garden,Coimbatore,Singanallur,Seafood,350,4.8,3452,Yes,No,2015-06-16,Yes
+61,Desi Restaurant,Jaipur,Malviya Nagar,Gujarati,200,4.7,358,No,No,2015-01-17,Yes
+62,Rasoi Corner,Vadodara,Alkapuri,"Hyderabadi, Street Food, Chinese",250,3.0,4671,Yes,No,2018-09-30,Yes
+63,Maa Ki Cafe,Nagpur,Sitabuldi,Kerala,500,2.5,4294,Yes,No,2017-09-04,Yes
+64,Swaad Kitchen,Nagpur,Itwari,"Biryani, Seafood",700,3.2,1125,No,No,2017-02-27,Yes
+65,Rasoi Hub,Coimbatore,Peelamedu,"Continental, Bengali, Fast Food",800,3.7,948,No,No,2022-04-09,Yes
+66,Swagat Corner,Jaipur,Vaishali Nagar,"Gujarati, Continental, Street Food",1200,2.6,2057,Yes,No,2016-06-26,Yes
+67,Masala Palace,Surat,Vesu,Gujarati,1000,3.0,917,Yes,No,2015-01-12,Yes
+68,Paradise Cafe,Chandigarh,Sector 22,Continental,400,4.9,3112,Yes,No,2019-02-19,Yes
+69,Udupi Express,Chennai,T Nagar,Street Food,600,4.9,3593,Yes,No,2020-06-29,Yes
+70,Shahi Kitchen,Kochi,Thrippunithura,Rajasthani,350,3.0,914,Yes,Yes,2020-11-17,Yes
+71,Saravana Dhaba,Jaipur,Vaishali Nagar,"Kerala, Chinese",600,3.4,1847,No,Yes,2021-07-30,Yes
+72,Rasoi Corner,Nagpur,Sadar,"Street Food, Rajasthani",150,4.5,3990,No,Yes,2016-06-30,No
+73,Punjabi Palace,Bhopal,Arera Colony,"Desserts, Kerala, Fast Food",200,3.2,4241,Yes,No,2022-09-26,Yes
+74,Swagat Bistro,Mumbai,Bandra,Pizza,1500,3.1,4564,Yes,No,2017-10-29,Yes
+75,Desi Dhaba,Bhopal,MP Nagar,"Hyderabadi, Bengali",400,2.5,1594,Yes,Yes,2021-05-15,Yes
+76,Amantran Palace,Kochi,Kakkanad,"Biryani, Seafood, Desserts",500,3.7,1617,Yes,No,2016-01-29,Yes
+77,Biryani Bros Hub,Chandigarh,Sector 35,"Burgers, Punjabi, Street Food",700,2.5,634,Yes,No,2019-10-31,Yes
+78,Classic Kitchen,Ahmedabad,CG Road,Rajasthani,700,5.0,604,Yes,No,2019-08-17,No
+79,Swaad House,Mysuru,Jayalakshmipuram,Desserts,150,3.1,4822,No,Yes,2016-02-01,Yes
+80,Grand House,Coimbatore,Saibaba Colony,Burgers,800,2.8,2060,Yes,Yes,2017-08-27,Yes
+81,Shahi Dhaba,Jaipur,Mansarovar,"Biryani, Bengali",200,2.7,4784,Yes,No,2018-09-16,Yes
+82,Amantran Express,Mumbai,Powai,"Rajasthani, Hyderabadi",250,2.6,808,Yes,No,2022-10-21,Yes
+83,New Corner,Kolkata,Salt Lake,South Indian,300,4.6,1629,Yes,No,2017-01-04,Yes
+84,Paradise Hub,Delhi,Vasant Kunj,"Italian, South Indian, Continental",400,4.1,2464,No,Yes,2017-04-16,Yes
+85,Udupi Dhaba,Pune,Aundh,Desserts,700,2.9,3453,Yes,Yes,2015-05-24,Yes
+86,Desi Diner,Kolkata,Park Street,Bengali,1200,4.5,2190,Yes,No,2017-07-28,Yes
+87,Swad House,Visakhapatnam,Steel Plant,"Bengali, Mughlai",1500,3.6,2596,Yes,No,2021-11-07,Yes
+88,Udupi Garden,Mumbai,Andheri,"Hyderabadi, Rajasthani",800,2.8,1048,Yes,Yes,2016-01-08,No
+89,Biryani Bros Tadka,Hyderabad,Madhapur,"Gujarati, Italian, South Indian",250,3.8,1908,Yes,Yes,2020-10-22,Yes
+90,Haveli Restaurant,Bhopal,Kolar Road,Hyderabadi,200,3.3,4413,Yes,No,2021-03-12,Yes
+91,Desi Corner,Chandigarh,Mohali,Bengali,300,2.8,1816,Yes,No,2020-07-02,Yes
+92,Golden Diner,Visakhapatnam,Rushikonda,"Hyderabadi, Chinese, Burgers",250,4.2,2776,Yes,Yes,2020-03-02,Yes
+93,Swad Dhaba,Mumbai,Borivali,"North Indian, Chinese, Burgers",1500,4.4,4809,Yes,Yes,2016-11-06,Yes
+94,Paradise Express,Nagpur,Dharampeth,Chettinad,1200,2.9,2904,Yes,No,2015-04-16,Yes
+95,Ghar Ka Garden,Bhopal,Habibganj,"Mughlai, Chinese",250,4.0,4731,No,No,2021-02-13,Yes
+96,Desi Corner,Bhopal,MP Nagar,"Kerala, South Indian",500,3.7,4164,No,No,2018-07-10,Yes
+97,Royal Dhaba,Delhi,Rohini,"Fast Food, Street Food, Seafood",1000,3.4,2971,Yes,No,2018-11-15,Yes
+98,Swagat Bistro,Surat,Udhna,Bengali,1500,3.2,1876,Yes,No,2016-09-03,Yes
+99,New Corner,Indore,Palasia,"Seafood, South Indian, Hyderabadi",1000,3.7,3341,Yes,Yes,2015-06-11,Yes
+100,Haveli Bites,Visakhapatnam,Steel Plant,"Desserts, North Indian, Kerala",250,2.7,2203,Yes,Yes,2017-01-26,Yes
+101,Punjabi Dhaba,Jaipur,Mansarovar,"Fast Food, Mughlai",600,3.7,2049,Yes,No,2021-02-20,Yes
+102,Udupi Palace,Bhopal,MP Nagar,Italian,200,2.9,3287,Yes,No,2022-07-19,Yes
+103,Ruchi Garden,Bhopal,Kolar Road,"Pizza, Mughlai",300,4.7,1079,Yes,No,2015-03-26,No
+104,Punjabi Garden,Kochi,Edapally,"Chinese, Rajasthani",500,3.2,3203,Yes,No,2015-06-17,Yes
+105,Shahi Tadka,Lucknow,Hazratganj,Desserts,700,4.2,2417,Yes,No,2018-10-24,Yes
+106,Udupi Garden,Bengaluru,HSR Layout,"Fast Food, Pizza",800,4.9,4354,Yes,Yes,2020-10-02,Yes
+107,Haveli Corner,Indore,AB Road,"Burgers, Italian",800,4.6,514,Yes,Yes,2020-03-22,Yes
+108,Swaad House,Delhi,Karol Bagh,Biryani,300,4.6,2121,Yes,No,2018-12-25,Yes
+109,Highway Cafe,Surat,Vesu,Chinese,1200,4.0,4320,No,No,2016-01-23,Yes
+110,Bhavan House,Vadodara,Alkapuri,Gujarati,1000,4.2,4045,Yes,Yes,2016-01-10,Yes
+111,Royal Diner,Chandigarh,Sector 22,Chinese,1500,4.0,4146,No,No,2015-12-10,Yes
+112,Dawat Diner,Hyderabad,Secunderabad,"Kerala, North Indian, Gujarati",300,4.6,250,Yes,No,2017-01-27,Yes
+113,Desi Dhaba,Hyderabad,Madhapur,Seafood,600,4.1,4084,Yes,No,2018-09-29,Yes
+114,Maa Ki Diner,Visakhapatnam,Dwaraka Nagar,Chettinad,300,3.5,2842,Yes,Yes,2022-08-17,Yes
+115,Golden Bistro,Lucknow,Indiranagar,"Gujarati, Pizza, Continental",350,3.1,3262,No,No,2021-01-17,Yes
+116,Ghar Ka Diner,Coimbatore,Gandhipuram,Mughlai,300,4.0,4153,Yes,Yes,2016-10-07,Yes
+117,Zaika Point,Mysuru,Chamundi Hill,"Chinese, Chettinad",150,4.2,2418,Yes,No,2017-11-11,No
+118,New Express,Kochi,MG Road,"North Indian, Burgers, Street Food",500,3.6,389,Yes,Yes,2020-07-09,Yes
+119,Royal House,Kochi,MG Road,Kerala,400,3.5,4986,Yes,Yes,2017-04-12,Yes
+120,Golden Point,Chennai,Velachery,"Biryani, Continental, Mughlai",350,4.7,2924,Yes,No,2017-06-14,No
+121,Saravana Bistro,Vadodara,Fatehgunj,"Punjabi, Bengali",1000,4.8,1737,Yes,No,2021-04-18,Yes
+122,Tandoor Dhaba,Hyderabad,Jubilee Hills,"Rajasthani, Biryani, Burgers",300,3.7,4517,Yes,No,2018-05-07,Yes
+123,Ruchi Express,Kolkata,Salt Lake,"Continental, South Indian, Chettinad",400,3.6,157,Yes,No,2022-06-25,Yes
+124,Amantran Restaurant,Coimbatore,Singanallur,"Pizza, Gujarati",150,4.3,3721,Yes,No,2017-01-14,Yes
+125,Amantran Diner,Surat,Ring Road,"Gujarati, Seafood, Pizza",1000,4.0,4927,No,Yes,2021-03-13,No
+126,Haveli Express,Lucknow,Gomti Nagar,"Seafood, Gujarati, Street Food",400,3.9,2421,Yes,No,2016-08-24,Yes
+127,Highway House,Coimbatore,Singanallur,Biryani,250,4.6,1837,Yes,Yes,2016-03-19,Yes
+128,Haveli Kitchen,Surat,Ring Road,"Chettinad, North Indian",600,2.9,974,No,No,2021-04-04,Yes
+129,Maa Ki House,Mysuru,Jayalakshmipuram,"Hyderabadi, Street Food",800,3.1,4944,Yes,No,2020-10-30,Yes
+130,Swad Dhaba,Bhopal,Arera Colony,"North Indian, Desserts",1000,2.8,1177,No,No,2019-07-28,Yes
+131,Udupi Express,Vadodara,Fatehgunj,"Italian, Bengali, Fast Food",1500,3.9,4703,No,No,2016-01-18,Yes
+132,Spice Eatery,Bengaluru,Indiranagar,"Continental, Italian",1500,3.8,4691,Yes,Yes,2017-02-18,Yes
+133,Udupi Cafe,Kolkata,Ballygunge,Gujarati,700,3.2,342,Yes,Yes,2018-06-26,Yes
+134,Spice Diner,Ahmedabad,Navrangpura,"Seafood, Chettinad, Chinese",200,4.6,3181,Yes,Yes,2015-08-14,Yes
+135,Zaika Dhaba,Kolkata,Howrah,Chinese,700,2.6,2297,Yes,No,2019-03-17,No
+136,Zaika Kitchen,Bengaluru,Malleshwaram,"Bengali, Mughlai",700,3.0,4781,No,No,2022-01-22,Yes
+137,Maa Ki Express,Chennai,Anna Nagar,Fast Food,150,4.7,3619,No,No,2018-01-11,Yes
+138,Royal Bites,Surat,Vesu,Seafood,1000,2.8,1133,Yes,Yes,2019-08-14,No
+139,Classic Eatery,Bengaluru,Malleshwaram,"Punjabi, Seafood, South Indian",800,4.2,4939,Yes,No,2016-10-21,Yes
+140,Swad Palace,Surat,Ring Road,Biryani,300,3.6,740,Yes,No,2017-03-23,Yes
+141,Annapurna Tadka,Pune,Viman Nagar,Rajasthani,200,3.7,1688,Yes,No,2021-02-09,Yes
+142,Shahi Dhaba,Bengaluru,Jayanagar,"Continental, Street Food",300,4.6,2613,Yes,No,2019-09-25,Yes
+143,Annapurna Tadka,Vadodara,Manjalpur,Biryani,600,2.7,4476,Yes,No,2017-06-12,Yes
+144,Maa Ki Corner,Coimbatore,RS Puram,"Burgers, South Indian, Italian",350,3.8,784,No,No,2019-06-09,Yes
+145,Paradise House,Delhi,Lajpat Nagar,"Fast Food, Continental, Seafood",700,2.8,1171,No,No,2020-04-10,Yes
+146,Star Corner,Bhopal,Arera Colony,North Indian,1000,2.7,4036,Yes,Yes,2016-10-23,Yes
+147,Star Diner,Jaipur,Mansarovar,Gujarati,400,4.3,4034,No,Yes,2021-02-14,Yes
+148,Swaad Bistro,Ahmedabad,Maninagar,"Mughlai, Hyderabadi, Burgers",150,3.3,4699,No,No,2019-07-31,Yes
+149,Haveli Diner,Nagpur,Itwari,"Continental, Rajasthani",1200,2.7,4077,Yes,No,2020-05-13,No
+150,Annapurna Dhaba,Chennai,Anna Nagar,"Hyderabadi, Italian",1000,4.6,1488,Yes,No,2015-12-12,Yes
+151,Golden Tadka,Chandigarh,Sector 22,"Desserts, North Indian, Burgers",600,4.8,2180,No,No,2021-01-17,Yes
+152,Ruchi Corner,Bengaluru,Jayanagar,Gujarati,400,3.9,3751,Yes,No,2016-07-22,No
+153,Swaad Diner,Vadodara,Sama,"Chettinad, Hyderabadi, Pizza",150,4.9,1049,Yes,No,2021-02-17,Yes
+154,Swad Diner,Visakhapatnam,MVP Colony,"Chettinad, Fast Food, Kerala",1000,2.8,4971,Yes,No,2018-04-10,No
+155,Ruchi Restaurant,Bhopal,Kolar Road,"Chinese, Pizza, Desserts",1000,3.9,3760,Yes,No,2020-01-25,Yes
+156,Star Corner,Bengaluru,Whitefield,Hyderabadi,600,3.5,1615,Yes,Yes,2019-07-04,No
+157,Udupi Restaurant,Mysuru,Chamundi Hill,"Chinese, Rajasthani, Punjabi",700,3.7,4449,Yes,No,2021-11-05,No
+158,Biryani Bros Cafe,Kochi,Tripunithura,Burgers,800,3.0,322,Yes,No,2020-10-15,No
+159,Ruchi Corner,Mumbai,Powai,"Street Food, Desserts, South Indian",350,4.7,2962,No,No,2022-10-19,No
+160,Swagat Kitchen,Chandigarh,Sector 43,Continental,350,4.7,1451,Yes,No,2016-11-18,Yes
+161,Star Tadka,Jaipur,Vaishali Nagar,"Gujarati, Seafood",250,3.4,2419,Yes,No,2017-03-14,Yes
+162,Maa Ki Palace,Chennai,Nungambakkam,"Street Food, Biryani",800,4.8,2796,No,Yes,2021-02-15,Yes
+163,Swad Point,Bengaluru,Malleshwaram,Hyderabadi,1200,5.0,3969,Yes,No,2018-10-15,Yes
+164,Shahi Tadka,Pune,Baner,"Street Food, Chettinad, Burgers",800,4.5,3041,Yes,Yes,2020-12-09,No
+165,Amantran Tadka,Hyderabad,Madhapur,"Desserts, North Indian",600,3.8,3174,Yes,Yes,2022-03-30,No
+166,Ghar Ka Garden,Chandigarh,Sector 43,"Street Food, North Indian",350,4.1,992,Yes,Yes,2017-03-06,Yes
+167,Shahi Kitchen,Visakhapatnam,Rushikonda,Kerala,400,4.0,2214,Yes,Yes,2022-11-26,Yes
+168,Tandoor Restaurant,Kolkata,New Town,"Pizza, Rajasthani",400,4.6,1667,Yes,Yes,2016-03-16,Yes
+169,Grand House,Indore,Rajwada,"Punjabi, Kerala",300,4.5,3674,Yes,Yes,2016-02-03,Yes
+170,Classic Cafe,Visakhapatnam,Gajuwaka,"Continental, Pizza, Chinese",1500,3.4,3750,No,No,2015-05-25,No
+171,Dawat Eatery,Hyderabad,Madhapur,"South Indian, Italian, Punjabi",350,3.4,1935,Yes,No,2015-01-28,Yes
+172,Haveli Diner,Chennai,Adyar,"South Indian, Burgers",700,3.5,3694,No,No,2021-07-18,Yes
+173,Biryani Bros Point,Pune,Viman Nagar,"Burgers, Fast Food, Hyderabadi",400,4.3,3466,Yes,No,2022-02-02,No
+174,Dawat Cafe,Lucknow,Gomti Nagar,"Chettinad, Continental",1500,4.2,2732,Yes,Yes,2015-12-06,Yes
+175,Desi Garden,Delhi,Connaught Place,"Street Food, Gujarati",300,2.7,1946,Yes,No,2022-04-05,Yes
+176,Golden House,Chandigarh,Sector 35,Burgers,600,2.6,1681,No,No,2018-10-24,Yes
+177,Tandoor Garden,Hyderabad,Hitech City,"Kerala, Seafood, Gujarati",800,5.0,4029,Yes,No,2021-07-30,Yes
+178,Grand Bites,Kochi,Thrippunithura,"Pizza, Bengali, Italian",250,3.4,4231,Yes,No,2015-01-27,Yes
+179,Dawat House,Kolkata,Park Street,Hyderabadi,1200,2.8,525,Yes,Yes,2016-03-09,No
+180,Ruchi Garden,Chennai,Anna Nagar,"Chinese, South Indian, Seafood",200,3.8,3412,Yes,No,2015-02-03,Yes
+181,Paradise Express,Kolkata,Howrah,Hyderabadi,1500,3.7,4259,Yes,No,2016-11-07,Yes
+182,Grand Express,Pune,Viman Nagar,"Rajasthani, Burgers",1200,4.9,4614,Yes,No,2017-12-02,Yes
+183,Classic Kitchen,Surat,Vesu,"Italian, Chinese",1500,4.6,3725,No,No,2020-09-23,No
+184,Udupi Kitchen,Ahmedabad,Navrangpura,"Mughlai, Rajasthani, Continental",600,2.9,3755,Yes,Yes,2022-03-28,Yes
+185,Ruchi Corner,Kolkata,Howrah,Burgers,250,2.9,4653,Yes,No,2017-01-14,Yes
+186,Maa Ki Diner,Pune,Kothrud,"Gujarati, Chinese",350,3.1,4520,Yes,Yes,2022-03-07,Yes
+187,Amantran Hub,Chandigarh,Sector 35,"Hyderabadi, Biryani, Burgers",350,3.2,1010,No,No,2021-03-27,Yes
+188,Shahi Tadka,Nagpur,Sitabuldi,"Street Food, North Indian",400,3.2,2089,No,No,2021-05-27,Yes
+189,Bhavan Bites,Pune,Aundh,Mughlai,250,3.6,1337,Yes,No,2021-05-27,Yes
+190,Ghar Ka Eatery,Visakhapatnam,Rushikonda,"Continental, Biryani, Punjabi",400,2.8,4583,Yes,Yes,2022-12-09,Yes
+191,Swad Bistro,Mumbai,Borivali,Desserts,1200,4.5,454,Yes,Yes,2019-06-15,Yes
+192,Ghar Ka Eatery,Delhi,Karol Bagh,"Rajasthani, Kerala, Gujarati",800,3.6,1735,Yes,No,2020-09-03,No
+193,Swaad Tadka,Indore,AB Road,South Indian,150,3.2,2484,Yes,No,2017-04-07,Yes
+194,Zaika Bistro,Coimbatore,Singanallur,"Chinese, Desserts",300,4.7,4683,Yes,Yes,2016-10-29,Yes
+195,Ghar Ka Express,Coimbatore,Gandhipuram,"North Indian, Chinese, Pizza",600,3.2,4199,Yes,Yes,2017-03-25,No
+196,Swagat Diner,Kolkata,Park Street,"Chinese, Biryani",800,3.7,4996,Yes,Yes,2022-09-14,Yes
+197,Desi Cafe,Delhi,Vasant Kunj,Biryani,200,4.7,3781,No,No,2016-10-06,Yes
+198,Bhavan Restaurant,Delhi,Connaught Place,Continental,500,2.8,1490,Yes,Yes,2019-04-17,No
+199,Desi Point,Delhi,Dwarka,"Kerala, Rajasthani, Street Food",800,4.4,1763,Yes,No,2017-03-21,No
+200,Udupi Point,Kolkata,New Town,Hyderabadi,1000,2.9,2479,Yes,Yes,2015-02-24,Yes
+201,Golden Garden,Pune,Kothrud,Hyderabadi,500,4.1,1161,Yes,Yes,2022-08-29,No
+202,Desi Garden,Chandigarh,Sector 22,"Italian, North Indian",300,4.3,3014,Yes,No,2021-08-19,Yes
+203,Maa Ki Dhaba,Bengaluru,Malleshwaram,Gujarati,400,2.8,4789,No,Yes,2021-09-08,Yes
+204,Punjabi Cafe,Ahmedabad,CG Road,"Biryani, Bengali",700,3.3,3013,No,No,2019-01-10,Yes
+205,Rasoi Restaurant,Kolkata,Park Street,"Italian, North Indian, Chettinad",150,3.6,2974,Yes,No,2020-05-27,Yes
+206,Rasoi Kitchen,Vadodara,Akota,Chettinad,150,3.6,709,No,No,2021-12-12,No
+207,Swaad Cafe,Mumbai,Powai,Pizza,1000,4.9,886,Yes,No,2020-12-15,Yes
+208,Ruchi Dhaba,Pune,Hadapsar,Pizza,300,2.6,148,Yes,No,2015-05-13,Yes
+209,Annapurna Diner,Coimbatore,Saibaba Colony,"Chettinad, Chinese",600,4.0,2861,Yes,No,2019-02-28,Yes
+210,Rasoi Eatery,Pune,Viman Nagar,Italian,600,3.6,915,Yes,No,2017-10-25,Yes
+211,Punjabi Kitchen,Hyderabad,Madhapur,North Indian,700,3.1,3690,No,No,2019-08-17,Yes
+212,Saravana Kitchen,Nagpur,Sitabuldi,"North Indian, Kerala, Continental",400,3.6,1223,Yes,No,2022-07-08,Yes
+213,Paradise Restaurant,Chandigarh,Sector 17,Kerala,500,3.6,2029,Yes,No,2015-06-23,Yes
+214,Royal Garden,Chandigarh,Sector 17,"Kerala, Fast Food",350,3.0,3291,Yes,Yes,2020-07-08,Yes
+215,Swagat Diner,Mumbai,Bandra,Desserts,700,4.2,3670,No,No,2020-12-17,Yes
+216,Biryani Bros Dhaba,Visakhapatnam,Gajuwaka,Continental,150,3.3,1651,No,Yes,2021-04-17,Yes
+217,Grand Tadka,Jaipur,Raja Park,"Italian, Chinese",800,2.7,1980,Yes,No,2018-12-17,Yes
+218,Royal Palace,Mumbai,Bandra,"Bengali, Chettinad",350,4.9,4837,Yes,Yes,2016-02-15,Yes
+219,Swagat Eatery,Delhi,Dwarka,"Rajasthani, Continental, Fast Food",150,4.4,2161,Yes,No,2015-06-02,No
+220,Swagat Palace,Bengaluru,Malleshwaram,"North Indian, Burgers, Street Food",1200,2.7,1420,Yes,No,2022-06-27,No
+221,Royal Garden,Visakhapatnam,Steel Plant,"Chettinad, Punjabi, Seafood",700,5.0,1842,Yes,Yes,2021-10-18,Yes
+222,Swad Bistro,Coimbatore,Saibaba Colony,"Seafood, Hyderabadi",200,3.5,3139,Yes,Yes,2018-04-13,Yes
+223,Royal Eatery,Nagpur,Wardha Road,"Gujarati, Fast Food",300,4.6,2650,No,Yes,2017-10-13,Yes
+224,Bhavan Garden,Bhopal,Kolar Road,"Gujarati, Continental, Rajasthani",200,4.3,2173,Yes,No,2015-03-02,Yes
+225,Paradise Kitchen,Mumbai,Andheri,"Rajasthani, Hyderabadi, Mughlai",200,3.5,1307,Yes,No,2016-03-08,Yes
+226,Highway Restaurant,Hyderabad,Madhapur,Desserts,1200,4.4,4692,No,Yes,2022-09-04,Yes
+227,Spice Garden,Bengaluru,HSR Layout,"Kerala, North Indian, Chinese",500,4.7,2501,Yes,Yes,2021-02-16,Yes
+228,Dawat Hub,Mysuru,Chamundi Hill,"Rajasthani, Kerala, Desserts",150,3.8,515,Yes,No,2019-11-28,No
+229,Biryani Bros Point,Delhi,Dwarka,"Chinese, Mughlai",500,3.9,2463,No,Yes,2017-02-12,Yes
+230,Grand Eatery,Pune,Baner,"Gujarati, Fast Food, Mughlai",1000,3.6,4144,Yes,No,2021-09-23,Yes
+231,Swad Kitchen,Coimbatore,Saibaba Colony,"South Indian, Gujarati",300,4.3,2128,Yes,No,2018-12-23,Yes
+232,Saravana Kitchen,Hyderabad,Hitech City,"Hyderabadi, Street Food",600,3.2,4541,Yes,No,2016-12-26,Yes
+233,Ghar Ka Bites,Indore,Vijay Nagar,"Seafood, Mughlai, Pizza",150,4.7,3464,Yes,No,2022-03-06,Yes
+234,Swaad Palace,Surat,Ring Road,"Bengali, North Indian, Fast Food",700,3.3,540,No,Yes,2020-01-30,Yes
+235,Punjabi Tadka,Vadodara,Sama,Mughlai,800,4.4,3341,Yes,No,2018-12-27,No
+236,Dawat Hub,Chennai,Anna Nagar,"Hyderabadi, Seafood",1200,3.8,346,No,Yes,2020-12-21,Yes
+237,Desi Bites,Surat,Udhna,"Gujarati, Chinese, Bengali",800,4.6,740,Yes,Yes,2015-04-01,Yes
+238,Grand Hub,Hyderabad,Madhapur,"Chettinad, Mughlai",1200,3.5,1915,Yes,No,2017-04-17,Yes
+239,Shahi Hub,Mumbai,Juhu,Fast Food,700,3.8,3291,Yes,No,2018-08-08,Yes
+240,Star Palace,Pune,Hinjewadi,"Punjabi, Italian",200,4.0,3523,Yes,No,2017-12-09,Yes
+241,Rasoi Dhaba,Kolkata,Ballygunge,"Bengali, Seafood, Chinese",1500,4.4,545,Yes,No,2020-04-09,Yes
+242,Swagat Kitchen,Visakhapatnam,Steel Plant,"Hyderabadi, North Indian, Seafood",700,2.9,2234,Yes,No,2020-03-06,Yes
+243,Classic Bistro,Kochi,Tripunithura,Burgers,250,4.8,3094,Yes,No,2021-12-24,Yes
+244,Bhavan Hub,Visakhapatnam,Steel Plant,"Gujarati, Seafood, Hyderabadi",350,4.8,3132,Yes,No,2019-12-09,Yes
+245,Swagat Palace,Chandigarh,Sector 35,"South Indian, Continental",800,2.8,4917,Yes,Yes,2016-05-23,Yes
+246,Amantran Tadka,Indore,AB Road,"South Indian, Desserts, Continental",600,2.7,516,Yes,No,2015-10-16,No
+247,Masala Diner,Vadodara,Akota,"Street Food, Bengali",1000,2.8,4226,Yes,No,2022-12-15,Yes
+248,Udupi Eatery,Visakhapatnam,Dwaraka Nagar,South Indian,800,4.1,4699,Yes,Yes,2015-04-12,Yes
+249,Rasoi Corner,Bhopal,Kolar Road,Pizza,500,4.2,2254,No,No,2019-03-22,Yes
+250,Zaika Diner,Kochi,MG Road,"Mughlai, North Indian",400,3.6,2993,No,No,2018-06-26,Yes
+251,Swagat Bites,Vadodara,Alkapuri,"Burgers, Street Food",1500,3.8,4995,Yes,No,2017-02-26,Yes
+252,Rasoi Tadka,Ahmedabad,Vastrapur,"Italian, Mughlai",400,4.3,453,Yes,No,2019-09-12,Yes
+253,Annapurna Hub,Visakhapatnam,Steel Plant,North Indian,1000,3.6,1539,Yes,Yes,2022-10-16,Yes
+254,Ghar Ka Bites,Lucknow,Gomti Nagar,"Punjabi, Chettinad",500,2.8,2598,Yes,No,2018-06-26,Yes
+255,Shahi Palace,Hyderabad,Banjara Hills,"Continental, Chinese, Desserts",350,3.8,4245,No,Yes,2020-08-23,Yes
+256,Punjabi Eatery,Vadodara,Alkapuri,"Kerala, Seafood, Punjabi",600,5.0,1057,Yes,Yes,2022-12-22,Yes
+257,Grand Express,Coimbatore,Singanallur,"North Indian, Fast Food",250,5.0,3356,Yes,Yes,2020-01-02,Yes
+258,Maa Ki Bistro,Bengaluru,Indiranagar,South Indian,700,3.1,3931,Yes,Yes,2017-04-15,Yes
+259,Maa Ki Tadka,Indore,Rajwada,"South Indian, Rajasthani, Hyderabadi",1000,2.9,2178,Yes,No,2018-12-06,Yes
+260,Amantran Hub,Hyderabad,Madhapur,"Burgers, Fast Food, Desserts",150,2.6,3526,Yes,No,2018-01-04,Yes
+261,Zaika Cafe,Lucknow,Aliganj,Chinese,250,4.9,1272,No,No,2016-04-01,No
+262,Swad Restaurant,Visakhapatnam,Rushikonda,"Rajasthani, Seafood",300,4.2,1372,No,Yes,2017-04-24,Yes
+263,Haveli Tadka,Kolkata,Howrah,"Mughlai, Chinese, Punjabi",1200,2.5,4457,Yes,Yes,2018-12-19,No
+264,New Kitchen,Surat,Vesu,"Burgers, Biryani",500,4.0,1890,Yes,No,2015-05-16,No
+265,Rasoi Hub,Bhopal,Arera Colony,"Street Food, Pizza",150,4.6,860,Yes,No,2015-02-18,Yes
+266,Dawat Garden,Mysuru,Hebbal,"Chinese, Bengali, Desserts",350,3.1,2954,Yes,No,2016-12-06,Yes
+267,Masala Express,Delhi,Rohini,"Chinese, Punjabi, Biryani",1200,4.5,887,Yes,No,2020-01-19,Yes
+268,Punjabi Cafe,Ahmedabad,Maninagar,"Rajasthani, Kerala, Gujarati",350,4.7,3172,No,No,2022-05-31,No
+269,Grand Kitchen,Bhopal,Arera Colony,"Burgers, Punjabi",1200,2.8,3936,Yes,No,2021-06-28,Yes
+270,Udupi Hub,Chennai,Adyar,Chinese,700,4.4,3133,Yes,Yes,2021-09-16,Yes
+271,New Hub,Chennai,T Nagar,"Rajasthani, Mughlai, Kerala",300,3.9,855,Yes,Yes,2017-08-22,No
+272,Udupi Corner,Nagpur,Dharampeth,"Biryani, Mughlai, Kerala",150,4.3,4573,Yes,Yes,2020-10-09,Yes
+273,New Bistro,Hyderabad,Banjara Hills,Mughlai,250,4.7,143,Yes,No,2017-07-31,No
+274,Saravana Tadka,Surat,Udhna,South Indian,700,4.6,4899,No,No,2015-05-03,Yes
+275,Haveli Restaurant,Hyderabad,Banjara Hills,"Biryani, Desserts",1500,2.7,515,Yes,No,2019-04-21,Yes
+276,Ruchi Restaurant,Chandigarh,Sector 22,"Kerala, South Indian, Punjabi",500,4.5,4518,Yes,Yes,2018-02-05,Yes
+277,Classic Point,Lucknow,Aliganj,"Continental, South Indian, North Indian",1200,4.4,148,No,No,2017-03-24,Yes
+278,New Palace,Mumbai,Juhu,"Gujarati, Seafood",200,3.3,387,No,No,2019-11-28,Yes
+279,Golden Restaurant,Kochi,Kakkanad,Seafood,350,4.7,749,Yes,No,2019-02-28,Yes
+280,Zaika Bistro,Mysuru,Gokulam,"Chettinad, Gujarati",1500,4.0,353,Yes,No,2018-01-06,No
+281,Saravana House,Kolkata,New Town,"Hyderabadi, Italian",700,4.3,4635,No,Yes,2019-03-28,Yes
+282,Highway Dhaba,Visakhapatnam,Rushikonda,"Street Food, Hyderabadi, Bengali",700,3.8,4644,Yes,No,2021-04-04,No
+283,Golden Express,Nagpur,Itwari,Desserts,500,3.0,3725,Yes,No,2021-08-19,Yes
+284,Amantran Hub,Surat,Adajan,North Indian,250,3.6,2946,No,No,2015-12-23,No
+285,New Corner,Coimbatore,Singanallur,"North Indian, Pizza",700,4.6,4692,Yes,Yes,2015-11-19,Yes
+286,Zaika Point,Mysuru,Chamundi Hill,Rajasthani,600,3.2,749,Yes,No,2020-06-16,Yes
+287,Shahi Restaurant,Surat,Ring Road,Hyderabadi,1500,4.6,4527,Yes,No,2022-07-19,Yes
+288,Udupi Cafe,Visakhapatnam,Steel Plant,"Fast Food, Mughlai",250,4.0,3921,Yes,No,2016-10-28,No
+289,Royal Palace,Bengaluru,HSR Layout,"Desserts, Fast Food, Italian",700,3.4,2415,Yes,No,2016-03-07,Yes
+290,Ghar Ka Cafe,Chandigarh,Sector 43,Gujarati,250,4.6,3017,No,Yes,2016-08-02,No
+291,Royal Restaurant,Mumbai,Kurla,"Seafood, Street Food, Burgers",350,4.9,3773,Yes,Yes,2019-08-07,Yes
+292,Shahi Corner,Jaipur,Raja Park,"Chettinad, Burgers, Fast Food",150,2.7,4271,Yes,Yes,2015-01-21,Yes
+293,Golden Cafe,Mysuru,Jayalakshmipuram,"Chinese, Seafood",1500,4.4,61,No,Yes,2021-01-30,Yes
+294,Ruchi Kitchen,Indore,Rajwada,Continental,400,4.9,1468,No,Yes,2021-06-10,Yes
+295,Saravana Restaurant,Chandigarh,Sector 22,"South Indian, Desserts, Street Food",150,4.6,1125,Yes,Yes,2019-12-10,Yes
+296,Highway Diner,Mysuru,VV Mohalla,"Burgers, North Indian, Gujarati",350,4.8,719,Yes,No,2020-06-04,Yes
+297,Highway Cafe,Lucknow,Gomti Nagar,"Kerala, Rajasthani, Bengali",700,3.9,3386,Yes,Yes,2021-08-26,No
+298,Biryani Bros Bistro,Jaipur,C-Scheme,"Chinese, Kerala",600,3.0,2556,Yes,Yes,2016-08-01,Yes
+299,Zaika Kitchen,Delhi,Karol Bagh,Desserts,1000,4.0,1826,Yes,Yes,2021-04-18,Yes
+300,Grand Express,Lucknow,Gomti Nagar,"Fast Food, Kerala",400,4.7,1250,No,No,2017-09-18,Yes
+301,Haveli Diner,Surat,Pal,Bengali,300,4.0,1804,Yes,No,2020-01-09,No
+302,Haveli Garden,Bhopal,Arera Colony,Burgers,500,4.8,2450,No,Yes,2017-07-22,No
+303,Zaika Kitchen,Delhi,Karol Bagh,"Rajasthani, Fast Food",150,3.5,3688,Yes,No,2022-11-26,Yes
+304,Shahi House,Indore,Bhawarkuan,"Mughlai, North Indian, South Indian",400,4.8,2668,Yes,Yes,2021-01-24,Yes
+305,Swad Bistro,Lucknow,Hazratganj,Continental,200,3.7,4167,No,Yes,2015-12-08,No
+306,Zaika Garden,Mumbai,Andheri,"Rajasthani, Seafood, South Indian",1200,2.9,204,No,No,2022-09-13,No
+307,Zaika Palace,Indore,AB Road,"Chinese, Mughlai, North Indian",1000,2.8,3595,Yes,No,2015-12-05,Yes
+308,Shahi Diner,Delhi,Connaught Place,"South Indian, Chinese, Burgers",400,3.0,1509,Yes,No,2016-03-30,No
+309,Ruchi Point,Jaipur,Raja Park,Rajasthani,150,4.9,4043,Yes,No,2018-03-03,Yes
+310,Bhavan Kitchen,Chennai,Velachery,"Gujarati, Desserts",150,4.8,548,Yes,Yes,2022-03-22,Yes
+311,Masala Garden,Lucknow,Indiranagar,"North Indian, Biryani, Continental",350,3.4,267,Yes,No,2015-01-13,Yes
+312,Amantran Garden,Bhopal,Kolar Road,Chinese,350,4.1,778,Yes,No,2021-02-01,Yes
+313,Grand Corner,Visakhapatnam,Steel Plant,"Desserts, Chettinad, Street Food",1000,3.9,1210,Yes,No,2019-03-12,Yes
+314,Royal Diner,Bengaluru,Koramangala,"Gujarati, Chettinad",1000,2.5,4689,No,No,2015-02-23,Yes
+315,Udupi Bites,Bengaluru,Jayanagar,"Fast Food, South Indian",300,5.0,4113,Yes,No,2022-10-19,Yes
+316,Swagat Garden,Kolkata,Salt Lake,"Gujarati, Desserts",150,2.5,4030,No,No,2017-07-10,Yes
+317,Spice House,Chandigarh,Sector 35,Desserts,200,3.7,3118,Yes,No,2015-02-15,Yes
+318,Tandoor Bistro,Surat,Vesu,"Hyderabadi, Fast Food",800,2.7,1540,Yes,Yes,2017-01-22,Yes
+319,Classic Bistro,Lucknow,Alambagh,North Indian,800,2.6,3465,Yes,No,2015-05-11,Yes
+320,Ghar Ka Diner,Mumbai,Kurla,"Fast Food, Street Food, North Indian",200,2.7,3226,No,Yes,2016-09-12,Yes
+321,Tandoor Point,Visakhapatnam,Dwaraka Nagar,"Burgers, Gujarati",1500,5.0,3705,Yes,No,2021-03-29,Yes
+322,Swagat Diner,Bengaluru,Indiranagar,"Mughlai, Seafood",300,4.9,1978,No,No,2015-07-10,Yes
+323,Desi Bites,Mumbai,Kurla,"Desserts, Kerala",200,3.1,3805,Yes,No,2017-02-03,No
+324,Star Bites,Chennai,Anna Nagar,Chinese,250,3.1,4521,Yes,Yes,2018-11-11,Yes
+325,Punjabi Corner,Kochi,Edapally,Desserts,1500,2.8,4702,No,No,2020-11-18,Yes
+326,Punjabi Diner,Indore,Rajwada,Continental,500,3.0,3052,Yes,No,2020-08-22,No
+327,Swagat Point,Bengaluru,Malleshwaram,"Rajasthani, Punjabi, Mughlai",1200,2.7,4564,Yes,No,2022-11-23,Yes
+328,Biryani Bros House,Chandigarh,Sector 22,Hyderabadi,800,4.9,4175,No,Yes,2019-03-18,No
+329,Grand Garden,Jaipur,C-Scheme,Continental,250,2.9,3915,Yes,Yes,2020-10-05,Yes
+330,Masala Garden,Pune,Baner,"Italian, Street Food, Chettinad",250,2.6,736,Yes,No,2022-06-06,Yes
+331,Maa Ki Cafe,Jaipur,Vaishali Nagar,"Kerala, Continental, Chinese",400,3.9,1617,Yes,No,2019-09-23,Yes
+332,Royal House,Mumbai,Andheri,Fast Food,250,3.0,1084,Yes,No,2022-10-21,Yes
+333,Classic Cafe,Nagpur,Wardha Road,"Continental, Street Food, Desserts",150,4.7,1080,Yes,No,2017-03-05,Yes
+334,Rasoi Tadka,Delhi,Dwarka,North Indian,150,3.4,4883,Yes,No,2022-08-26,Yes
+335,Udupi Bistro,Mysuru,Chamundi Hill,"Hyderabadi, Street Food, Italian",1000,2.6,1336,Yes,No,2015-10-18,Yes
+336,Udupi Kitchen,Nagpur,Wardha Road,Gujarati,300,2.8,248,Yes,Yes,2020-12-14,No
+337,Bhavan Tadka,Jaipur,Malviya Nagar,"Mughlai, Italian",200,4.5,1673,Yes,No,2021-05-13,Yes
+338,Royal Express,Mumbai,Dadar,"Hyderabadi, Desserts",500,3.7,342,No,Yes,2019-09-07,Yes
+339,Swagat Tadka,Chennai,Anna Nagar,"Desserts, South Indian",800,3.2,2096,Yes,No,2018-05-26,Yes
+340,Udupi House,Mysuru,Hebbal,"Pizza, Biryani, Street Food",500,3.4,2486,No,Yes,2021-05-13,Yes
+341,Classic Corner,Kolkata,Salt Lake,"Italian, Bengali",200,3.2,1213,Yes,Yes,2016-04-26,Yes
+342,Ruchi Point,Chennai,Adyar,"Italian, Continental",700,4.6,331,No,No,2022-08-13,No
+343,Star Diner,Hyderabad,Madhapur,Street Food,1200,2.7,4931,No,No,2018-06-28,Yes
+344,Zaika Hub,Kolkata,Howrah,Pizza,250,4.7,481,Yes,No,2020-03-02,Yes
+345,Rasoi House,Ahmedabad,Satellite,Street Food,200,4.3,3006,No,No,2015-11-14,Yes
+346,Annapurna Bites,Indore,Palasia,"Seafood, Gujarati, Fast Food",400,4.5,3298,Yes,No,2020-08-07,Yes
+347,Swaad Diner,Kolkata,Ballygunge,"Gujarati, Punjabi",500,3.5,4881,No,Yes,2018-01-14,Yes
+348,Desi Restaurant,Kolkata,Ballygunge,Burgers,400,2.6,74,Yes,No,2018-03-15,Yes
+349,New Point,Bhopal,MP Nagar,Seafood,250,3.3,3050,No,No,2021-09-06,Yes
+350,Punjabi Hub,Mysuru,Jayalakshmipuram,Rajasthani,250,3.1,4831,Yes,No,2018-02-05,Yes
+351,Star Garden,Surat,Adajan,Fast Food,700,4.0,2040,Yes,No,2022-04-19,Yes
+352,Grand Garden,Lucknow,Alambagh,South Indian,800,3.5,3761,Yes,Yes,2020-01-29,Yes
+353,Ruchi Bistro,Mumbai,Dadar,"Kerala, Desserts",250,4.8,660,Yes,No,2016-11-15,No
+354,Star Palace,Mysuru,VV Mohalla,"Mughlai, Biryani",1000,3.2,1453,No,No,2019-01-25,Yes
+355,Classic Eatery,Jaipur,C-Scheme,Continental,300,4.1,1350,Yes,No,2020-07-29,No
+356,Grand Cafe,Kochi,Kakkanad,Rajasthani,600,2.8,3532,No,No,2020-03-10,Yes
+357,Masala Bites,Kochi,Edapally,Continental,150,4.1,392,Yes,Yes,2018-02-15,Yes
+358,Spice Express,Vadodara,Alkapuri,"Kerala, South Indian",150,4.8,3973,Yes,No,2015-05-29,Yes
+359,Shahi Point,Bengaluru,Whitefield,"Biryani, Continental",150,4.0,1867,Yes,Yes,2019-10-09,Yes
+360,Biryani Bros Corner,Bhopal,MP Nagar,Biryani,300,3.4,2843,Yes,No,2016-05-13,Yes
+361,Shahi Dhaba,Bhopal,TT Nagar,"Mughlai, Gujarati, Punjabi",400,2.8,3069,Yes,No,2017-10-05,Yes
+362,Shahi Cafe,Ahmedabad,Satellite,"Rajasthani, Street Food, Biryani",800,4.0,21,Yes,No,2020-11-08,Yes
+363,Swaad Cafe,Ahmedabad,Vastrapur,Bengali,200,3.8,294,No,No,2019-10-15,Yes
+364,Paradise Kitchen,Delhi,Rohini,"Mughlai, Seafood, Punjabi",1500,3.8,1307,Yes,No,2016-05-09,Yes
+365,Biryani Bros Bistro,Hyderabad,Banjara Hills,Seafood,400,4.1,4545,Yes,No,2016-02-13,No
+366,Golden Eatery,Pune,Hadapsar,"Bengali, Fast Food, Hyderabadi",1500,3.5,1650,Yes,No,2017-11-23,Yes
+367,Masala House,Chennai,T Nagar,"Italian, Chettinad, Mughlai",700,2.5,879,Yes,No,2022-12-26,Yes
+368,Swad Cafe,Indore,Rajwada,"Mughlai, Chettinad, Desserts",150,3.4,2775,Yes,No,2019-07-17,Yes
+369,New Eatery,Surat,Vesu,Chinese,200,3.8,2234,No,No,2022-04-07,Yes
+370,New Hub,Jaipur,Malviya Nagar,Punjabi,400,3.1,4588,Yes,Yes,2022-07-03,No
+371,Spice Restaurant,Chandigarh,Sector 22,Seafood,500,4.2,4177,Yes,No,2016-12-15,Yes
+372,New Eatery,Ahmedabad,Maninagar,"Desserts, Seafood, Chinese",1200,3.2,3910,Yes,No,2018-07-09,Yes
+373,Golden Corner,Jaipur,Mansarovar,"Chinese, Desserts, Chettinad",1200,3.2,644,Yes,No,2019-10-20,Yes
+374,Swagat Restaurant,Jaipur,Malviya Nagar,"Seafood, Gujarati, Biryani",400,3.6,4078,Yes,Yes,2021-08-17,Yes
+375,Highway Cafe,Nagpur,Dharampeth,Fast Food,500,4.9,132,Yes,No,2016-11-22,Yes
+376,Maa Ki Restaurant,Hyderabad,Jubilee Hills,Pizza,300,3.9,3532,No,No,2015-10-28,No
+377,Udupi Kitchen,Coimbatore,Saibaba Colony,"Kerala, Punjabi, Biryani",250,3.6,3973,Yes,Yes,2015-10-31,No
+378,Paradise Tadka,Pune,Viman Nagar,"North Indian, Rajasthani, Burgers",800,4.9,4390,No,No,2022-10-19,No
+379,Swaad House,Kochi,Kakkanad,"Gujarati, Pizza, Biryani",800,2.7,3141,Yes,No,2016-04-17,Yes
+380,Swad Point,Mumbai,Dadar,Street Food,250,2.6,1001,Yes,No,2016-05-25,Yes
+381,Highway Tadka,Indore,Bhawarkuan,"Pizza, Gujarati",600,4.5,2337,No,Yes,2022-03-06,Yes
+382,Saravana Bites,Mumbai,Andheri,"Pizza, Chettinad",1000,4.4,4076,No,No,2021-02-09,No
+383,Paradise Garden,Mysuru,Gokulam,Bengali,500,4.7,3504,Yes,No,2017-04-04,Yes
+384,Saravana Hub,Delhi,Connaught Place,"Burgers, Street Food",300,2.6,3173,Yes,No,2020-04-10,Yes
+385,Paradise Bites,Visakhapatnam,MVP Colony,Continental,800,4.1,1135,No,Yes,2022-02-13,Yes
+386,Amantran Express,Kolkata,Park Street,"Rajasthani, North Indian, Mughlai",400,2.8,4343,Yes,No,2019-02-16,Yes
+387,Tandoor Hub,Kolkata,New Town,Burgers,350,4.8,4594,Yes,No,2021-11-20,Yes
+388,Saravana Diner,Indore,Palasia,Pizza,1500,3.2,2403,Yes,No,2018-09-15,Yes
+389,Bhavan Bistro,Bengaluru,Whitefield,"Gujarati, Chettinad",1500,4.0,2127,Yes,No,2017-09-28,Yes
+390,Swagat Palace,Lucknow,Gomti Nagar,"Fast Food, North Indian",1500,4.2,4608,Yes,Yes,2020-11-23,Yes
+391,Zaika Diner,Delhi,Rohini,Chettinad,1200,4.8,4725,Yes,Yes,2020-05-07,Yes
+392,Spice Bites,Pune,Kothrud,South Indian,250,2.8,3931,Yes,No,2022-10-02,Yes
+393,Annapurna House,Lucknow,Indiranagar,"Bengali, Desserts",600,4.5,1090,Yes,Yes,2018-10-11,Yes
+394,Tandoor Palace,Mumbai,Bandra,"Bengali, Pizza, Seafood",250,4.3,1840,Yes,Yes,2015-09-20,Yes
+395,Desi Bistro,Indore,Vijay Nagar,Rajasthani,500,4.7,4341,No,Yes,2018-09-27,Yes
+396,Ruchi Eatery,Coimbatore,Peelamedu,Hyderabadi,1500,2.7,4709,Yes,Yes,2019-10-29,Yes
+397,Tandoor House,Indore,Rajwada,"Burgers, Seafood",300,2.7,1835,Yes,Yes,2019-05-08,Yes
+398,Masala Diner,Lucknow,Gomti Nagar,Italian,300,3.0,3757,Yes,Yes,2015-05-18,Yes
+399,Ruchi Bistro,Kochi,Edapally,Pizza,1000,3.6,4756,No,No,2017-08-08,Yes
+400,Royal Point,Vadodara,Alkapuri,"Italian, Gujarati, Fast Food",1500,4.0,420,Yes,No,2019-04-12,Yes
+401,Grand Garden,Nagpur,Sadar,Rajasthani,300,5.0,2484,Yes,No,2017-12-15,Yes
+402,Haveli Express,Chennai,T Nagar,Mughlai,700,4.0,2306,No,No,2016-10-25,Yes
+403,Ghar Ka Point,Pune,Aundh,"Mughlai, Biryani, Gujarati",700,5.0,1925,Yes,Yes,2016-06-30,Yes
+404,Udupi Bistro,Chennai,Adyar,Biryani,300,2.6,1626,Yes,No,2015-02-10,Yes
+405,Maa Ki Bistro,Mysuru,VV Mohalla,"Bengali, Rajasthani, Desserts",600,4.6,1173,No,No,2015-02-13,No
+406,Swaad Kitchen,Indore,Palasia,Fast Food,400,3.0,650,Yes,Yes,2022-03-13,No
+407,New Eatery,Vadodara,Sama,Street Food,300,3.2,1089,Yes,Yes,2015-04-29,No
+408,Golden Dhaba,Lucknow,Aliganj,Rajasthani,250,4.2,1094,Yes,Yes,2016-10-29,Yes
+409,New Diner,Delhi,Dwarka,"Hyderabadi, Rajasthani",600,4.1,4066,Yes,No,2016-02-21,Yes
+410,Highway Corner,Hyderabad,Madhapur,"South Indian, Seafood",1000,3.9,4407,No,Yes,2019-01-13,Yes
+411,Dawat Restaurant,Chennai,Adyar,Italian,800,2.6,4801,Yes,No,2018-07-21,Yes
+412,Amantran Palace,Vadodara,Sama,"Italian, Street Food, Punjabi",1000,3.0,4707,Yes,Yes,2017-10-17,Yes
+413,Golden Kitchen,Chennai,Anna Nagar,Kerala,700,2.6,2849,No,No,2020-02-19,No
+414,Star Restaurant,Delhi,Vasant Kunj,"South Indian, Punjabi",1200,2.6,1857,Yes,No,2018-04-08,Yes
+415,Bhavan Palace,Coimbatore,Singanallur,"Desserts, Mughlai, Burgers",600,2.8,1447,Yes,No,2016-03-24,Yes
+416,Swaad Bites,Jaipur,Vaishali Nagar,Mughlai,400,4.6,1235,Yes,Yes,2015-03-29,Yes
+417,Swad Point,Pune,Aundh,"Fast Food, Gujarati, Seafood",300,4.4,22,Yes,Yes,2017-02-26,Yes
+418,Paradise Dhaba,Lucknow,Alambagh,"Kerala, Chettinad",700,4.0,2718,Yes,No,2020-08-06,Yes
+419,Shahi Dhaba,Mumbai,Borivali,"Chettinad, Seafood",1000,3.4,2575,Yes,No,2020-09-09,Yes
+420,Bhavan Corner,Nagpur,Wardha Road,"Bengali, Biryani",800,4.4,3402,Yes,No,2016-10-17,Yes
+421,Biryani Bros Point,Mysuru,Hebbal,Mughlai,800,2.9,3437,Yes,No,2019-01-09,Yes
+422,Desi Cafe,Vadodara,Alkapuri,Desserts,1200,4.8,1246,Yes,Yes,2021-06-03,Yes
+423,Masala Kitchen,Chandigarh,Sector 43,Gujarati,400,4.4,4774,No,Yes,2018-07-25,Yes
+424,Swad Cafe,Ahmedabad,CG Road,"Bengali, Mughlai, Pizza",1500,4.9,360,No,No,2022-06-13,Yes
+425,Bhavan Dhaba,Chandigarh,Sector 35,"Hyderabadi, Burgers, Continental",300,4.3,1837,Yes,Yes,2017-03-07,Yes
+426,Classic Hub,Coimbatore,Singanallur,"Mughlai, Chinese, Gujarati",250,2.7,1426,Yes,No,2016-12-25,Yes
+427,Amantran Express,Bhopal,MP Nagar,"Italian, Bengali, Hyderabadi",700,3.7,3298,Yes,Yes,2019-09-05,Yes
+428,Dawat Point,Coimbatore,RS Puram,"Hyderabadi, Chettinad",500,3.3,2513,Yes,No,2015-08-28,Yes
+429,Shahi Eatery,Delhi,Dwarka,"Kerala, Punjabi",400,3.8,3186,No,No,2017-09-28,Yes
+430,Bhavan Diner,Lucknow,Hazratganj,"Italian, Biryani, Pizza",250,2.8,1164,No,Yes,2022-05-21,Yes
+431,Shahi Dhaba,Bengaluru,Indiranagar,"Chinese, South Indian",250,4.0,4367,Yes,Yes,2018-03-10,Yes
+432,Star Bistro,Nagpur,Itwari,Punjabi,600,2.9,3338,Yes,No,2021-11-24,No
+433,Dawat House,Hyderabad,Jubilee Hills,Hyderabadi,150,3.0,3548,No,No,2015-03-23,Yes
+434,Spice Kitchen,Pune,Hadapsar,Desserts,1200,2.9,2767,Yes,No,2017-03-16,Yes
+435,Spice Point,Kolkata,Park Street,"South Indian, Burgers, Mughlai",300,4.7,1934,Yes,No,2018-01-11,No
+436,New Corner,Pune,Aundh,"Gujarati, South Indian, Chettinad",500,3.8,3550,Yes,No,2020-01-22,Yes
+437,Shahi House,Ahmedabad,Satellite,"Chettinad, Seafood, Biryani",600,3.5,692,Yes,No,2017-05-28,Yes
+438,Shahi Tadka,Vadodara,Akota,"Continental, Street Food",700,3.3,900,Yes,Yes,2019-11-13,Yes
+439,Highway Corner,Chennai,Nungambakkam,Street Food,250,2.7,4438,Yes,No,2021-10-29,Yes
+440,Maa Ki Restaurant,Mysuru,Gokulam,"Punjabi, Burgers, North Indian",600,3.7,788,Yes,No,2019-07-22,Yes
+441,Spice Bistro,Coimbatore,Gandhipuram,"Fast Food, Street Food, Chinese",250,3.7,3652,No,Yes,2021-12-19,Yes
+442,Annapurna Diner,Bhopal,MP Nagar,"Hyderabadi, Street Food, Chettinad",350,3.4,4085,Yes,No,2022-10-08,Yes
+443,Udupi Express,Chennai,Velachery,"Seafood, Hyderabadi, Chettinad",800,4.7,4718,Yes,Yes,2016-11-30,Yes
+444,Tandoor Corner,Mysuru,Jayalakshmipuram,"Burgers, Street Food",350,4.2,83,No,No,2021-10-03,Yes
+445,Classic Dhaba,Chennai,Nungambakkam,"Fast Food, Punjabi",1500,4.0,3475,Yes,Yes,2016-08-07,Yes
+446,Udupi Eatery,Coimbatore,Singanallur,Hyderabadi,700,4.5,3756,Yes,No,2015-01-16,Yes
+447,Annapurna Garden,Jaipur,Mansarovar,"Fast Food, Chinese",300,4.5,4139,Yes,Yes,2020-09-16,Yes
+448,Tandoor Bites,Mysuru,Jayalakshmipuram,"Burgers, Biryani, Seafood",700,4.5,885,No,No,2021-07-09,No
+449,Rasoi Garden,Vadodara,Alkapuri,"North Indian, Mughlai",1000,3.8,3241,Yes,No,2022-06-08,Yes
+450,Shahi Tadka,Hyderabad,Banjara Hills,Rajasthani,500,3.5,4539,Yes,Yes,2015-06-10,No
+451,Haveli Palace,Pune,Hinjewadi,"Kerala, Continental",150,3.9,4430,Yes,No,2017-06-26,Yes
+452,Tandoor Hub,Chandigarh,Sector 43,"Chettinad, Punjabi, Fast Food",700,3.4,1947,Yes,Yes,2016-03-10,Yes
+453,Royal Dhaba,Indore,Vijay Nagar,South Indian,400,4.3,3313,Yes,No,2022-08-15,No
+454,Spice Express,Indore,AB Road,"Pizza, Continental",350,4.4,1579,No,No,2021-04-04,Yes
+455,Swagat Kitchen,Kochi,Thrippunithura,"Punjabi, North Indian, Continental",600,2.9,296,Yes,Yes,2020-12-14,Yes
+456,Grand Bistro,Kochi,Kakkanad,Street Food,350,3.3,2074,Yes,No,2018-01-16,No
+457,Biryani Bros Palace,Delhi,Dwarka,"Burgers, Bengali, Hyderabadi",400,2.9,326,No,Yes,2019-06-30,Yes
+458,Star Express,Hyderabad,Hitech City,"Chettinad, Bengali, Punjabi",400,4.8,1470,Yes,Yes,2016-07-14,Yes
+459,Zaika Hub,Visakhapatnam,Dwaraka Nagar,Pizza,1500,2.6,4097,Yes,No,2019-12-06,Yes
+460,Tandoor Point,Lucknow,Indiranagar,"Chettinad, Street Food",500,3.3,799,Yes,No,2021-09-26,Yes
+461,Biryani Bros Restaurant,Chandigarh,Sector 17,Pizza,1200,3.4,842,Yes,No,2018-09-26,No
+462,Maa Ki Hub,Delhi,Connaught Place,"Italian, Mughlai",200,4.8,3879,Yes,No,2016-01-10,Yes
+463,Shahi Diner,Mysuru,Hebbal,"Hyderabadi, Chettinad",800,3.4,2639,Yes,No,2017-10-06,Yes
+464,Swagat Garden,Pune,Viman Nagar,Desserts,1200,4.6,840,No,Yes,2016-07-27,No
+465,Annapurna Restaurant,Chandigarh,Sector 43,"Chinese, South Indian",150,3.8,396,Yes,No,2018-10-08,No
+466,Paradise Bites,Bengaluru,Whitefield,"Fast Food, Punjabi",1500,3.4,1769,Yes,Yes,2017-08-01,Yes
+467,Maa Ki Garden,Mysuru,Gokulam,Rajasthani,400,4.0,4688,No,Yes,2016-05-02,Yes
+468,Masala Kitchen,Lucknow,Indiranagar,"Street Food, Punjabi",700,2.6,1609,Yes,No,2020-09-22,Yes
+469,Classic Restaurant,Kochi,MG Road,"Biryani, Street Food, Kerala",250,3.6,316,No,No,2021-09-27,No
+470,Golden Express,Pune,Baner,Punjabi,600,3.0,2346,No,Yes,2021-02-03,Yes
+471,Shahi Bistro,Bengaluru,Whitefield,"Pizza, Bengali",1000,3.0,2692,Yes,No,2018-08-31,No
+472,Dawat Bistro,Delhi,Connaught Place,"Bengali, Punjabi",350,3.2,3135,No,Yes,2017-02-09,Yes
+473,Star Corner,Mysuru,Hebbal,"Seafood, Gujarati, Chinese",300,3.0,3254,Yes,No,2018-06-25,No
+474,Grand Tadka,Coimbatore,Peelamedu,"Bengali, Fast Food, Burgers",800,4.0,4809,Yes,No,2015-08-04,Yes
+475,Haveli Point,Hyderabad,Banjara Hills,"Street Food, Gujarati",700,4.8,2798,Yes,Yes,2015-03-11,Yes
+476,Saravana Garden,Vadodara,Manjalpur,"Mughlai, Pizza",350,4.3,4225,Yes,No,2019-05-16,No
+477,Annapurna Bites,Mysuru,Gokulam,Hyderabadi,1500,4.7,2701,Yes,No,2019-02-28,Yes
+478,New Kitchen,Bhopal,MP Nagar,Italian,600,4.4,3800,Yes,Yes,2015-10-20,Yes
+479,Masala Bites,Bhopal,Kolar Road,Rajasthani,400,4.4,4344,Yes,No,2015-02-28,Yes
+480,Highway House,Hyderabad,Hitech City,"Punjabi, Mughlai",500,5.0,868,Yes,Yes,2020-11-12,Yes
+481,Dawat Point,Mumbai,Andheri,"Hyderabadi, Continental",800,3.1,4037,Yes,No,2015-12-02,Yes
+482,Grand Dhaba,Coimbatore,RS Puram,"Chettinad, Gujarati, Mughlai",600,3.7,394,Yes,No,2016-03-07,Yes
+483,Star Diner,Vadodara,Akota,"Biryani, Street Food, Desserts",1000,4.6,2574,Yes,No,2016-01-02,Yes
+484,New Point,Mumbai,Borivali,Italian,500,2.5,1005,Yes,No,2022-07-20,Yes
+485,Spice Hub,Coimbatore,RS Puram,"Italian, Gujarati, Punjabi",250,4.1,2591,Yes,Yes,2018-06-13,Yes
+486,Swagat Kitchen,Kochi,MG Road,"Kerala, Burgers, Hyderabadi",700,4.3,359,Yes,No,2016-02-18,Yes
+487,Masala Bites,Chennai,Adyar,Seafood,400,4.8,4359,No,Yes,2015-10-13,Yes
+488,Star Bites,Surat,Vesu,Biryani,400,3.8,4921,No,No,2022-09-28,Yes
+489,Swaad Kitchen,Kolkata,Ballygunge,"North Indian, Burgers, Hyderabadi",1500,4.6,3534,Yes,No,2018-08-10,Yes
+490,Golden Point,Mysuru,Jayalakshmipuram,"Seafood, Street Food",600,3.9,2935,Yes,Yes,2021-07-23,Yes
+491,Swaad Tadka,Surat,Pal,"Chettinad, South Indian, Italian",300,3.7,1498,No,Yes,2020-09-12,Yes
+492,Saravana Tadka,Vadodara,Manjalpur,"North Indian, Burgers",350,2.9,683,No,No,2017-10-18,Yes
+493,Swad Diner,Bengaluru,Malleshwaram,South Indian,800,5.0,3793,Yes,No,2016-03-05,Yes
+494,Classic Garden,Chandigarh,Mohali,"Fast Food, South Indian",200,2.6,4599,Yes,Yes,2019-03-10,Yes
+495,Rasoi Cafe,Kolkata,Park Street,"Bengali, Biryani",250,4.8,4180,Yes,No,2019-09-26,Yes
+496,Punjabi Hub,Jaipur,Raja Park,"Burgers, Biryani, North Indian",500,3.9,377,No,No,2021-06-14,Yes
+497,Ruchi Dhaba,Jaipur,Mansarovar,"Mughlai, Chettinad, Kerala",1500,4.6,4180,No,No,2021-01-06,Yes
+498,Classic Hub,Indore,Vijay Nagar,"Hyderabadi, Rajasthani",600,2.8,2188,Yes,Yes,2016-07-10,Yes
+499,Punjabi Bistro,Vadodara,Manjalpur,"Fast Food, South Indian",350,4.9,4848,Yes,No,2017-04-11,Yes
+500,Biryani Bros Bites,Kolkata,Howrah,"Desserts, Kerala, Street Food",300,3.5,3900,No,Yes,2017-08-16,Yes
