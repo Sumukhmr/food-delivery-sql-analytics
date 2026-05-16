@@ -3,13 +3,6 @@
 -- PostgreSQL Queries | 25 Business Analytics Questions
 -- ============================================================
 
-SET search_path = public;
-
-
--- ════════════════════════════════════════════════════════════
--- SECTION A | BEGINNER (Q1 - Q5)
--- ════════════════════════════════════════════════════════════
-
 -- Q1. List all restaurants in Bengaluru that have online delivery,
 --     ordered by rating from highest to lowest.
 
@@ -60,11 +53,6 @@ SELECT "order_id","customer_id","total_amount","discount_applied"
 FROM "orders"
 WHERE "discount_applied" != 0
 AND "total_amount" > 500;
-
-
--- ════════════════════════════════════════════════════════════
--- SECTION B | INTERMEDIATE (Q6 - Q13)
--- ════════════════════════════════════════════════════════════
 
 -- Q6. Find the top 5 cities by total order revenue.
 
@@ -195,11 +183,6 @@ INNER JOIN "orders" od USING("customer_id")
 GROUP BY ct."customer_id",ct."customer_name"
 HAVING COUNT(DISTINCT od."restaurant_id") >= 5
 ORDER BY "Distinct_restaurants" DESC;
-
-
--- ════════════════════════════════════════════════════════════
--- SECTION C | ADVANCED (Q14 - Q20)
--- ════════════════════════════════════════════════════════════
 
 -- Q14. Rank restaurants within each city by total revenue.
 --      Use DENSE_RANK. Show only top 3 per city.
@@ -390,11 +373,6 @@ FROM "cte" ct
 INNER JOIN "restaurants" rt ON rt."restaurant_id" = ct."restaurant_id"
 INNER JOIN "customers" co ON ct."customer_id" = co."customer_id"
 ORDER BY ct."Total_count" DESC;
-
-
--- ════════════════════════════════════════════════════════════
--- SECTION D | EXPERT / BUSINESS ANALYTICS (Q21 - Q25)
--- ════════════════════════════════════════════════════════════
 
 -- Q21. Cohort analysis -- customers grouped by first order month.
 --      Track how many returned in Month 1, 2, and 3.
